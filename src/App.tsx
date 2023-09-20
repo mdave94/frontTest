@@ -4,6 +4,7 @@ import ParallaxComponent from "./components/ParallaxComponent";
 import minnaeLogo from "./assets/png/image01.png";
 import twoItem from "./assets/img/image07.jpg";
 import dividerPict from "./assets/img/image02.jpg";
+import InfoSection from "./components/InfoSection";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
           />
         </div>
       </ParallaxComponent>
+      <InfoSection />
       <ParallaxComponent imageUrl={dividerPict}></ParallaxComponent>
-      <div className="content-blue"></div>
-      <div className="content-red"></div>
+
       <ParallaxComponent imageUrl={twoItem}>
         Tisztán tartás: Nyissa ki a tisztító folyadékot tartalmazó üvegcsét! Az
         üvegcsét "Tisztító folyadék" felirattal láttuk el! Vegye ki a tisztító

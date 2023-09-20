@@ -1,0 +1,36 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+.infosection-container {
+  max-width: 1400px;
+  max-height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.topsection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.topleft {
+  background-color: blue;
+  height: 250px;
+  min-width: 550px;
+  max-width: 850px;
+}
+.topright {
+  background-color: yellow;
+  max-width: 450px;
+}
+.bottomleft {
+  background-color: green;
+}
+.bottomright {
+  background-color: black;
+}
