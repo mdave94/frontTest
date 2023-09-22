@@ -4,33 +4,61 @@
 }
 .infosection-container {
   max-width: 1400px;
-  max-height: 700px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  
+  padding: 18px;
 }
 
-.flex {
-  display: flex;
-}
 
-.topsection {
+.section {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
+  flex-direction: row;
 }
-.topleft {
-  background-color: blue;
+
+.topleft-text {
+  display: flex;
   height: 250px;
-  min-width: 550px;
   max-width: 850px;
+ 
 }
+
+.topleft {
+  font-size: 16px;
+}
+
 .topright {
-  background-color: yellow;
+  
   max-width: 450px;
+  text-align: left;
 }
+
 .bottomleft {
-  background-color: green;
+ max-width: 400px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: flex-end
 }
+
+#picture-infosection {
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+
 .bottomright {
-  background-color: black;
+  max-width: 450px;
+  text-align: left;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .topleft-text {
+    max-width: 100%; /* Make it full width on smaller screens */
+  }
 }

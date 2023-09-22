@@ -12,17 +12,16 @@
     flex-direction: column;
   }
 
-  .topsection {
+  .section {
     flex-direction: column;
+
   }
 
-  .topleft {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    justify-content: center;
-    font-size: 36px;
-  }
+.topleft-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
   /*infosection END*/
 }
