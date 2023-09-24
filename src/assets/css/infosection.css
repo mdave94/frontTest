@@ -3,7 +3,7 @@
   justify-content: center;
 }
 .infosection-container {
-  max-width: 1400px;
+  width: 1400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -20,28 +20,27 @@
 
 .topleft-text {
   display: flex;
-  height: 250px;
+
   max-width: 850px;
  
 }
 
 .topleft {
   font-size: 16px;
+  width: 100%;
 }
 
 .topright {
   
-  max-width: 450px;
   text-align: left;
 }
 
 .bottomleft {
- max-width: 400px; /* Adjust the width as needed */
-  height: 300px; /* Adjust the height as needed */
+  max-width: 500px; 
   overflow: hidden;
   position: relative;
   display: flex;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 #picture-infosection {
@@ -52,9 +51,15 @@
 }
 
 .bottomright {
-  max-width: 450px;
+  
   text-align: left;
 }
+.strong-text-1{
+  font-size: 48px;
+}
+
+
+
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
