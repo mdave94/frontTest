@@ -2,11 +2,13 @@ import bottomPicture from "../assets/img/image02.jpg";
 import groupPicture_5_piece from "../assets/img/groupPicture_5.jpg";
 import "../assets/css/infosection.css";
 import "../assets/css/mobileview.css";
+import leftPicture from "../assets/img/image04_clipped.png";
+
 function InfoSection() {
   return (
     <div className="center">
       <div className="infosection-container">
-        <div className="section">
+        <div className="section topsection">
           <div className="topleft">
             <div className="topleft-text">MI AZ A MOSOLYÉKSZER ?</div>
           </div>
@@ -23,11 +25,7 @@ function InfoSection() {
         </div>
         <div className="section">
           <div className="bottomleft">
-            <img
-              id="picture-infosection"
-              src={groupPicture_5_piece}
-              alt="Group"
-            />
+            <img id="picture-infosection" src={leftPicture} alt="Group" />
           </div>
           <div className="bottomright">
             <p>

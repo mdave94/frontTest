@@ -17,7 +17,9 @@
   justify-content: space-between;
   flex-direction: row;
 }
-
+.topsection{
+  height: 250px;
+}
 .topleft-text {
   display: flex;
 
@@ -31,12 +33,13 @@
 }
 
 .topright {
-  
+  max-width: 650px;
+  font-size: 24px;
   text-align: left;
 }
 
 .bottomleft {
-  max-width: 500px; 
+  
   overflow: hidden;
   position: relative;
   display: flex;
@@ -51,7 +54,7 @@
 }
 
 .bottomright {
-  
+  max-width: 650px;
   text-align: left;
 }
 .strong-text-1{
