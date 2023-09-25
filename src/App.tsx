@@ -5,6 +5,7 @@ import minnaeLogo from "./assets/png/image01.png";
 import twoItem from "./assets/img/image07.jpg";
 import dividerPict from "./assets/img/image02.jpg";
 import InfoSection from "./components/InfoSection";
+import SwiperComponent from "./components/SwiperComponent";
 
 function App() {
   return (
@@ -20,8 +21,8 @@ function App() {
         </div>
       </ParallaxComponent>
       <InfoSection />
-      <ParallaxComponent imageUrl={dividerPict}></ParallaxComponent>
-
+      <img src={dividerPict} style={{ width: "100%", height: "250px" }} />
+      <SwiperComponent />
       <ParallaxComponent imageUrl={twoItem}>
         Tisztán tartás: Nyissa ki a tisztító folyadékot tartalmazó üvegcsét! Az
         üvegcsét "Tisztító folyadék" felirattal láttuk el! Vegye ki a tisztító
