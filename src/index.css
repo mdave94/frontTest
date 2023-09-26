@@ -15,3 +15,8 @@ code {
   height: 150px;
 }
 
+:root{
+  --green: #073F32;
+  --background-light: #EEEAE2;
+  --dark-red:#7F0A3A
+}
