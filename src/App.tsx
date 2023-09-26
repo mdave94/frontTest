@@ -20,9 +20,12 @@ function App() {
           />
         </div>
       </ParallaxComponent>
+
       <InfoSection />
-      <img src={dividerPict} style={{ width: "100%", height: "250px" }} />
-      <SwiperComponent />
+
+      <div className="center-container">
+        <SwiperComponent title="Galéria" />
+      </div>
       <ParallaxComponent imageUrl={twoItem}>
         Tisztán tartás: Nyissa ki a tisztító folyadékot tartalmazó üvegcsét! Az
         üvegcsét "Tisztító folyadék" felirattal láttuk el! Vegye ki a tisztító
@@ -47,7 +50,6 @@ function App() {
         megelőzés!
       </ParallaxComponent>
 
-      <div className="content-blue"></div>
       <div className="content-red"></div>
     </div>
   );
