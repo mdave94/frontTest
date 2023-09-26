@@ -1,0 +1,10 @@
+.header{
+    text-align: start;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.header-text{
+    font-size: 48px;
+    width: fit-content;
+}
