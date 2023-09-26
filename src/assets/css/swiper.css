@@ -1,10 +1,55 @@
-.header{
-    text-align: start;
-    max-width: 1400px;
-    width: 100%;
+.header {
+  text-align: start;
+  max-width: 1400px;
+  width: 100%;
 }
 
-.header-text{
-    font-size: 48px;
-    width: fit-content;
+.header-text {
+  font-size: 48px;
+  width: fit-content;
+}
+
+.card-container {
+  display: flex;
+  max-width: 1000px;
+  background-color: var(--green);
+  color: white;
+  align-items: center;
+}
+.text-side {
+  max-width: 450px;
+  max-height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-text {
+  padding: 4rem;
+  font-size: 21px;
+  margin-bottom: 16px;
+  text-align: start;
+}
+
+.card-button {
+  border-radius: 32px;
+  border: 1px solid white;
+  cursor: pointer;
+  height: 3rem;
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+.picture-side {
+  max-width: 450px;
+  height: 450px;
+  padding-right: 12px;
+}
+
+.card-button:hover {
+  background-color: white;
+  color: black;
 }
