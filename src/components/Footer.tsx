@@ -24,9 +24,9 @@ function Footer() {
               </div>
               <div className="direct-contact">
                 <div className="header">Kövess be</div>
-                <div className="icon-container">
-                  <CiFacebook />
-                  <CiInstagram />
+                <div className="icon-container ">
+                  <CiFacebook className="bottom-button" />
+                  <CiInstagram className="bottom-button" />
                 </div>
               </div>
             </div>
