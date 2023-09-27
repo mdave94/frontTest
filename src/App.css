@@ -16,18 +16,15 @@
   pointer-events: none;
 }
 
-.content-blue {
-  height: 300px;
-  background-color: blue;
-}
-
-.content-red {
-  height: 450px;
-  background-color: red;
-}
-
 .parallax {
   height: 100vh;
+}
+
+.full-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 #mainPageLogo {
