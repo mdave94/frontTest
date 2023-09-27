@@ -14,14 +14,13 @@
 
   .section {
     flex-direction: column;
-
   }
 
-.topleft-card{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .topleft-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   /*infosection END*/
 }

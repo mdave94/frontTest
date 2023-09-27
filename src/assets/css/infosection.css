@@ -1,5 +1,5 @@
 .center {
-  background-color: #EEEAE2;
+  background-color: #eeeae2;
   display: flex;
   justify-content: center;
 }
@@ -8,23 +8,21 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 18px
+  padding: 18px;
 }
-
 
 .section {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
-.topsection{
+.topsection {
   height: 250px;
 }
 .topleft-text {
   display: flex;
 
   max-width: 850px;
- 
 }
 
 .topleft {
@@ -39,7 +37,6 @@
 }
 
 .bottomleft {
-  
   overflow: hidden;
   position: relative;
   display: flex;
@@ -50,19 +47,15 @@
   width: 100%;
   height: auto;
   display: block;
-
 }
 
 .bottomright {
   max-width: 650px;
   text-align: left;
 }
-.strong-text-1{
+.strong-text-1 {
   font-size: 48px;
 }
-
-
-
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
