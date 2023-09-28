@@ -29,13 +29,12 @@ function SwiperComponent({ title }: SwiperComponentProps) {
         <p className="header-text"> {title}</p>
       </div>
       <Swiper
-        style={{ height: "450px", maxWidth: "1000px" }}
         slidesPerView={1}
-        spaceBetween={100}
+        spaceBetween={50}
         loop={true}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="swiper-container"
       >
         <SwiperSlide>
           <SwiperCard picture={sliderCardPicture1}>
