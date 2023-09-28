@@ -4,12 +4,19 @@
   width: 100%;
 }
 
+.swiper-container{
+  
+  max-width: 1200px;
+  height: 450px;
+}
+
 .header-text {
   font-size: 48px;
   width: fit-content;
 }
 
 .card-container {
+  margin: auto;
   display: flex;
   max-width: 1000px;
   background-color: var(--green);
@@ -61,7 +68,7 @@
 @media only screen and (max-width: 650px) {
   .card-container {
     flex-direction: column;
-    max-width: 400px;
+    max-width: 350px;
   }
   .card-text {
     padding: 1rem;
@@ -74,4 +81,13 @@
     width: auto;
     height: 200px;
   }
+  .swiper-container{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+ .swiper-container{
+  max-width: 550px;
+ }
 }
