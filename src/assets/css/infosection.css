@@ -17,7 +17,7 @@
   flex-direction: row;
 }
 .topsection {
-  height: 250px;
+  min-height: 350px;
 }
 .topleft-text {
   display: flex;

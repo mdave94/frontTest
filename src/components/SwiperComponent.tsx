@@ -37,7 +37,7 @@ function SwiperComponent({ title }: SwiperComponentProps) {
         className="swiper-container"
       >
         <SwiperSlide>
-          <SwiperCard picture={sliderCardPicture1}>
+          <SwiperCard picture={sliderCardPicture2}>
             Kialakításuknak köszönhetően stabilan helyben maradnak, ugyanakkor
             nem zavarják a fogak érintkezését.
           </SwiperCard>
