@@ -35,7 +35,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="full-center">
+        <div className="full-center footer-bottom-container">
           <div className="footer-bottom">
             <div className="bottom-button">
               Általános Szolgáltatási Feltételek
