@@ -53,3 +53,25 @@
   background-color: white;
   color: black;
 }
+
+#card-picture {
+  width: auto;
+  height: 350px;
+}
+@media only screen and (max-width: 650px) {
+  .card-container {
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .card-text {
+    padding: 1rem;
+  }
+  .picture-side {
+    width: auto;
+    height: 200px;
+  }
+  #card-picture {
+    width: auto;
+    height: 200px;
+  }
+}

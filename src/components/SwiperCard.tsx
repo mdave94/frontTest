@@ -20,7 +20,7 @@ function SwiperCard({ children, picture }: SwiperCardProps) {
           <div className="card-button">Részletek</div>
         </div>
         <div className="picture-side">
-          <img src={picture} style={sliderPictureStyle} alt="pict1" />
+          <img src={picture} id="card-picture" alt="pict1" />
         </div>
       </div>
     </>
