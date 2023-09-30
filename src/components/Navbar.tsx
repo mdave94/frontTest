@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "../assets/css/navbar.css";
+import logo from "../assets/png/image01.png";
+
 const Navbar = () => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -23,7 +25,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar ${isVisible ? "visible" : "hidden"}`}>NAVBAR </nav>
+    <nav className={`navbar ${isVisible ? "visible" : "hidden"}`}>
+      <img id="nav-logo" src={logo} alt="" />
+      <div className="nav-menu-list">
+        <a>Időponfoglalás</a>
+        <a>Vásárlás</a>
+        <a>Tájékoztatók</a>
+        <a>Árak</a>
+      </div>
+    </nav>
   );
 };
 
