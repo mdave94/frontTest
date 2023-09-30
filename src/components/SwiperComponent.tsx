@@ -1,16 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import picture1 from "../assets/img/image05.jpg";
-import picture2 from "../assets/img/smile1.jpg";
 import sliderCardPicture2 from "../assets/img/3item.jpg";
 import picture4 from "../assets/img/image07.jpg";
-import sliderCardPicture1 from "../assets/img/model_mirror.jpg";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../assets/css/swiper.css";
-// import required modules
 import { Pagination, Navigation } from "swiper/modules";
 import SwiperCard from "./SwiperCard";
 
@@ -19,10 +14,6 @@ type SwiperComponentProps = {
 };
 
 function SwiperComponent({ title }: SwiperComponentProps) {
-  const pictureStyle = {
-    width: "450px",
-  };
-
   return (
     <>
       <div className="header">
@@ -49,13 +40,17 @@ function SwiperComponent({ title }: SwiperComponentProps) {
           </SwiperCard>
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{ width: "450px" }} src={sliderCardPicture2} />
+          <img
+            alt="siperPicture"
+            style={{ width: "450px" }}
+            src={sliderCardPicture2}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{ width: "450px" }} src={picture4} />
+          <img alt="siperPicture" style={{ width: "450px" }} src={picture4} />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={{ width: "450px" }} src={picture1} />
+          <img alt="siperPicture" style={{ width: "450px" }} src={picture1} />
         </SwiperSlide>
       </Swiper>
     </>

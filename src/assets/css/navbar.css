@@ -1,0 +1,42 @@
+.navbar {
+    background-color:var(--background-light);
+    color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0; 
+    z-index: 1000;
+    height:5rem;
+    transition: opacity 0.5s ;
+  }
+  
+  
+  .navbar.visible {
+    opacity: 1;
+    display: block;
+  }
+  
+  
+  
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style links in the navbar */
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Add additional styling for navigation items as needed */
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  

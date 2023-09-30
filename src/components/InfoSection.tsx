@@ -1,5 +1,3 @@
-import bottomPicture from "../assets/img/image02.jpg";
-import groupPicture_5_piece from "../assets/img/groupPicture_5.jpg";
 import "../assets/css/infosection.css";
 import "../assets/css/mobileview.css";
 import leftPicture from "../assets/img/image04_clipped.png";

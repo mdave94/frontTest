@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import sliderPict1 from "../assets/img/model_mirror.jpg";
 
 type SwiperCardProps = {
   children: ReactNode;
@@ -7,11 +6,6 @@ type SwiperCardProps = {
 };
 
 function SwiperCard({ children, picture }: SwiperCardProps) {
-  const sliderPictureStyle = {
-    width: "auto",
-    height: "350px",
-  };
-
   return (
     <>
       <div className="card-container">
