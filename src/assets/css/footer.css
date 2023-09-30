@@ -10,6 +10,7 @@
 .border-bottom{
   border-bottom: 1px solid grey;
   width: 100%;
+  opacity: 0.7;
 }
 
 .footer-top {
