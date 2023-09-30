@@ -34,6 +34,7 @@ function Footer() {
             <div className="minnae-logo">MINNAE</div>
           </div>
         </div>
+        <div className="border-bottom" />
 
         <div className="full-center footer-bottom-container">
           <div className="footer-bottom">
