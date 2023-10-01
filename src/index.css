@@ -11,9 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.mainPageLogo {
-  height: 150px;
-}
+
 
 :root {
   --green: #073f32;

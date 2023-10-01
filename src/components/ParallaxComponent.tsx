@@ -1,13 +1,16 @@
 type ParallaxComponentProps = {
   imageUrl: string;
-  children?: any;
+  children?: React.ReactNode;
+  className?: string;
 };
 
-function ParallaxComponent({ imageUrl, children }: ParallaxComponentProps) {
+function ParallaxComponent({
+  imageUrl,
+  children,
+  className,
+}: ParallaxComponentProps) {
   const parallaxStyle = {
-    /* Set the dynamic background image using props */
     backgroundImage: `url(${imageUrl})`,
-    /* Set other parallax styles as needed */
     minHeight: "500px",
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
@@ -16,7 +19,7 @@ function ParallaxComponent({ imageUrl, children }: ParallaxComponentProps) {
   };
 
   return (
-    <div className="parallax" style={parallaxStyle}>
+    <div className={`parallax ${className}`} style={parallaxStyle}>
       {children}
     </div>
   );
