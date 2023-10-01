@@ -7,11 +7,18 @@ function InfoSection() {
   return (
     <div className="center">
       <div className="infosection-container">
-        <Fade duration={2000} triggerOnce={true}>
-          <div className="section topsection">
+        <div className="section topsection">
+          <Fade duration={2000} triggerOnce={true} direction="left">
             <div className="topleft">
               <div className="topleft-text">MI AZ A MOSOLYÉKSZER ?</div>
             </div>
+          </Fade>
+          <Fade
+            duration={2000}
+            triggerOnce={true}
+            direction="right"
+            delay={1000}
+          >
             <div className="topright">
               <p>
                 A hagyományos fogékszerektől eltérően mosolyékszereink
@@ -23,13 +30,27 @@ function InfoSection() {
                 közreműködését.
               </p>
             </div>
-          </div>
+          </Fade>
+        </div>
 
-          <div className="section">
+        <div className="section">
+          <Fade
+            duration={2000}
+            triggerOnce={true}
+            direction="left"
+            delay={1500}
+          >
             <div className="bottomleft">
               <img id="picture-infosection" src={leftPicture} alt="Group" />
             </div>
-            <div className="bottomright">
+          </Fade>
+          <div className="bottomright">
+            <Fade
+              duration={2000}
+              triggerOnce={true}
+              delay={2000}
+              direction="right"
+            >
               <p>
                 Behelyezésükhöz nem szükséges megbontani az egészséges fogzománc
                 egységét sem fúrással, sem savas felület előkezeléssel.
@@ -38,9 +59,9 @@ function InfoSection() {
                 Megfelelő használat mellett tehát teljesen biztonságos eszköz
                 mosolyunk ékítésére.
               </p>
-            </div>
+            </Fade>
           </div>
-        </Fade>
+        </div>
       </div>
     </div>
   );

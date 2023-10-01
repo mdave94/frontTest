@@ -1,50 +1,44 @@
 .navbar {
-    background-color:var(--background-light);
-    color: #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    opacity: 0; 
-    z-index: 1000;
-    height:6rem;
-    transition: opacity 0.5s ;
-  }
-  
+  background-color: var(--background-light);
+  color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  z-index: 1000;
+  height: 6rem;
+  transition: opacity 0.8s;
+}
+
 .navbar.hidden {
-    opacity: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 24px 
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
+.navbar.visible {
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 24px;
+}
 
-  }
-  .navbar.visible {
-    opacity: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 24px 
+.navbar a {
+  font-size: 24px;
+  cursor: pointer;
+  transition: font-size 0.5s;
+  text-decoration: none;
+  margin: 0 10px;
+}
 
-  }
-  
-  
-  .navbar a {
-    font-size: 24px;
-    cursor: pointer;
-    transition: font-size 0.5s ;
-    text-decoration: none;
-    margin: 0 10px;
-  }
-  
-  
-  .navbar a:hover {
-   font-size: 26px;
-  }
-  #nav-logo{
-    cursor: pointer;
-    width: 9rem;
-    
-    height: auto;
-  }
-  
+.navbar a:hover {
+  font-size: 26px;
+}
+#nav-logo {
+  cursor: pointer;
+  width: 9rem;
+  height: auto;
+}

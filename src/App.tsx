@@ -7,12 +7,14 @@ import InfoSection from "./components/InfoSection";
 import SwiperComponent from "./components/SwiperComponent";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import "../src/assets/css/herosection.css";
+import ScrolltoElementButton from "./components/ScrollToElementButton";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <ParallaxComponent imageUrl={MainPagePicture}>
+      <ParallaxComponent className="full-center" imageUrl={MainPagePicture}>
         <div className="mainpage-center-text">
           <img
             id="mainPageLogo"
@@ -21,9 +23,12 @@ function App() {
             alt="logo"
           />
         </div>
-      </ParallaxComponent>
 
-      <InfoSection />
+        <ScrolltoElementButton targetId="infosection" />
+      </ParallaxComponent>
+      <div id="infosection">
+        <InfoSection />
+      </div>
 
       <div className="center-container">
         <SwiperComponent title="Galéria" />
