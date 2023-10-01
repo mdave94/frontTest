@@ -42,3 +42,7 @@
   width: 9rem;
   height: auto;
 }
+
+.nav-menu-list{
+  text-transform: uppercase;
+}
