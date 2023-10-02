@@ -2,8 +2,14 @@ import ParallaxComponent from "../components/ParallaxComponent";
 import "../assets/css/historypage.css";
 import greenTwo from "../assets/img/green_two.jpg";
 import greenOne from "../assets/img/green_one.jpg";
+import { useEffect } from "react";
 
 function History() {
+  useEffect(() => {
+    console.log(" history useffect ");
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <div className="first-section">
