@@ -29,7 +29,6 @@ function Mainpage() {
         <SwiperComponent title="Galéria" />
       </div>
       <ParallaxComponent imageUrl={twoItem}></ParallaxComponent>
-      <Footer />
     </>
   );
 }

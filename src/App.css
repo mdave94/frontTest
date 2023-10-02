@@ -1,4 +1,5 @@
 .App {
+  min-height: 120vh;
   text-align: center;
   cursor: default;
   background-color: #eeeae2;

@@ -3,7 +3,9 @@
   max-width: 1400px;
   width: 100%;
 }
-
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  color: white;
+}
 .swiper-container{
   
   max-width: 1200px;
