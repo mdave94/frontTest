@@ -2,16 +2,18 @@ type ParallaxComponentProps = {
   imageUrl: string;
   children?: React.ReactNode;
   className?: string;
+  minHeight?: string;
 };
 
 function ParallaxComponent({
   imageUrl,
   children,
   className,
+  minHeight,
 }: ParallaxComponentProps) {
   const parallaxStyle = {
     backgroundImage: `url(${imageUrl})`,
-    minHeight: "500px",
+    height: `${minHeight}`,
     backgroundAttachment: "fixed",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

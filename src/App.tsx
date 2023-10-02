@@ -5,6 +5,8 @@ import Mainpage from "./pages/Mainpage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import InformationsPage from "./pages/InformationsPage";
 import UserInstructions from "./pages/UserInstructions";
+import History from "./pages/History";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,8 +17,10 @@ function App() {
           <Route path="/" element={<Mainpage />} />
           <Route path="/informations" element={<InformationsPage />} />
           <Route path="/userinstructions" element={<UserInstructions />} />
+          <Route path="/history" element={<History />} />
         </Routes>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
