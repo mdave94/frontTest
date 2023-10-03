@@ -29,6 +29,10 @@ function InfoSection() {
                 Nem igényelnek fogászati beavatkozást, sem fogorvos
                 közreműködését.
               </p>
+              <p>
+                Behelyezésükhöz nem szükséges megbontani az egészséges fogzománc
+                egységét sem fúrással, sem savas felület előkezeléssel.
+              </p>
             </div>
           </Fade>
         </div>
@@ -52,8 +56,13 @@ function InfoSection() {
               direction="right"
             >
               <p>
-                Behelyezésükhöz nem szükséges megbontani az egészséges fogzománc
-                egységét sem fúrással, sem savas felület előkezeléssel.
+                Kialakításuknak köszönhetően stabilan helyben maradnak,
+                ugyanakkor nem zavarják a fogak érintkezését.
+              </p>
+
+              <p>
+                Ennek eredményeként nem kell a helybentartásukra koncentrálni,
+                és nem zavarják a beszédet.
               </p>
               <p>
                 Megfelelő használat mellett tehát teljesen biztonságos eszköz
