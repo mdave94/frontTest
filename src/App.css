@@ -4,6 +4,10 @@
   cursor: default;
   background-color: #eeeae2;
 }
+.center {
+  display: flex;
+  justify-content: center;
+}
 
 .center-container {
   display: flex;
