@@ -5,10 +5,15 @@ import { Link, useNavigate } from "react-router-dom";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
+  const [isActive, setIsActive] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const navigate = useNavigate();
 
+  //add the active class
+  const toggleActiveClass = () => {
+    setIsActive(!isActive);
+  };
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
@@ -40,8 +45,16 @@ const Navbar = () => {
           </div>
           <div className="mobile-nav-right">
             <div className="appointment">IDŐPONT</div>
+
             <div className="burger">
-              <RxHamburgerMenu />
+              <div
+                className={`hamburger ${isActive ? "active" : ""}`}
+                onClick={toggleActiveClass}
+              >
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
+              </div>
             </div>
           </div>
         </div>
