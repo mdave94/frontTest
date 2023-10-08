@@ -6,6 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
+
   const [isVisible, setIsVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const navigate = useNavigate();
@@ -39,6 +40,19 @@ const Navbar = () => {
   if (isMobile) {
     return (
       <>
+        <div className={`sidebar-menu ${isActive ? "open" : ""}`}>
+          <ul>
+            <li>
+              <Link to="/history">TÖrténetünk</Link>
+            </li>
+            <li>
+              <Link to="/informations">Információk</Link>
+            </li>
+            <li>
+              <Link to="/userinstructions">Tájékoztatók</Link>
+            </li>
+          </ul>
+        </div>
         <div className="mobile-navbar-container">
           <div className="mobile-nav-left">
             <div className="mobile-logo">M</div>
