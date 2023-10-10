@@ -83,7 +83,17 @@ function Footer() {
               <div className="bottom-button">
                 Általános Szolgáltatási Feltételek
               </div>
+
               <div className="copy-text">Copyright © All rights reserved.</div>
+              <div
+                className="bottom-button scroll-to-top-button center"
+                onClick={scrollToTop}
+              >
+                Oldal tetejére
+                <div className="up-icon">
+                  <MdKeyboardArrowUp />
+                </div>
+              </div>
             </div>
           </div>
         </div>
