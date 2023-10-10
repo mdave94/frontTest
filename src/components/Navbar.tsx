@@ -2,7 +2,10 @@ import { useEffect, useState } from "react";
 import "../assets/css/navbar.css";
 import logo from "../assets/png/image01.png";
 import { Link, useNavigate } from "react-router-dom";
-import { RxHamburgerMenu } from "react-icons/rx";
+import { HiInformationCircle } from "react-icons/hi";
+import { HiQuestionMarkCircle } from "react-icons/hi";
+import { HiClock } from "react-icons/hi";
+import { HiHome } from "react-icons/hi";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -43,12 +46,19 @@ const Navbar = () => {
         <div className={`sidebar-menu ${isActive ? "open" : ""}`}>
           <ul>
             <li>
+              <HiHome />
+              <Link to="/">Főoldal</Link>
+            </li>
+            <li>
+              <HiClock />
               <Link to="/history">TÖrténetünk</Link>
             </li>
             <li>
+              <HiInformationCircle />
               <Link to="/informations">Információk</Link>
             </li>
             <li>
+              <HiQuestionMarkCircle />
               <Link to="/userinstructions">Tájékoztatók</Link>
             </li>
           </ul>
