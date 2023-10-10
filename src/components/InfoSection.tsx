@@ -10,7 +10,7 @@ function InfoSection() {
         <div className="section topsection">
           <Fade duration={2000} triggerOnce={true} direction="left">
             <div className="topleft">
-              <div className="topleft-text">MI AZ A MOSOLYÉKSZER ?</div>
+              <div className="topleft-text">MI AZ A MOSOLYÉKSZER </div>
             </div>
           </Fade>
           <Fade
@@ -28,10 +28,6 @@ function InfoSection() {
               <p>
                 Nem igényelnek fogászati beavatkozást, sem fogorvos
                 közreműködését.
-              </p>
-              <p>
-                Behelyezésükhöz nem szükséges megbontani az egészséges fogzománc
-                egységét sem fúrással, sem savas felület előkezeléssel.
               </p>
             </div>
           </Fade>
@@ -56,17 +52,20 @@ function InfoSection() {
               direction="right"
             >
               <p>
-                Kialakításuknak köszönhetően stabilan helyben maradnak,
-                ugyanakkor nem zavarják a fogak érintkezését.
+                Behelyezésükhöz nem szükséges megbontani az egészséges fogzománc
+                egységét sem fúrással, sem savas felület előkezeléssel.
               </p>
-
+              <p>
+                Megfelelő használat mellett tehát teljesen biztonságos eszköz
+                mosolyunk ékítésére.
+              </p>
               <p>
                 Ennek eredményeként nem kell a helybentartásukra koncentrálni,
                 és nem zavarják a beszédet.
               </p>
               <p>
-                Megfelelő használat mellett tehát teljesen biztonságos eszköz
-                mosolyunk ékítésére.
+                Kialakításuknak köszönhetően stabilan helyben maradnak,
+                ugyanakkor nem zavarják a fogak érintkezését.
               </p>
             </Fade>
           </div>
