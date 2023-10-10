@@ -6,6 +6,7 @@ import InfoSection from "../components/InfoSection";
 import SwiperComponent from "../components/SwiperComponent";
 import twoItem from "../assets/img/image07.jpg";
 import Gallery from "../components/Gallery";
+import Opinions from "../components/Opinions";
 
 function Mainpage() {
   return (
@@ -28,8 +29,9 @@ function Mainpage() {
       <div className="center-container">
         <SwiperComponent title="Galéria" />
       </div>
-      <ParallaxComponent imageUrl={twoItem}></ParallaxComponent>
+      {/*<ParallaxComponent imageUrl={twoItem}></ParallaxComponent>*/}
       <Gallery />
+      <Opinions />
     </>
   );
 }
