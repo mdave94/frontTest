@@ -12,6 +12,7 @@ function History() {
 
   return (
     <>
+      <ParallaxComponent imageUrl={greenTwo} minHeight="200px" />
       <div className="first-section">
         <div className="first-section-text">
           <p>
