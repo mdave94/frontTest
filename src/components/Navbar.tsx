@@ -6,6 +6,7 @@ import { HiInformationCircle } from "react-icons/hi";
 import { HiQuestionMarkCircle } from "react-icons/hi";
 import { HiClock } from "react-icons/hi";
 import { HiHome } from "react-icons/hi";
+import { VscCalendar } from "react-icons/vsc";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -68,7 +69,9 @@ const Navbar = () => {
             <div className="mobile-logo">M</div>
           </div>
           <div className="mobile-nav-right">
-            <div className="appointment">IDŐPONT</div>
+            <div className="appointment-mobile">
+              <VscCalendar />
+            </div>
 
             <div className="burger">
               <div
@@ -89,6 +92,12 @@ const Navbar = () => {
       <nav className={`navbar ${isVisible ? "visible" : "hidden"}`}>
         <img id="nav-logo" src={logo} alt=" " onClick={() => navigate("/")} />
         <div className="nav-menu-list">
+          <Link to="/appointment">
+            <a>
+              <VscCalendar />
+              időpontfoglalás
+            </a>
+          </Link>
           <Link to="/history">
             <a>TÖrténetünk</a>
           </Link>

@@ -33,6 +33,7 @@
   transition: font-size 0.5s;
   text-decoration: none;
   margin: 0 10px;
+  color: black;
 }
 
 .navbar a:hover {
@@ -99,6 +100,14 @@
 }
 .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+}
+
+.appointment {
+  width: fit-content;
+}
+
+.appointment-mobile {
+  font-size: 28px;
 }
 
 /* Sidebar menu */
