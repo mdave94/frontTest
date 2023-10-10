@@ -4,8 +4,8 @@ import MainPagePicture from "../assets/image05.jpg";
 import ScrolltoElementButton from "../components/ScrollToElementButton";
 import InfoSection from "../components/InfoSection";
 import SwiperComponent from "../components/SwiperComponent";
-import Footer from "../components/Footer";
 import twoItem from "../assets/img/image07.jpg";
+import Gallery from "../components/Gallery";
 
 function Mainpage() {
   return (
@@ -29,6 +29,7 @@ function Mainpage() {
         <SwiperComponent title="Galéria" />
       </div>
       <ParallaxComponent imageUrl={twoItem}></ParallaxComponent>
+      <Gallery />
     </>
   );
 }
