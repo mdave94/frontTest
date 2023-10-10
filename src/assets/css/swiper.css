@@ -3,11 +3,18 @@
   max-width: 1400px;
   width: 100%;
 }
-.swiper-button-prev, .swiper-rtl .swiper-button-next{
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  color: white;
+  font-size: 68px;
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
   color: white;
 }
-.swiper-container{
-  
+
+.swiper-container {
   max-width: 1200px;
   height: 450px;
 }
@@ -83,13 +90,13 @@
     width: auto;
     height: 200px;
   }
-  .swiper-container{
+  .swiper-container {
     width: 350px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
- .swiper-container{
-  max-width: 550px;
- }
+  .swiper-container {
+    max-width: 550px;
+  }
 }
