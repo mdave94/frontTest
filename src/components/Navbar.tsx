@@ -2,17 +2,15 @@ import { useEffect, useState } from "react";
 import "../assets/css/navbar.css";
 import logo from "../assets/png/image01.png";
 import { Link, useNavigate } from "react-router-dom";
-import { HiInformationCircle } from "react-icons/hi";
-import { HiQuestionMarkCircle } from "react-icons/hi";
-import { HiClock } from "react-icons/hi";
-import { HiHome } from "react-icons/hi";
 import { VscCalendar } from "react-icons/vsc";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState<Boolean>(false);
 
-  const [isVisible, setIsVisible] = useState(false);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isVisible, setIsVisible] = useState<Boolean>(false);
+  const [isMobile, setIsMobile] = useState<Boolean>(window.innerWidth <= 768);
+  const [isHovered, setIsHovered] = useState<Boolean>(false);
+
   const navigate = useNavigate();
 
   //add the active class
@@ -88,7 +86,11 @@ const Navbar = () => {
     );
   } else {
     return (
-      <nav className={`navbar ${isVisible ? "visible" : "hidden"}`}>
+      <nav
+        className={`navbar ${isVisible || isHovered ? "visible" : "hidden"}`}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         <img id="nav-logo" src={logo} alt=" " onClick={() => navigate("/")} />
         <div className="nav-menu-list">
           <Link to="/appointment">
