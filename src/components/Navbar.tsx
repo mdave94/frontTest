@@ -47,19 +47,18 @@ const Navbar = () => {
         <div className={`sidebar-menu ${isActive ? "open" : ""}`}>
           <ul>
             <li>
-              <HiHome />
+              <Link to="/buyprocess">Vásárlás</Link>
+            </li>
+            <li>
               <Link to="/">Főoldal</Link>
             </li>
             <li>
-              <HiClock />
               <Link to="/history">TÖrténetünk</Link>
             </li>
             <li>
-              <HiInformationCircle />
               <Link to="/informations">Információk</Link>
             </li>
             <li>
-              <HiQuestionMarkCircle />
               <Link to="/userinstructions">Tájékoztatók</Link>
             </li>
           </ul>
@@ -97,6 +96,9 @@ const Navbar = () => {
               <VscCalendar />
               időpontfoglalás
             </a>
+          </Link>
+          <Link to="/buyprocess">
+            <a>Vásárlás</a>
           </Link>
           <Link to="/history">
             <a>TÖrténetünk</a>

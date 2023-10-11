@@ -7,6 +7,7 @@ import InformationsPage from "./pages/InformationsPage";
 import UserInstructions from "./pages/UserInstructions";
 import History from "./pages/History";
 import Footer from "./components/Footer";
+import Buyprocess from "./pages/Buyprocess";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/informations" element={<InformationsPage />} />
           <Route path="/userinstructions" element={<UserInstructions />} />
           <Route path="/history" element={<History />} />
+          <Route path="/buyprocess" element={<Buyprocess />} />
         </Routes>
       </div>
       <Footer />

@@ -1,5 +1,5 @@
 type ParallaxComponentProps = {
-  imageUrl: string;
+  imageUrl?: string;
   children?: React.ReactNode;
   className?: string;
   minHeight?: string;
