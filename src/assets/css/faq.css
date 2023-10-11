@@ -1,0 +1,6 @@
+@media only screen and (max-width: 650px) {
+  .image-container {
+    height: 100px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 75%);
+  }
+}
