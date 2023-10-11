@@ -96,7 +96,6 @@ const Navbar = () => {
           <Link to="/appointment">
             <a>
               <VscCalendar />
-              időpontfoglalás
             </a>
           </Link>
           <Link to="/buyprocess">
