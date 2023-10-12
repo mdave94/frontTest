@@ -41,7 +41,7 @@ function Buyprocess() {
             modelleket még egyedibbé.
           </div>
         </div>
-        <div className="card-button">Időpontfoglalás</div>
+        <div className="custom-button">Időpontfoglalás</div>
       </div>
       <ParallaxComponent imageUrl={divider1} minHeight="300px" />
     </>

@@ -186,7 +186,7 @@ function InformationsPage() {
               biztonságosan viselhető a mosolyékszer.
             </div>
           </section>
-          <div className="card-button">Időpontfoglalás</div>
+          <div className="custom-button">Időpontfoglalás</div>
         </div>
       </div>
     </>

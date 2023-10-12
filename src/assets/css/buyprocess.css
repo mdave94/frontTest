@@ -17,7 +17,7 @@
   justify-content: center;
 }
 
-.card-button {
+.custom-button {
   border-radius: 32px;
   background-color: white;
   border: 1px solid white;
@@ -32,7 +32,7 @@
   margin: auto;
 }
 
-.card-button:hover {
+.custom-button:hover {
   background-color: gray;
   color: black;
 }
