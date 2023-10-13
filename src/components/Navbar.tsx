@@ -3,7 +3,7 @@ import "../assets/css/navbar.css";
 import logo from "../assets/png/image01.png";
 import { Link, useNavigate } from "react-router-dom";
 import { VscCalendar } from "react-icons/vsc";
-
+import mobile_logo from "../assets/img/mobile_logo.jpg";
 const Navbar = () => {
   const [isActive, setIsActive] = useState<Boolean>(false);
 
@@ -63,7 +63,9 @@ const Navbar = () => {
         </div>
         <div className="mobile-navbar-container">
           <div className="mobile-nav-left">
-            <div className="mobile-logo">M</div>
+            <div className="mobile-logo">
+              <img style={{ height: "100px" }} src={mobile_logo} />
+            </div>
           </div>
           <div className="mobile-nav-right">
             <div className="appointment-mobile">
