@@ -9,6 +9,23 @@ function Gallery() {
   const pictureStyle = {
     height: "700px",
   };
+
+  const breakpoints = {
+    // When the viewport width is less than 768px (mobile view)
+    390: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    // When the viewport width is equal to or greater than 768px (desktop view)
+    900: {
+      slidesPerView: 2,
+      spaceBetween: 50,
+    },
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+  };
   return (
     <>
       <Swiper
@@ -18,6 +35,7 @@ function Gallery() {
         pagination={{
           clickable: true,
         }}
+        breakpoints={breakpoints}
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
