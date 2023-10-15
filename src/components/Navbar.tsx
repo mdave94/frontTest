@@ -3,7 +3,7 @@ import "../assets/css/navbar.css";
 import logo from "../assets/png/image01.png";
 import { Link, useNavigate } from "react-router-dom";
 import { VscCalendar } from "react-icons/vsc";
-import mobile_logo from "../assets/img/mobile_logo.jpg";
+import mobile_logo from "../assets/img/mobile_logo.png";
 const Navbar = () => {
   const [isActive, setIsActive] = useState<Boolean>(false);
 
