@@ -12,14 +12,25 @@ import "swiper/css/pagination";
 import "../assets/css/opinion.css";
 
 function Opinions() {
-  const pictureStyle = {
-    height: "auto",
-    width: "200",
+  const breakpoints = {
+    360: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    900: {
+      slidesPerView: 2,
+      spaceBetween: 20, // You can adjust this as needed
+    },
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 20, // You can adjust this as needed
+    },
   };
   return (
     <>
       <Swiper
         effect={"coverflow"}
+        breakpoints={breakpoints}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={3}
