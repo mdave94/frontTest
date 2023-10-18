@@ -12,9 +12,20 @@ import "swiper/css/pagination";
 import "../assets/css/opinion.css";
 
 function Opinions() {
-  const pictureStyle = {
-    height: "auto",
-    width: "200",
+  const breakpoints = {
+    370: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+
+    900: {
+      slidesPerView: 2,
+      spaceBetween: 50,
+    },
+    1000: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
   };
   return (
     <>
@@ -30,6 +41,7 @@ function Opinions() {
           modifier: 1,
           slideShadows: true,
         }}
+        breakpoints={breakpoints}
         loop={true}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}

@@ -11,7 +11,7 @@ function Gallery() {
   };
 
   const breakpoints = {
-    390: {
+    370: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
