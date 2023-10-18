@@ -13,7 +13,6 @@ import "../assets/css/opinion.css";
 
 function Opinions() {
   const breakpoints = {
-
     370: {
       slidesPerView: 1,
       spaceBetween: 10,
@@ -26,7 +25,6 @@ function Opinions() {
     1000: {
       slidesPerView: 3,
       spaceBetween: 20,
-
     },
   };
   return (
@@ -44,7 +42,6 @@ function Opinions() {
           modifier: 1,
           slideShadows: true,
         }}
-        breakpoints={breakpoints}
         loop={true}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}

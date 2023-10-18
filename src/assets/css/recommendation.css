@@ -34,3 +34,21 @@
   border-radius: 18px;
   background-color: rgb(236, 236, 236);
 }
+
+@media only screen and (max-width: 650px) {
+  .recommendation-container {
+    padding: 8px;
+  }
+
+  .wrapper {
+    height: auto;
+  }
+  .recommend-list-elem {
+    height: auto;
+    margin-top: 24px;
+  }
+
+  .recommend-header {
+    font-size: 34px;
+  }
+}
