@@ -13,17 +13,18 @@ import "../assets/css/opinion.css";
 
 function Opinions() {
   const breakpoints = {
-    360: {
+    370: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
+
     900: {
       slidesPerView: 2,
-      spaceBetween: 20, // You can adjust this as needed
+      spaceBetween: 50,
     },
     1000: {
       slidesPerView: 3,
-      spaceBetween: 20, // You can adjust this as needed
+      spaceBetween: 20,
     },
   };
   return (

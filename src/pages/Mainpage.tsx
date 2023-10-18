@@ -7,6 +7,7 @@ import SwiperComponent from "../components/SwiperComponent";
 import twoItem from "../assets/img/image07.jpg";
 import Gallery from "../components/Gallery";
 import Opinions from "../components/Opinions";
+import RecommendSection from "../components/RecommendSection";
 
 function Mainpage() {
   return (
@@ -30,6 +31,7 @@ function Mainpage() {
         <SwiperComponent title="Galéria" />
       </div>
       {/*<ParallaxComponent imageUrl={twoItem}></ParallaxComponent>*/}
+      <RecommendSection />
       <Gallery />
       <Opinions />
     </>
