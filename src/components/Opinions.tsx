@@ -13,6 +13,7 @@ import "../assets/css/opinion.css";
 
 function Opinions() {
   const breakpoints = {
+
     370: {
       slidesPerView: 1,
       spaceBetween: 10,
@@ -25,12 +26,14 @@ function Opinions() {
     1000: {
       slidesPerView: 3,
       spaceBetween: 20,
+
     },
   };
   return (
     <>
       <Swiper
         effect={"coverflow"}
+        breakpoints={breakpoints}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={3}
