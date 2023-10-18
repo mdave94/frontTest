@@ -11,12 +11,11 @@ function Gallery() {
   };
 
   const breakpoints = {
-    // When the viewport width is less than 768px (mobile view)
     390: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
-    // When the viewport width is equal to or greater than 768px (desktop view)
+
     900: {
       slidesPerView: 2,
       spaceBetween: 50,
