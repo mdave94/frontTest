@@ -1,0 +1,19 @@
+.questions-list {
+  font-size: 22px;
+}
+
+.questions-list > li {
+  display: flex;
+  text-align: start;
+  margin-top: 32px;
+}
+
+.background-light {
+  background-color: var(--background-light);
+}
+
+.faq-link-button {
+  padding: 0px 8px 0px 8px;
+  cursor: pointer;
+  background-color: rgb(124, 120, 120);
+}

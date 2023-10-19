@@ -10,6 +10,7 @@ import Opinions from "../components/Opinions";
 import RecommendSection from "../components/RecommendSection";
 import GiftSection from "../components/GiftSection";
 import OfferSection from "../components/OfferSection";
+import QuestionSection from "../components/QuestionsSection";
 
 function Mainpage() {
   return (
@@ -38,6 +39,7 @@ function Mainpage() {
       <GiftSection />
       <Opinions />
       <OfferSection />
+      <QuestionSection />
     </>
   );
 }
