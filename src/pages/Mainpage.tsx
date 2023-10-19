@@ -9,6 +9,7 @@ import Gallery from "../components/Gallery";
 import Opinions from "../components/Opinions";
 import RecommendSection from "../components/RecommendSection";
 import GiftSection from "../components/GiftSection";
+import OfferSection from "../components/OfferSection";
 
 function Mainpage() {
   return (
@@ -36,6 +37,7 @@ function Mainpage() {
       <Gallery />
       <GiftSection />
       <Opinions />
+      <OfferSection />
     </>
   );
 }
