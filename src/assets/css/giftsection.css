@@ -1,0 +1,55 @@
+.text-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gift-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  height: 50vh;
+}
+.gift-item {
+  max-width: 550px;
+}
+
+.item-text {
+  text-align: start;
+  max-width: 400px;
+}
+
+.item-header {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.text-and {
+  margin: 0px 24px 0px 24px;
+}
+
+.appointment-text {
+  margin-top: 48px;
+  display: flex;
+}
+
+.gift-app-button {
+  font-weight: 600;
+  padding: 0px 8px 0px 8px;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  margin: auto;
+}
+
+.gift-app-button:hover {
+  background-color: rgb(240, 235, 235);
+}

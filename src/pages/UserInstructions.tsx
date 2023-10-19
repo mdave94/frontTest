@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import ParallaxComponent from "../components/ParallaxComponent";
-import mirrorPicture from "../assets/img/smile1.jpg";
-import divider1 from "../assets/img/smile2.jpg";
-import divider2 from "../assets/img/model2.jpg";
-import divider3 from "../assets/img/model1.jpg";
+
+import divider1 from "../assets/img/1item_diamond.jpg";
+import divider2 from "../assets/img/1item_pink.jpg";
+import divider3 from "../assets/img/1item.jpg";
 
 function UserInstructions() {
   useEffect(() => {
@@ -15,7 +15,7 @@ function UserInstructions() {
     <>
       <>
         <div className="image-container">
-          <img src={mirrorPicture} />
+          <img src={divider1} />
         </div>
         <div className=" center-container">
           <div className="header center">Használati útmutató:</div>
@@ -48,7 +48,7 @@ function UserInstructions() {
           </div>
         </div>
 
-        <ParallaxComponent imageUrl={divider1} minHeight="200px" />
+        <ParallaxComponent imageUrl={divider2} minHeight="200px" />
         <div className=" center-container">
           <div className="section-b">
             <div className="header center">Figyelmeztetés </div>

@@ -8,6 +8,7 @@ import twoItem from "../assets/img/image07.jpg";
 import Gallery from "../components/Gallery";
 import Opinions from "../components/Opinions";
 import RecommendSection from "../components/RecommendSection";
+import GiftSection from "../components/GiftSection";
 
 function Mainpage() {
   return (
@@ -34,6 +35,7 @@ function Mainpage() {
       <RecommendSection />
       <Gallery />
       <Opinions />
+      <GiftSection />
     </>
   );
 }
