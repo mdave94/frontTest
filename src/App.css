@@ -35,7 +35,7 @@
 #mainPageLogo {
   height: 450px;
 }
-.mainpage-center-text{
+.mainpage-center-text {
   margin-bottom: 3rem;
 }
 
@@ -44,8 +44,12 @@
   animation: fadeIn 1s ease-in-out forwards;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 @keyframes fadeIn {
- 
   0% {
     opacity: 0;
   }
