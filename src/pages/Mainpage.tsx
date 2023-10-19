@@ -8,6 +8,8 @@ import twoItem from "../assets/img/image07.jpg";
 import Gallery from "../components/Gallery";
 import Opinions from "../components/Opinions";
 import RecommendSection from "../components/RecommendSection";
+import GiftSection from "../components/GiftSection";
+import OfferSection from "../components/OfferSection";
 
 function Mainpage() {
   return (
@@ -33,7 +35,9 @@ function Mainpage() {
       {/*<ParallaxComponent imageUrl={twoItem}></ParallaxComponent>*/}
       <RecommendSection />
       <Gallery />
+      <GiftSection />
       <Opinions />
+      <OfferSection />
     </>
   );
 }
