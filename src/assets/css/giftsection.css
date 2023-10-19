@@ -5,12 +5,21 @@
   justify-content: center;
 }
 
+.gift-container {
+  background-color: white;
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .gift-container-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 1400px;
-  height: 50vh;
+  min-height: 50vh;
 }
 .gift-item {
   max-width: 550px;
@@ -52,4 +61,33 @@
 
 .gift-app-button:hover {
   background-color: rgb(240, 235, 235);
+}
+
+.gift-image {
+  max-height: 300px;
+  border-radius: 32px;
+}
+
+.gift-image-container {
+  margin-bottom: 32px;
+}
+
+@media only screen and (max-width: 650px) {
+  .gift-image {
+    max-height: 150px;
+  }
+
+  .appointment-text {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+
+  .recommend-header {
+    text-align: center;
+  }
+
+  .gift-app-button {
+    margin-top: 18px;
+    font-size: 20px;
+  }
 }

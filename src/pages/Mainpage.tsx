@@ -34,8 +34,8 @@ function Mainpage() {
       {/*<ParallaxComponent imageUrl={twoItem}></ParallaxComponent>*/}
       <RecommendSection />
       <Gallery />
-      <Opinions />
       <GiftSection />
+      <Opinions />
     </>
   );
 }
