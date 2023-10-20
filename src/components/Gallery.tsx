@@ -37,7 +37,7 @@ function Gallery() {
         breakpoints={breakpoints}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="galery"
       >
         <SwiperSlide>
           <img style={pictureStyle} src={firstPicture} />

@@ -1,7 +1,8 @@
 .opinion-swiper {
+  max-width: 1400px;
   height: 500px;
   margin-top: 24px;
-  padding-bottom: 24px;
+  padding: 32px 0px 32px 0px;
 }
 
 .opinion-container {

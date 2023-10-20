@@ -13,7 +13,16 @@ function QuestionSection() {
         <div className="flex-column">
           <div className="recommend-header">Maradt Még kérdésed ? </div>
           <ul className="questions-list">
-            <li>Kerress rá választ gyakran feltett kérdések gyűjtemenyében</li>
+            <li>
+              Kerress rá választ
+              <a
+                className="faq-link-button"
+                onClick={() => navigator("/informations")}
+              >
+                gyakran feltett kérdések
+              </a>
+              gyűjtemenyében
+            </li>
             <li>Vagy vedd fel velünk a kapcsolatot</li>
             <li>
               Iratkozz fel hírlevelünkre, hogy még több ajánlatról
