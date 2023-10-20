@@ -6,13 +6,19 @@
 }
 .wrapper {
   display: flex;
-  flex-direction: column;
+
   align-items: center;
   max-width: 1400px;
   height: 90vh;
 }
 
+.header-wrapper {
+  text-align: start;
+}
+
 .recommend-header {
+  text-align: start;
+  font-family: garamond-regular;
   text-align: start;
   font-size: 48px;
   text-align: start;
@@ -48,9 +54,5 @@
   .recommend-list-elem {
     height: auto;
     margin-top: 24px;
-  }
-
-  .recommend-header {
-    font-size: 34px;
   }
 }

@@ -15,6 +15,7 @@
   min-height: 350px;
 }
 .topleft-text {
+  font-family: garamond-regular;
   display: flex;
   max-width: 850px;
 }
