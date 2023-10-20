@@ -36,9 +36,9 @@ function Opinions() {
         centeredSlides={true}
         slidesPerView={3}
         coverflowEffect={{
-          rotate: 30,
+          rotate: 20,
           stretch: 10,
-          depth: 500,
+          depth: 300,
           modifier: 1,
           slideShadows: true,
         }}

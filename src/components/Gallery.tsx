@@ -5,11 +5,8 @@ import secondPicture from "../assets/img/model2.jpg";
 import thirdPicture from "../assets/img/smile1.jpg";
 import fourthPicture from "../assets/img/smile2.jpg";
 
+import "../assets/css/galery.css";
 function Gallery() {
-  const pictureStyle = {
-    height: "700px",
-  };
-
   const breakpoints = {
     370: {
       slidesPerView: 1,
@@ -22,14 +19,12 @@ function Gallery() {
     },
     1000: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      spaceBetween: 50,
     },
   };
   return (
     <>
       <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
         loop={true}
         pagination={{
           clickable: true,
@@ -37,25 +32,25 @@ function Gallery() {
         breakpoints={breakpoints}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="galery-container"
       >
         <SwiperSlide>
-          <img style={pictureStyle} src={firstPicture} />
+          <img className="galery-picture" src={firstPicture} />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={pictureStyle} src={secondPicture} />
+          <img className="galery-picture" src={secondPicture} />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={pictureStyle} src={thirdPicture} />
+          <img className="galery-picture" src={thirdPicture} />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={pictureStyle} src={fourthPicture} />
+          <img className="galery-picture" src={fourthPicture} />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={pictureStyle} src={firstPicture} />
+          <img className="galery-picture" src={firstPicture} />
         </SwiperSlide>
         <SwiperSlide>
-          <img style={pictureStyle} src={secondPicture} />
+          <img className="galery-picture" src={secondPicture} />
         </SwiperSlide>
       </Swiper>
     </>
