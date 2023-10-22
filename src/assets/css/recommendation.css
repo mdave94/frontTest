@@ -30,9 +30,9 @@
 }
 
 .recommend-list-elem {
-  display: flex; /* Use flexbox to horizontally center text */
-  align-items: center; /* Vertically align text to the center */
-  height: 70px;
+  display: flex;
+  align-items: center;
+  min-height: 70px;
   font-size: 32px;
   transition: 0.5s;
 }
@@ -50,6 +50,7 @@
 
   .wrapper {
     height: auto;
+    flex-direction: column;
   }
   .recommend-list-elem {
     height: auto;

@@ -25,3 +25,9 @@
   background-color: rgb(255, 255, 255);
   border-radius: 16px;
 }
+
+@media only screen and (max-width: 650px) {
+  .questions-list {
+    font-size: 18px;
+  }
+}
