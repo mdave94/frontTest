@@ -40,16 +40,16 @@
 }
 
 .bottomleft {
-  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 100px;
 }
 
 #picture-infosection {
-  width: 100%;
-  height: auto;
-  display: block;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  max-height: 400px;
+  border-radius: 32px;
 }
 
 .bottomright {

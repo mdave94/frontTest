@@ -1,6 +1,6 @@
 import "../assets/css/infosection.css";
 import "../assets/css/mobileview.css";
-import leftPicture from "../assets/img/image04_clipped.png";
+import leftPicture from "../assets/img/image07.jpg";
 import { Fade } from "react-awesome-reveal";
 
 function InfoSection() {
@@ -10,7 +10,7 @@ function InfoSection() {
         <div className="section topsection">
           <Fade duration={2000} triggerOnce={true} direction="left">
             <div className="topleft">
-              <div className="topleft-text">MI AZ A MOSOLYÉKSZER </div>
+              <div className="topleft-text">MI AZ A MOSOLYÉKSZER? </div>
             </div>
           </Fade>
           <Fade
