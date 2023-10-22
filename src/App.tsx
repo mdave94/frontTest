@@ -1,4 +1,5 @@
 import "./App.css";
+import "./assets/css/fonts.css";
 import Navbar from "./components/Navbar";
 import "../src/assets/css/herosection.css";
 import Mainpage from "./pages/Mainpage";

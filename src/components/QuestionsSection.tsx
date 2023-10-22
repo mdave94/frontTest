@@ -7,21 +7,23 @@ function QuestionSection() {
   return (
     <>
       <div
-        className="recommendation-container  background-light"
+        className="recommendation-container background-light"
         style={{ height: "400px" }}
       >
         <div className="flex-column">
-          <div className="recommend-header">Maradt Még kérdésed ? </div>
+          <div className="recommend-header">Maradt még kérdésed?</div>
           <ul className="questions-list">
             <li>
-              Kerress rá választ
-              <a
-                className="faq-link-button"
-                onClick={() => navigator("/informations")}
-              >
-                gyakran feltett kérdések
-              </a>
-              gyűjtemenyében
+              <span>
+                Keress rá választ
+                <a
+                  className="faq-link-button"
+                  onClick={() => navigator("/informations")}
+                >
+                  gyakran feltett kérdések
+                </a>
+                gyűjteményében
+              </span>
             </li>
             <li>Vagy vedd fel velünk a kapcsolatot</li>
             <li>
