@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import picture1 from "../assets/img/groupPicture_5.jpg";
 
 type SwiperCardProps = {
   children: ReactNode;
@@ -11,10 +12,9 @@ function SwiperCard({ children, picture }: SwiperCardProps) {
       <div className="card-container">
         <div className="text-side">
           <div className="card-text">{children}</div>
-          <div className="card-button">Részletek</div>
         </div>
         <div className="picture-side">
-          <img src={picture} id="card-picture" alt="pict1" />
+          <img src={picture} id="card-picture" alt="picture" />
         </div>
       </div>
     </>

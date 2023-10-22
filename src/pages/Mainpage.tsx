@@ -30,9 +30,9 @@ function Mainpage() {
         <InfoSection />
       </div>
       <div className="center-container">
-        <SwiperComponent title="Galéria" />
+        <SwiperComponent title="Mi a különbség a fogékszer és a mosolyékszereink között? " />
       </div>
-      {/*<ParallaxComponent imageUrl={twoItem}></ParallaxComponent>*/}
+
       <RecommendSection />
       <Gallery />
       <GiftSection />

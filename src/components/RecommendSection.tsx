@@ -5,7 +5,7 @@ function RecommendSection() {
   return (
     <>
       <div className="recommendation-container">
-        <Fade duration={3000} triggerOnce={true}>
+        <Fade duration={2000} triggerOnce={true} delay={500}>
           <div className="wrapper">
             <div className="recommend-header ">
               Kinek ajálnjuk a MINNAE mosolyékszereket ?

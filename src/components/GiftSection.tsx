@@ -31,7 +31,7 @@ function GiftSection() {
             <div className="gift-app-button"> foglald le időpontod már ma</div>
           </div>
         </div>
-        <div className="gift-image-container">
+        <div className="gift-image-container ">
           <img className="gift-image" src={giftPicture1} alt="" />
         </div>
       </div>
