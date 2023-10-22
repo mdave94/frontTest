@@ -26,6 +26,7 @@
 }
 
 .item-text {
+  font-size: 22px;
   text-align: start;
   max-width: 400px;
 }
@@ -41,6 +42,7 @@
 }
 
 .appointment-text {
+  font-size: 22px;
   margin-top: 48px;
   display: flex;
 }
