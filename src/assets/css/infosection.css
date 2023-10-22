@@ -14,6 +14,10 @@
 .topsection {
   min-height: 350px;
 }
+
+.topsection p {
+  margin-top: 0px;
+}
 .topleft-text {
   font-family: garamond-regular;
   display: flex;

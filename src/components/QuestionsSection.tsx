@@ -15,13 +15,13 @@ function QuestionSection() {
           <ul className="questions-list">
             <li>
               <span>
-                Keress rá választ{" "}
+                Keress rá választ
                 <a
                   className="faq-link-button"
                   onClick={() => navigator("/informations")}
                 >
                   gyakran feltett kérdések
-                </a>{" "}
+                </a>
                 gyűjteményében
               </span>
             </li>
