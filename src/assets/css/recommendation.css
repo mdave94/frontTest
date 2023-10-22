@@ -17,6 +17,7 @@
 }
 
 .recommend-header {
+  padding: 8px;
   text-align: start;
   font-family: garamond-regular;
   text-align: start;
@@ -30,7 +31,6 @@
 }
 
 .recommend-list-elem {
-  display: flex;
   align-items: center;
   min-height: 70px;
   font-size: 32px;
