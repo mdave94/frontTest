@@ -5,10 +5,10 @@ function OfferSection() {
   return (
     <>
       <div className="recommendation-container">
-        <Fade duration={3000} triggerOnce={true}>
+        <Fade duration={2000} triggerOnce={true} delay={500}>
           <div className="wrapper">
             <div className="header-wrapper">
-              <div className="recommend-header ">Mit kínálunk ?</div>
+              <div className="recommend-header ">Mit kínálunk?</div>
             </div>
 
             <ul className="offer-list">
