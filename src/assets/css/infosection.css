@@ -64,5 +64,20 @@
 @media screen and (max-width: 768px) {
   .topleft-text {
     max-width: 100%;
+    font-size: 22px;
+  }
+  .topleft {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .topright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #picture-infosection {
+    width: 290px;
   }
 }

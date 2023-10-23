@@ -91,4 +91,10 @@
     margin-top: 18px;
     font-size: 20px;
   }
+  .text-container {
+    width: 290px;
+  }
+  .item-text {
+    font-size: 18px;
+  }
 }

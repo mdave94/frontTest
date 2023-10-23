@@ -8,10 +8,10 @@ function RecommendSection() {
         <Fade duration={2000} triggerOnce={true} delay={500}>
           <div className="wrapper">
             <div className="recommend-header ">
-              Kinek ajálnjuk a MINNAE mosolyékszereket ?
+              Kinek ajálnjuk a MINNAE mosolyékszereket?
             </div>
             <div className="flex-column">
-              <div className="recommend-header ">Mindenkinek, aki :</div>
+              <div className="recommend-header">Mindenkinek, aki:</div>
               <ul className="recommend-list">
                 <li className="recommend-list-elem">magabiztos</li>
                 <li className="recommend-list-elem">
