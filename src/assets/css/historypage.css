@@ -54,6 +54,8 @@
 }
 
 #prof-section-wrapper {
+  max-width: 1400px;
+  width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }

@@ -42,7 +42,7 @@ function History() {
         </div>
       </div>
       <ParallaxComponent imageUrl={greenOne} minHeight="200px" />
-      <div className="container center flex-column ">
+      <div className=" full-center flex-column ">
         <div className="section-b">
           <div className="section-header"> Honnan jött az ötlet? </div>A MINNAE
           mosolyékszerek “Kiskoromban édesanyám egyik munkatársnőjén láttam
