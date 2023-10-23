@@ -54,6 +54,10 @@
   }
   .recommend-list-elem {
     height: auto;
+    font-size: 22px;
     margin-top: 24px;
+  }
+  .recommend-header {
+    font-size: 32px;
   }
 }
