@@ -25,6 +25,7 @@
 .topleft-text {
   font-family: garamond-regular;
   display: flex;
+  font-size: 48px;
   max-width: 850px;
 }
 
@@ -41,8 +42,7 @@
 
 .bottomleft {
   position: relative;
-  display: flex;
-  justify-content: flex-end;
+
   margin-bottom: 100px;
 }
 
