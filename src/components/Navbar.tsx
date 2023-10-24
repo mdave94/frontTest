@@ -45,10 +45,10 @@ const Navbar = () => {
         <div className={`sidebar-menu ${isActive ? "open" : ""}`}>
           <ul>
             <li onClick={toggleActiveClass}>
-              <Link to="/buyprocess">Vásárlás</Link>
+              <Link to="/">Főoldal</Link>
             </li>
             <li onClick={toggleActiveClass}>
-              <Link to="/">Főoldal</Link>
+              <Link to="/buyprocess">Vásárlás</Link>
             </li>
             <li onClick={toggleActiveClass}>
               <Link to="/history">TÖrténetünk</Link>
