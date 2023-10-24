@@ -1,6 +1,6 @@
 import ParallaxComponent from "../components/ParallaxComponent";
 import minnaeLogo from "../assets/png/image01.png";
-import MainPagePicture from "../assets//img/openpict1.jpg";
+import MainPagePicture from "../assets/img/green_one.jpg";
 import ScrolltoElementButton from "../components/ScrollToElementButton";
 import InfoSection from "../components/InfoSection";
 import SwiperComponent from "../components/SwiperComponent";
@@ -14,7 +14,7 @@ import QuestionSection from "../components/QuestionsSection";
 function Mainpage() {
   return (
     <>
-      <ParallaxComponent className="full-center" imageUrl={MainPagePicture}>
+      <ParallaxComponent className="full-center " imageUrl={MainPagePicture}>
         <div className="mainpage-center-text">
           <img
             id="mainPageLogo"
