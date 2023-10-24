@@ -47,8 +47,8 @@
 }
 
 #picture-infosection {
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  max-height: 400px;
+  max-height: 450px;
+  width: auto;
   border-radius: 32px;
 }
 

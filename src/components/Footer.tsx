@@ -67,7 +67,6 @@ function Footer() {
                 </div>
                 <img src={logo} alt="" className="logo" />
                 <div className="direct-contact">
-                  <div className="header">Kövess be</div>
                   <div className="icon-container ">
                     <CiFacebook className="bottom-button" />
                     <CiInstagram className="bottom-button" />

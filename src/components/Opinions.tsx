@@ -29,90 +29,96 @@ function Opinions() {
   };
   return (
     <>
-      <Swiper
-        effect={"coverflow"}
-        breakpoints={breakpoints}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={3}
-        coverflowEffect={{
-          rotate: 20,
-          stretch: 10,
-          depth: 300,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        loop={true}
-        pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="opinion-swiper"
-      >
-        <SwiperSlide className="opinion-container">
-          <div>
+      <div className="opinions-container">
+        <div className="opinion-header">
+          Mennyire egyszerű használni a MINNAE mosolyékszereket?
+        </div>
+        <Swiper
+          effect={"coverflow"}
+          breakpoints={breakpoints}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={3}
+          coverflowEffect={{
+            rotate: 20,
+            stretch: 10,
+            depth: 300,
+            modifier: 1,
+            slideShadows: true,
+          }}
+          loop={true}
+          pagination={true}
+          modules={[EffectCoverflow, Pagination]}
+          className="opinion-swiper"
+        >
+          <SwiperSlide className="opinion-container">
+            <div>
+              <p className="opinion-text">
+                “Kevesebb kézügyességet igényel, mint a műszempilla
+                felhelyezése”
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
+              helyén van“
+            </p>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
+              helyén van“
+            </p>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
             <p className="opinion-text">
               “Kevesebb kézügyességet igényel, mint a műszempilla felhelyezése”
             </p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-            helyén van“
-          </p>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-            helyén van“
-          </p>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Kevesebb kézügyességet igényel, mint a műszempilla felhelyezése”
-          </p>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-            helyén van“
-          </p>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-            helyén van“
-          </p>
-        </SwiperSlide>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
+              helyén van“
+            </p>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
+              helyén van“
+            </p>
+          </SwiperSlide>
 
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
-          </p>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-            helyén van“
-          </p>
-        </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
+            </p>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
+              helyén van“
+            </p>
+          </SwiperSlide>
 
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
-          </p>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-            helyén van“
-          </p>
-        </SwiperSlide>
-        <SwiperSlide className="opinion-container">
-          <p className="opinion-text">
-            “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
-          </p>
-        </SwiperSlide>
-      </Swiper>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
+            </p>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
+              helyén van“
+            </p>
+          </SwiperSlide>
+          <SwiperSlide className="opinion-container">
+            <p className="opinion-text">
+              “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
+            </p>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </>
   );
 }

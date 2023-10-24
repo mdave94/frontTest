@@ -18,3 +18,9 @@
 .opinion-text {
   font-size: 24px;
 }
+
+.opinion-header {
+  margin-top: 38px;
+  width: 100%;
+  font-size: 32px;
+}
