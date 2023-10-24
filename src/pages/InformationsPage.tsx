@@ -19,27 +19,45 @@ function InformationsPage() {
       <div className=" center-container">
         <div className="header center">Tisztán tartás</div>
         <div className="section-b">
-          Nyissa ki a tisztító folyadékot tartalmazó üvegcsét! Az üvegcsét
-          "Tisztító folyadék" felirattal láttuk el! Vegye ki a tisztító tégelyt
-          a csomagolásból! Nyissa ki a tégelyt, majd alaposan öblítse ki tiszta
-          vízzel, végül törölje szárazra! Az ékszer hatékony tisztítása
-          érdekében adagoljon annyi tisztító folyadékot a tégelybe, hogy az
-          ékszerét éppen ellepje! A kitöltött folyadék alkalmas többszöri
-          tisztításra (maximum 5 alkalom/egy nap), de minden tisztítás előtt
-          pótolni kell az elpárolgott folyadék mennyiséget. Mindig gondoskodjon
-          arról, hogy a tisztító tégely teteje pontosan és szorosan záródjon!
-          Amennyiben látható szennyeződés van az ékszeren, azt le kell róla
-          törölni, majd helyezze a folyadékkal töltött tégelybe az ékszert.
-          Hagyja ázni 2 percig, majd vegye ki a tégelyből! A folyadék pár
-          másodperc alatt elpárolog róla. Az ékszer most készen áll a
-          behelyezésre! Amennyiben jelenleg nem szeretné viselni az ékszert,
-          helyezze szárazon a tároló tégelybe. Az ékszer viselése előtt és után
-          mindig alaposan mosson fogat! A tökéletes szájhigiénia eléréséhez
-          ajánlott fogselymet és fogköztisztító kefét is használni! Kérje
-          fogorvosa vagy dentálhigiénikusa tanácsát az Ön számára legjobban
-          megfelelő, egyedi szájhigiéniai rutin kialakításához! Évente
-          látogasson el fogászati ellenőrzésre, mert minden fogászati probléma
-          legjobb megoldása a megelőzés!
+          <p>
+            Bontsd ki a tisztító folyadékot tartalmazó üvegcsét. A tisztító
+            folyadékot tartalmazó üvegcsét “Tisztító folyadék” felirattal láttuk
+            el.
+          </p>
+          <p>
+            Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt és
+            tiszta vízzel alaposan öblítsd ki, majd töröld szárazra. Ezután önts
+            a tisztító folyadékból a tégelybe annyi folyadékot, hogy a
+            belefektetett ékszert éppen ellepje
+          </p>
+          <p>
+            A kitöltött folyadék alkalmas többszöri tisztításra (maximum 5
+            alkalom), de minden tisztítás előtt pótolni kell az elpárolgott
+            folyadék mennyiséget. Mindig gondoskodj arról, hogy a tisztító
+            tégely teteje pontosan és szorosan záródjon!
+          </p>
+          <p>
+            Hagyd ázni az ékszert 2 percig, majd vedd ki a tégelyből! A folyadék
+            pár másodperc alatt elpárolog róla. Az ékszer most készen áll a
+            behelyezésre!
+          </p>
+          <p>
+            Amennyiben jelenleg nem szeretné viselni az ékszert, helyezze
+            szárazon a tároló tégelybe.
+          </p>
+          <p>
+            Az ékszer viselése előtt és után mindig alaposan mosson fogat! A
+            tökéletes szájhigiénia eléréséhez ajánlott fogselymet és
+            fogköztisztító kefét is használni!
+          </p>
+          <p>
+            Kérje fogorvosa vagy dentálhigiénikusa tanácsát az Ön számára
+            legjobban megfelelő, egyedi szájhigiéniai rutin kialakításához!
+          </p>
+          <p>
+            Évente látogasson el fogászati ellenőrzésre, mert minden fogászati
+            probléma legjobb megoldása a megelőzés!
+          </p>
         </div>
       </div>
       <div className="image-container">
@@ -85,48 +103,65 @@ function InformationsPage() {
         <div className="section-b">
           <div className="header center">Kockázatok </div>
           <div className="section-b">
-            <strong>Parodontológiai: </strong> Az ékszer viselése után
-            fokozottan figyelni kell a fogközök tisztítására. Nem megfelelő
-            tisztítás esetén a lepedék felhalmozódhat a fogak között és az íny
-            gyulladását, hosszútávon pedig íny sorvadást eredményezhet.
-            Ugyancsak figyelni kell a viselés időtartamára is. Az ékszer
-            behelyezve nyomást gyakorol a fogínyre, ezzel csökkenti a terület
-            vérkeringését. Ha ez a hatás túl hosszan áll fenn, az az íny
-            károsodását, visszahúzódását eredményezheti. Az íny visszahúzódása
-            következtében fogérzékenység is megjelenhet.
-            <br></br>
-            <strong>Orthodontiai:</strong> Az ékszer behelyezve nyomást gyakorol
-            a vele érintkező fogakra. Ha ez a hatás túl hosszú ideig áll fenn,
-            az a fogak kismértékű elmozdulását eredményzheti. Konzerváló
-            fogászati: Az ékszer behelyezve nyomást gyakorol a vele érintkező
-            fogakra. Az ékszer mozgása közben koptató hatást gyakorolhat a
-            fogakra. Úgy terveztük, hogy az ékszer stabilan álljon a helyén.
-            Mozgását a nem megfelelő méret, vagy rossz szokásként az ékszer
-            piszkálása, mozgatása okozhatja. Célszerű tehát figyelni, hogy az
-            ékszer stabilan áll-e és törekedni a stabil pozícióban tartására.
-            Amennyiben kopás alakul ki a fogakon az a fogak érzékenységét
-            okozhatja. A kopás fogtöméssel orvosolható. Idegen test aspiráció,
-            lenyelés: Az ékszer lenyelése vagy légutakba kerülése esetén
-            haladéktalanul orvoshoz kell fordulni! Az ékszer törése: Mosoly
-            ékszereinkre 3 év garanciát vállalunk. Az ékszer törése esetén
-            kitöltendő a weboldalunkon elérhető hiba bejelentő űrlapunk. Ezután
-            végig vezetjük a szükséges lépéseken, hogy újra élvezhesse a
-            mosolyékszere élményét. Többféle fém a szájban (pl tömések),
-            galvánelem reakció. Mindenképpen tájékoztasson minket, ha van
-            valamilyen fémből készült fogpótlása(amalgám tömés, arany inlay…).
-            Szükség lehet fogorvosi szakvéleményre is, de ezt alaposan
-            átbeszélhetjük az első mosolyékszer megtervezésekor. Az ékszer nem
-            megfelelő / túlzott viselése következtében jelentkező mechanikai
-            stressz hosszú távon károsíthatja a foganyagot, vagy a fogínyt. A
-            nem megfelelő használat miatt a fogzománcon kopás jelentkezhet, mely
-            a fogak hideg / meleg ingerre való érzékenységét eredményezheti. A
-            nem megfelelő használat következtében a fogíny folyamatos dörzsölése
-            az íny visszahúzódását okozhatja, melynek szintén a fogak
-            érzékenysége, íny gyulladás, súlyosan elhanyagolt esetben
-            fogágybetegség lehet a következménye. A kockázatok csökkentése
-            érdekében javasoljuk, hogy fordítson kiemelt figyelmet a használati
-            útmutatóban olvasott ajánlásokra, és rendszeresen keresse fel
-            fogorvosát, dentálhigiénkusát!
+            <p>
+              <strong>Parodontológiai: </strong> Az ékszer viselése után
+              fokozottan figyelni kell a fogközök tisztítására. Nem megfelelő
+              tisztítás esetén a lepedék felhalmozódhat a fogak között és az íny
+              gyulladását, hosszútávon pedig íny sorvadást eredményezhet.
+              Ugyancsak figyelni kell a viselés időtartamára is. Az ékszer
+              behelyezve nyomást gyakorol a fogínyre, ezzel csökkenti a terület
+              vérkeringését. Ha ez a hatás túl hosszan áll fenn, az az íny
+              károsodását, visszahúzódását eredményezheti. Az íny visszahúzódása
+              következtében fogérzékenység is megjelenhet.
+            </p>
+            <p>
+              <strong>Orthodontiai:</strong> Az ékszer behelyezve nyomást
+              gyakorol a vele érintkező fogakra. Ha ez a hatás túl hosszú ideig
+              áll fenn, az a fogak kismértékű elmozdulását eredményzheti.
+            </p>
+            <p>
+              Konzerváló fogászati: Az ékszer behelyezve nyomást gyakorol a vele
+              érintkező fogakra. Az ékszer mozgása közben koptató hatást
+              gyakorolhat a fogakra. Úgy terveztük, hogy az ékszer stabilan
+              álljon a helyén. Mozgását a nem megfelelő méret, vagy rossz
+              szokásként az ékszer piszkálása, mozgatása okozhatja. Célszerű
+              tehát figyelni, hogy az ékszer stabilan áll-e és törekedni a
+              stabil pozícióban tartására.
+            </p>
+            <p>
+              Amennyiben kopás alakul ki a fogakon az a fogak érzékenységét
+              okozhatja. A kopás fogtöméssel orvosolható.
+            </p>
+            <p>
+              Idegen test aspiráció, lenyelés: Az ékszer lenyelése vagy
+              légutakba kerülése esetén haladéktalanul orvoshoz kell fordulni!
+            </p>
+            <p>
+              Az ékszer törése: Mosoly ékszereinkre 3 év garanciát vállalunk. Az
+              ékszer törése esetén kitöltendő a weboldalunkon elérhető hiba
+              bejelentő űrlapunk. Ezután végig vezetjük a szükséges lépéseken,
+              hogy újra élvezhesse a mosolyékszere élményét.
+            </p>
+            <p>
+              Többféle fém a szájban (pl tömések), galvánelem reakció.
+              Mindenképpen tájékoztasson minket, ha van valamilyen fémből
+              készült fogpótlása(amalgám tömés, arany inlay…). Szükség lehet
+              fogorvosi szakvéleményre is, de ezt alaposan átbeszélhetjük az
+              első mosolyékszer megtervezésekor. Az ékszer nem megfelelő /
+              túlzott viselése következtében jelentkező mechanikai stressz
+              hosszú távon károsíthatja a foganyagot, vagy a fogínyt. A nem
+              megfelelő használat miatt a fogzománcon kopás jelentkezhet, mely a
+              fogak hideg / meleg ingerre való érzékenységét eredményezheti. A
+              nem megfelelő használat következtében a fogíny folyamatos
+              dörzsölése az íny visszahúzódását okozhatja, melynek szintén a
+              fogak érzékenysége, íny gyulladás, súlyosan elhanyagolt esetben
+              fogágybetegség lehet a következménye.
+            </p>
+            <p>
+              A kockázatok csökkentése érdekében javasoljuk, hogy fordítson
+              kiemelt figyelmet a használati útmutatóban olvasott ajánlásokra,
+              és rendszeresen keresse fel fogorvosát, dentálhigiénkusát!
+            </p>
           </div>
         </div>
       </div>
