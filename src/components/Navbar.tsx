@@ -59,6 +59,9 @@ const Navbar = () => {
             <li onClick={toggleActiveClass}>
               <Link to="/userinstructions">Tájékoztatók</Link>
             </li>
+            <li onClick={toggleActiveClass}>
+              <Link to=" /prices">Áraink</Link>
+            </li>
           </ul>
         </div>
         <div className="mobile-navbar-container">
@@ -111,6 +114,9 @@ const Navbar = () => {
           </Link>
           <Link to="/userinstructions">
             <a>Tájékoztatók</a>
+          </Link>
+          <Link to="/prices">
+            <a>Áraink</a>
           </Link>
         </div>
       </nav>
