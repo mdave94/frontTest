@@ -3,6 +3,7 @@ type ParallaxComponentProps = {
   children?: React.ReactNode;
   className?: string;
   minHeight?: string;
+  style?: string;
 };
 
 function ParallaxComponent({
