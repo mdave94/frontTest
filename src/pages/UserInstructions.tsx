@@ -20,31 +20,63 @@ function UserInstructions() {
         <div className=" center-container">
           <div className="header center">Használati útmutató:</div>
           <div className="section-b">
-            Az első lépés az ékszer csomagolásának eltávolítása! Nyissa ki a
-            tisztító folyadékot tartalmazó üvegcsét! Az üvegcsét "Tisztító
-            folyadék" felirattal láttuk el! Vegye ki a tisztító tégelyt a
-            csomagolásból! Nyissa ki a tégelyt, majd alaposan öblítse ki tiszta
-            vízzel, végül törölje szárazra! Az ékszer hatékony tisztítása
-            érdekében adagoljon annyi tisztító folyadékot a tégelybe, hogy az
-            ékszerét éppen ellepje! A kitöltött folyadék alkalmas többszöri
-            tisztításra (maximum 5 alkalom), de minden tisztítás előtt pótolni
-            kell az elpárolgott folyadék mennyiséget. Mindig gondoskodjon arról,
-            hogy a tisztító tégely teteje pontosan és szorosan záródjon! Hagyja
-            ázni az ékszert 2 percig, majd vegye ki a tégelyből! A folyadék pár
-            másodperc alatt elpárolog róla. Az ékszer most készen áll a
-            behelyezésre!
-            <br></br>
-            <br></br>
-            Az ékszert helyezze be a megfelelő fogközbe ujjai vagy egy csipesz
-            segítségével. Az ékszer stiftjét óvatosan illessze a fog és az íny
-            találkozásához, majd finom mozdulatokkal vezesse át a fogak között.
-            Ha vérzést tapasztal, keresse fel fogorvosát vagy
-            dentálhigiénikusát. Az ékszer behelyezése / viselése közben
-            jelentkező ínyvérzés az ínygyulladás tünete lehet, mely fogászati
-            ellátást igényel. Behelyezés után az ékszer nyugodtan viselhető,
-            amíg kényelmesnek érződik. Ugyanakkor javasolt az ékszert legfeljebb
-            4 óra viselés után kivenni és az ínyt ??? órán keresztül pihenni
-            hagyni.
+            <p>
+              Első lépésként távolítsuk el az ékszerről a csomagolást! Bontsd ki
+              a tisztító folyadékot tartalmazó üvegcsét. A tisztító folyadékot
+              tartalmazó üvegcsét “Tisztító folyadék” felirattal láttuk el.{" "}
+            </p>
+            <p>
+              Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt és
+              tiszta vízzel alaposan öblítsd ki, majd töröld szárazra. Ezután
+              önts a tisztító folyadékból a tégelybe annyi folyadékot, hogy a
+              belefektetett ékszert éppen ellepje
+            </p>
+            <p>
+              Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt és
+              tiszta vízzel alaposan öblítsd ki, majd töröld szárazra. Ezután
+              önts a tisztító folyadékból a tégelybe annyi folyadékot, hogy a
+              belefektetett ékszert éppen ellepje A kitöltött folyadék alkalmas
+              többszöri tisztításra (maximum 5 alkalom), de minden tisztítás
+              előtt pótolni kell az elpárolgott folyadék mennyiséget. Mindig
+              gondoskodj arról, hogy a tisztító tégely teteje pontosan és
+              szorosan záródjon!
+            </p>
+            <p>
+              Hagyd ázni az ékszert 2 percig, majd vedd ki a tégelyből! A
+              folyadék pár másodperc alatt elpárolog róla. Az ékszer most készen
+              áll a behelyezésre!
+            </p>
+            <p>
+              Ujjaid vagy egy csipesz segítségével helyezd a fogékszert a
+              megfelelő fogközbe.
+            </p>
+            <p>
+              Az ékszer stiftjét óvatosan illesszd a fog és az íny
+              találkozásához, majd finom mozdulatokkal vezesd át a fogak között.
+              Ha vérzést tapasztalsz, keresd fel fogorvosodat vagy
+              dentálhigiénikusodat. Az ékszer behelyezése / viselése közben
+              jelentkező ínyvérzés az ínygyulladás tünete lehet, mely fogászati
+              ellátást igényel.
+            </p>
+            <p>
+              Behelyezés után az ékszer nyugodtan viselhető, amíg kényelmesnek
+              érződik. Ugyanakkor javasolt az ékszert legfeljebb 4 óra viselés
+              után kivenni és az ínyt 8 órán keresztül pihenni hagyni.
+            </p>
+            <p>
+              Az ékszer eltávolításához fogd meg az ékszer díszlap részének
+              széleit az ujjaid vagy csipesz segítségével.
+            </p>
+            <p>
+              Ezután óvatos, finom mozdulatokkal húzd ki a fogközből. A szájból
+              való eltávolítás után az ékszert a tisztítási útmutató szerint meg
+              kell tisztítani, majd szárazon a tároló tégelybe helyezni.
+            </p>
+            <p>
+              A biztonságos használat elengedhetetlen része a szájüreg
+              egészséges állapota és annak rendszeres kontrollálása, valamint a
+              kiváló szájhigiéné.
+            </p>
           </div>
         </div>
 
@@ -53,12 +85,20 @@ function UserInstructions() {
           <div className="section-b">
             <div className="header center">Figyelmeztetés </div>
             <div className="section-b">
-              Fogágybetegség esetén a mosoly ékszer viselése nem javasolt, mert
-              fokozhatja a parodontológiai tüneteket, valamint gyorsíthatja a
-              betegség progresszióját Ha fájdalmat tapasztal, távolítsa el a
-              mosoly ékszert a fogai közül Mosolyékszer 16 éves kor alatt nem
-              viselhető (18 áven aluli és gondozás alatt álló személyek esetén a
-              gondviselő beleegyezésére van szükség.)
+              <p>
+                Fogágybetegség esetén a mosolyékszer viselése nem javasolt, mert
+                fokozhatja a parodontológiai tüneteket, valamint gyorsíthatja a
+                betegség progresszióját.
+              </p>
+              <p>
+                Ha fájdalmat tapasztalsz, távolítsd el a mosoly ékszert a fogaid
+                közül.
+              </p>
+              <p>
+                Mosolyékszer 16 éves kor alatt nem viselhető (18 áven aluli és
+                gondozás alatt álló személyek esetén a gondviselő beleegyezésére
+                van szükség.)
+              </p>
             </div>
             <div className="custom-button">Időpontfoglalás</div>
           </div>

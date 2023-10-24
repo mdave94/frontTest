@@ -14,7 +14,7 @@ import QuestionSection from "../components/QuestionsSection";
 function Mainpage() {
   return (
     <>
-      <ParallaxComponent className="full-center " imageUrl={MainPagePicture}>
+      <ParallaxComponent className="center " imageUrl={MainPagePicture}>
         <div className="mainpage-center-text">
           <img
             id="mainPageLogo"

@@ -9,6 +9,7 @@ import UserInstructions from "./pages/UserInstructions";
 import History from "./pages/History";
 import Footer from "./components/Footer";
 import Buyprocess from "./pages/Buyprocess";
+import PricePage from "./pages/PricePage";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/userinstructions" element={<UserInstructions />} />
           <Route path="/history" element={<History />} />
           <Route path="/buyprocess" element={<Buyprocess />} />
+          <Route path="/prices" element={<PricePage />} />
         </Routes>
       </div>
       <Footer />

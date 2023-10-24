@@ -1,0 +1,38 @@
+.pricepage-container {
+  max-width: 1400px;
+
+  text-align: start;
+}
+
+.image-wrapper {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.pricepage-picture {
+  max-width: 300px;
+  height: auto;
+  border-radius: 24px;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+
+.pricepage-section {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-text-wrapper {
+  line-height: 1.5rem;
+  max-width: 800px;
+}
+
+.price-box {
+  max-width: 800px;
+  line-height: 2rem;
+}
