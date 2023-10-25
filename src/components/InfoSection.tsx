@@ -1,6 +1,6 @@
 import "../assets/css/infosection.css";
 import "../assets/css/mobileview.css";
-import leftPicture from "../assets/img/image04_clipped.png";
+import leftPicture from "../assets/img/4item.jpg";
 import { Fade } from "react-awesome-reveal";
 
 function InfoSection() {
@@ -8,17 +8,12 @@ function InfoSection() {
     <div className="center">
       <div className="infosection-container">
         <div className="section topsection">
-          <Fade duration={2000} triggerOnce={true} direction="left">
+          <Fade duration={2000} triggerOnce={true} direction="up">
             <div className="topleft">
-              <div className="topleft-text">MI AZ A MOSOLYÉKSZER </div>
+              <div className="topleft-text">MI AZ A MOSOLYÉKSZER? </div>
             </div>
           </Fade>
-          <Fade
-            duration={2000}
-            triggerOnce={true}
-            direction="right"
-            delay={1000}
-          >
+          <Fade duration={2000} triggerOnce={true} direction="up" delay={1000}>
             <div className="topright">
               <p>
                 A hagyományos fogékszerektől eltérően mosolyékszereink
@@ -34,12 +29,7 @@ function InfoSection() {
         </div>
 
         <div className="section">
-          <Fade
-            duration={2000}
-            triggerOnce={true}
-            direction="left"
-            delay={1500}
-          >
+          <Fade duration={2000} triggerOnce={true} direction="up" delay={1500}>
             <div className="bottomleft">
               <img id="picture-infosection" src={leftPicture} alt="Group" />
             </div>
@@ -49,7 +39,7 @@ function InfoSection() {
               duration={2000}
               triggerOnce={true}
               delay={2000}
-              direction="right"
+              direction="up"
             >
               <p>
                 Behelyezésükhöz nem szükséges megbontani az egészséges fogzománc

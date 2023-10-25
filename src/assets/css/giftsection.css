@@ -1,0 +1,108 @@
+.text-container {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gift-container {
+  background-color: white;
+  margin-top: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  min-height: 50vh;
+}
+.gift-item {
+  max-width: 550px;
+}
+
+.item-text {
+  font-size: 22px;
+  text-align: start;
+  max-width: 400px;
+}
+
+.item-header {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.text-and {
+  margin: 0px 24px 0px 24px;
+}
+
+.appointment-text {
+  font-size: 22px;
+  margin-top: 48px;
+  display: flex;
+}
+
+.gift-app-button {
+  font-weight: 600;
+  padding: 0px 8px 0px 8px;
+  border-radius: 12px;
+  color: black;
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  margin: auto;
+}
+
+.gift-app-button:hover {
+  background-color: rgb(240, 235, 235);
+}
+
+.gift-image {
+  border-radius: 32px;
+  width: 100%;
+  max-height: 300px;
+  height: auto;
+  object-fit: cover;
+}
+
+.gift-image-container {
+  margin-bottom: 32px;
+  max-width: 1400px;
+  width: 100%;
+}
+
+.opinions-container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 650px) {
+  .gift-image {
+    max-height: 150px;
+  }
+
+  .appointment-text {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+
+  .gift-app-button {
+    margin-top: 18px;
+    font-size: 20px;
+  }
+  .text-container {
+    width: 290px;
+  }
+  .item-text {
+    font-size: 18px;
+  }
+}

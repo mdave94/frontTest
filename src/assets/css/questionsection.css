@@ -1,0 +1,33 @@
+.questions-list {
+  font-size: 22px;
+}
+
+.questions-list > li {
+  display: flex;
+  text-align: start;
+  margin-top: 32px;
+}
+
+.background-light {
+  background-color: var(--background-light);
+}
+
+.faq-link-button {
+  text-align: center;
+  border-radius: 16px;
+  padding: 0px 12px 8px 12px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.faq-link-button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+}
+
+@media only screen and (max-width: 650px) {
+  .questions-list {
+    font-size: 18px;
+  }
+}

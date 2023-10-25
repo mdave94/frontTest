@@ -20,7 +20,7 @@
 }
 
 .header-text {
-  font-size: 48px;
+  font-size: 32px;
   width: fit-content;
 }
 
@@ -31,6 +31,7 @@
   background-color: var(--green);
   color: white;
   align-items: center;
+  height: 100%;
 }
 .text-side {
   max-width: 450px;
@@ -66,14 +67,11 @@
 }
 
 .picture-side {
-  max-width: 450px;
-  height: 450px;
-  padding-right: 12px;
+  overflow: hidden;
 }
 
 #card-picture {
-  width: auto;
-  height: 350px;
+  width: 600px;
 }
 @media only screen and (max-width: 650px) {
   .card-container {

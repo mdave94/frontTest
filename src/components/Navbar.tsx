@@ -44,11 +44,11 @@ const Navbar = () => {
       <>
         <div className={`sidebar-menu ${isActive ? "open" : ""}`}>
           <ul>
-            <li>
-              <Link to="/buyprocess">Vásárlás</Link>
-            </li>
-            <li>
+            <li onClick={toggleActiveClass}>
               <Link to="/">Főoldal</Link>
+            </li>
+            <li onClick={toggleActiveClass}>
+              <Link to="/buyprocess">Vásárlás</Link>
             </li>
             <li>
               <Link to="/history">TÖrténetünk</Link>
@@ -58,6 +58,9 @@ const Navbar = () => {
             </li>
             <li>
               <Link to="/userinstructions">Tájékoztatók</Link>
+            </li>
+            <li onClick={toggleActiveClass}>
+              <Link to=" /prices">Áraink</Link>
             </li>
           </ul>
         </div>
@@ -111,6 +114,9 @@ const Navbar = () => {
           </Link>
           <Link to="/userinstructions">
             <a>Tájékoztatók</a>
+          </Link>
+          <Link to="/prices">
+            <a>Áraink</a>
           </Link>
         </div>
       </nav>
