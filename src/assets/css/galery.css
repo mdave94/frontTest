@@ -9,3 +9,9 @@
   max-height: 600px;
   border-radius: 24px;
 }
+
+@media only screen and (max-width: 650px) {
+  .galery-picture {
+    max-width: 300px;
+  }
+}
