@@ -1,13 +1,13 @@
 #infosection {
   background-color: #fff;
 }
+
 .infosection-container {
-  background-color: #fff;
+  padding: 42px 18px 18px 18px;
   width: 1400px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 18px;
 }
 
 .section {
@@ -30,6 +30,7 @@
 }
 
 .topleft {
+  margin-bottom: 48px;
   font-size: 32px;
   width: 100%;
 }
@@ -53,6 +54,7 @@
 }
 
 .bottomright {
+  padding-left: 18px;
   max-width: 650px;
   text-align: left;
 }
