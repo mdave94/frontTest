@@ -1,4 +1,5 @@
 .header {
+  display: flex;
   text-align: start;
   max-width: 1400px;
   width: 100%;
@@ -15,13 +16,14 @@
 }
 
 .swiper-container {
+  margin-top: 42px;
   max-width: 1200px;
   height: 450px;
 }
 
 .header-text {
+  padding: 8px;
   font-size: 32px;
-  width: fit-content;
 }
 
 .card-container {
