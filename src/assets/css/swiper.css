@@ -48,6 +48,7 @@
   font-size: 21px;
   margin-bottom: 16px;
   text-align: start;
+  min-height: 200px;
 }
 
 .card-button {
@@ -78,18 +79,20 @@
 @media only screen and (max-width: 650px) {
   .card-container {
     flex-direction: column;
-    max-width: 350px;
+    max-width: 450px;
+    object-fit: cover;
   }
   .card-text {
     padding: 1rem;
   }
   .picture-side {
-    width: auto;
-    height: 200px;
+    width: 100%;
+    height: 400px;
   }
   #card-picture {
-    width: auto;
-    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
   }
   .swiper-container {
     width: 350px;
