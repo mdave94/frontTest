@@ -15,7 +15,7 @@ function Opinions() {
   const breakpoints = {
     370: {
       slidesPerView: 1,
-      spaceBetween: 10,
+      spaceBetween: 1,
     },
 
     900: {
@@ -38,7 +38,6 @@ function Opinions() {
           breakpoints={breakpoints}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={3}
           coverflowEffect={{
             rotate: 20,
             stretch: 10,
