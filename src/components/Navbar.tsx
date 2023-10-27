@@ -50,13 +50,13 @@ const Navbar = () => {
             <li onClick={toggleActiveClass}>
               <Link to="/buyprocess">Vásárlás</Link>
             </li>
-            <li>
+            <li onClick={toggleActiveClass}>
               <Link to="/history">TÖrténetünk</Link>
             </li>
-            <li>
+            <li onClick={toggleActiveClass}>
               <Link to="/informations">Információk</Link>
             </li>
-            <li>
+            <li onClick={toggleActiveClass}>
               <Link to="/userinstructions">Tájékoztatók</Link>
             </li>
             <li onClick={toggleActiveClass}>
