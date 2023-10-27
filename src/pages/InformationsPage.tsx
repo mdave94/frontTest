@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import ParallaxComponent from "../components/ParallaxComponent";
 import mirrorPicture from "../assets/img/smile1.jpg";
 import divider1 from "../assets/img/smile2.jpg";
@@ -7,10 +8,21 @@ import divider3 from "../assets/img/model1.jpg";
 import "../assets/css/faq.css";
 
 function InformationsPage() {
+  const location = useLocation();
+
   useEffect(() => {
-    console.log(" history useffect ");
     window.scrollTo(0, 0);
-  }, []);
+    const queryParams = new URLSearchParams(location.search);
+    const scrollTo = queryParams.get("scrollTo");
+
+    if (scrollTo === "faq") {
+      const section = document.getElementById("faq-section");
+      if (section) {
+        section.scrollIntoView();
+      }
+    }
+  }, [location.search]);
+
   return (
     <>
       <div className="image-container">
@@ -164,12 +176,15 @@ function InformationsPage() {
             </p>
           </div>
         </div>
+        {/* needs it for scrolling  */}
+        <div id="faq-section"></div>
       </div>
+
       <ParallaxComponent imageUrl={divider3} minHeight="200px" />
       <div className=" center-container">
         <div className="section-b">
           <div className="header center"> Gyakori kérdések </div>
-          <section id="faq">
+          <section>
             <div className="section-b">
               Parodontológiai kockázatok kivédése: Pihentesse megfelelő ideig a
               fogait! Figyeljen a fogínye jelzéseire! Ha vérzést tapasztal, vagy

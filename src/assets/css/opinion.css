@@ -20,9 +20,10 @@
 }
 
 .opinion-header {
+  font-family: garamond;
   margin-top: 38px;
   width: 100%;
-  font-size: 32px;
+  font-size: 48px;
 }
 
 @media only screen and (max-width: 650px) {

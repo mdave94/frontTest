@@ -2,8 +2,10 @@ import "../assets/css/questionsection.css";
 import { useNavigate } from "react-router-dom";
 
 function QuestionSection() {
-  const navigator = useNavigate();
-
+  const navigate = useNavigate();
+  const scrollToFAQ = () => {
+    navigate("/informations?scrollTo=faq");
+  };
   return (
     <>
       <div
@@ -16,10 +18,7 @@ function QuestionSection() {
             <li>
               <span>
                 Keress rá választ
-                <a
-                  className="faq-link-button"
-                  onClick={() => navigator("/informations")}
-                >
+                <a className="faq-link-button" onClick={() => scrollToFAQ()}>
                   gyakran feltett kérdések
                 </a>
                 gyűjteményében
