@@ -6,6 +6,7 @@ import divider1 from "../assets/img/smile2.jpg";
 import divider2 from "../assets/img/model2.jpg";
 import divider3 from "../assets/img/model1.jpg";
 import "../assets/css/faq.css";
+import { faqArray } from "../helpers/faq";
 
 function InformationsPage() {
   const location = useLocation();
@@ -185,56 +186,12 @@ function InformationsPage() {
         <div className="section-b">
           <div className="header center"> Gyakori kérdések </div>
           <section>
-            <div className="section-b">
-              Parodontológiai kockázatok kivédése: Pihentesse megfelelő ideig a
-              fogait! Figyeljen a fogínye jelzéseire! Ha vérzést tapasztal, vagy
-              az ínye megduzzad, kipirosodik akkor ne viselje az ékszert, hanem
-              keresse fel fogorvosát, dentálhigiénikusát és kérjen tanácsot
-              tőlük! Orthodontiai kockázatok kivédése: Ha korábban volt
-              fogszabályozása, javasolt az ékszer viselése után a fenntartó
-              eszközének használata ( a legtöbb fogszabályozás után időről időre
-              kell egy kivehető készüléket használni az eredmény fenntartása
-              érdekében). Ha jelenleg fogszabályzó kezelés alatt áll,
-              érdeklődjön fogorvosánál, a fogékszer viseléséről. Az ékszer
-              viselése befolyásolhatja a fogszabályozó kezelés folyamatát. Ne
-              viselje folyamatosan az ékszert, hagyjon elég időt a fogainak
-              pihenni két alkalom között. Eltörött az ékszer: Mosoly
-              ékszereinkre 3 év garanciát vállalunk. Az ékszer törése esetén
-              töltse ki weboldalunkon elérhető hiba bejelentő űrlapunkat. Ezután
-              végig vezetjük a szükséges lépéseken, hogy újra élvezhesse a
-              mosolyékszere élményét. Lenyelte az ékszert: Az ékszer anyaga nem
-              fejt ki káros hatást a szervezetre, kövesse figyeemmel, hogy
-              természetes úton távozik-e. Amennyiben bármilyen emésztőrendszeri
-              tünetet, fájdalmat tapasztal, esetleg változást az
-              anyagcseréjében, haladéktalanul forduljon orvosához! Korona/héj
-              van a fogamon: Az ékszer megfelelően készített, ép korona/héj
-              mellett is használható. Nem megfelelő használat, vagy a korona/héj
-              nem tökéletes állapota esetén viszont a koronán/héjon is kopást
-              okozhat. Koronával/héjjal borított fog mellett fokozott óvatosság
-              szükséges az alkalmazáshoz, és javasolt a rendszeres fogászati
-              ellenőrzés! Hídpótlás van a fogaimon: Hídpótlással általában
-              foghiányt pótolnak. Mivel a hiányzó fog és a hiánnyal szomszédos
-              fog között nincs kialakítva átjárható fogköz, sajnos ide nem lehet
-              behelyezni mosoly ékszert. Másik fogközben viszont valószínűleg
-              gond nélkül viselhető. Az ékszer kiválasztásakor segítünk
-              felmérni, hogy melyik fogközök alkalmasak a kiválasztott ékszer
-              viselésére. Inlay/onlay/overlay pótlás van a fogamon: Az ékszer
-              megfelelően készített, ép inlay/onlay/overlay pótlás mellett is
-              használható. Nem megfelelő használat, vagy a pótlás nem tökéletes
-              állapota esetén viszont a pótláson is kopást okozhat.
-              Inlay/onlay/overlay pótlással ellátott fog mellett fokozott
-              óvatosság szükséges az alkalmazáshoz, és javasolt a rendszeres
-              fogászati ellenőrzés! Réses fogazat (diasthema): Fémet tartalmazó
-              fogtömés/fogpótlás található a szájában (amalgám, arany, titán):
-              Ha amalgám tömése van, azt érdemes cserélni (ide majd ezt
-              lehivatkozom).Több fogorvosi tanulmány bizonyítja az amalgám
-              tömések káros hatását és javasolja a modern fehér tömő anyagokra
-              való cserét. Érdeklődjön fogorvosánál, hogy az Ön esetében
-              indokolt lehet-e ez a megoldás. Amalgám tömés mellett nem ajánlott
-              más fémet viselni a szájban, mert a különböző fémek reakcióba
-              léphetnek egymással. Arany vagy titán fogtömés/fogpótlás mellett
-              biztonságosan viselhető a mosolyékszer.
-            </div>
+            {faqArray.map((item) => (
+              <div className="section-b">
+                <div className="infopage-question">{item.question}</div>
+                <div className="infopage-answert">{item.answer}</div>
+              </div>
+            ))}
           </section>
           <div className="custom-button">Időpontfoglalás</div>
         </div>
