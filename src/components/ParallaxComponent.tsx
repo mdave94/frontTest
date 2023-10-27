@@ -4,6 +4,7 @@ type ParallaxComponentProps = {
   className?: string;
   minHeight?: string;
   style?: string;
+  id?: string;
 };
 
 function ParallaxComponent({

@@ -62,7 +62,7 @@ function Footer() {
             <div className="footer-top-container">
               <div className="upper-container">
                 <div className="direct-contact">
-                  <div className="header">Direkt elérhetőség</div>
+                  <div className="footer-header">Direkt elérhetőség</div>
                   lopreis@umasd.hu
                 </div>
                 <img src={logo} alt="" className="logo" />

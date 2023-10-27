@@ -1,3 +1,14 @@
+.infopage-question {
+  font-family: garamond-regular;
+  font-size: 36px;
+  margin-bottom: 32px;
+}
+
+.infopage-answer {
+  font-family: montserrat-regular;
+  font-size: 18px;
+}
+
 @media only screen and (max-width: 650px) {
   .image-container {
     height: 100px;
