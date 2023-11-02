@@ -60,7 +60,7 @@ const Navbar = () => {
               <Link to="/userinstructions">Tájékoztatók</Link>
             </li>
             <li onClick={toggleActiveClass}>
-              <Link to=" /prices">Áraink</Link>
+              <Link to="/prices">Áraink</Link>
             </li>
           </ul>
         </div>
