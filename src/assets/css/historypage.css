@@ -32,6 +32,7 @@
 }
 
 .section-header {
+  line-height: 3rem;
   font-family: garamond-regular;
   text-align: center;
   font-size: 48px;

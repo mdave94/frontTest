@@ -70,7 +70,7 @@ function UserInstructions() {
             <p>
               Ezután óvatos, finom mozdulatokkal húzd ki a fogközből. A szájból
               való eltávolítás után az ékszert a tisztítási útmutató szerint meg
-              kell tisztítani, majd szárazon a tároló tégelybe helyezni.
+              kell tisztítani, majd szárazon az ékszertartóba helyezni
             </p>
             <p>
               A biztonságos használat elengedhetetlen része a szájüreg

@@ -10,6 +10,15 @@
   justify-content: center;
 }
 
+.header {
+  line-height: 3rem;
+  font-family: garamond;
+  font-size: 48px;
+  display: flex;
+  text-align: start;
+  max-width: 1400px;
+  width: 100%;
+}
 .center-container {
   display: flex;
   align-items: center;
@@ -64,5 +73,8 @@
   .mainpage-center-text {
     display: flex;
     align-items: flex-end;
+  }
+  .header {
+    font-size: 42px;
   }
 }

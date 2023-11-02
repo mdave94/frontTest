@@ -55,20 +55,20 @@ function InformationsPage() {
             behelyezésre!
           </p>
           <p>
-            Amennyiben jelenleg nem szeretné viselni az ékszert, helyezze
-            szárazon a tároló tégelybe.
+            Amennyiben jelenleg nem szeretnéd viselni az ékszert, helyezd
+            szárazon az ékszertartóba.
           </p>
           <p>
-            Az ékszer viselése előtt és után mindig alaposan mosson fogat! A
+            Az ékszer viselése előtt és után mindig alaposan moss fogat! A
             tökéletes szájhigiénia eléréséhez ajánlott fogselymet és
             fogköztisztító kefét is használni!
           </p>
           <p>
-            Kérje fogorvosa vagy dentálhigiénikusa tanácsát az Ön számára
+            Kérd fogorvosod vagy dentálhigiénikusod tanácsát az számodra
             legjobban megfelelő, egyedi szájhigiéniai rutin kialakításához!
           </p>
           <p>
-            Évente látogasson el fogászati ellenőrzésre, mert minden fogászati
+            Évente látogass el fogászati ellenőrzésre, mert minden fogászati
             probléma legjobb megoldása a megelőzés!
           </p>
         </div>
@@ -86,7 +86,7 @@ function InformationsPage() {
                 Az ékkövekkel díszített ékszerek napfénytől védve tárolandók.
               </li>
               <li>
-                Kerülje az ékszer kozmetikumokkal, szájhigiéniai termékekkel
+                Kerüljük az ékszer kozmetikumokkal, szájhigiéniai termékekkel
                 való érintkezését.
               </li>
               <li>
@@ -152,28 +152,31 @@ function InformationsPage() {
             <p>
               Az ékszer törése: Mosoly ékszereinkre 3 év garanciát vállalunk. Az
               ékszer törése esetén kitöltendő a weboldalunkon elérhető hiba
-              bejelentő űrlapunk. Ezután végig vezetjük a szükséges lépéseken,
-              hogy újra élvezhesse a mosolyékszere élményét.
+              bejelentő űrlapunk. Ezután végig vezetünk a szükséges lépéseken,
+              hogy újra élvezhesd a mosolyékszer viselés élményét.
             </p>
             <p>
-              Többféle fém a szájban (pl tömések), galvánelem reakció.
-              Mindenképpen tájékoztasson minket, ha van valamilyen fémből
-              készült fogpótlása(amalgám tömés, arany inlay…). Szükség lehet
-              fogorvosi szakvéleményre is, de ezt alaposan átbeszélhetjük az
-              első mosolyékszer megtervezésekor. Az ékszer nem megfelelő /
-              túlzott viselése következtében jelentkező mechanikai stressz
-              hosszú távon károsíthatja a foganyagot, vagy a fogínyt. A nem
-              megfelelő használat miatt a fogzománcon kopás jelentkezhet, mely a
-              fogak hideg / meleg ingerre való érzékenységét eredményezheti. A
-              nem megfelelő használat következtében a fogíny folyamatos
-              dörzsölése az íny visszahúzódását okozhatja, melynek szintén a
-              fogak érzékenysége, íny gyulladás, súlyosan elhanyagolt esetben
-              fogágybetegség lehet a következménye.
+              Fémből készült fogpótlás vagy fogtömés viselése: Mindenképpen
+              tájékoztass minket, ha van valamilyen fémből készült fogpótlásod
+              (amalgám tömés, arany inlay…). Szükség lehet fogorvosi
+              szakvéleményre is, de ezt alaposan átbeszélhetjük az első
+              mosolyékszer megtervezésekor.
             </p>
             <p>
-              A kockázatok csökkentése érdekében javasoljuk, hogy fordítson
+              Az ékszer nem megfelelő / túlzott viselése következtében
+              jelentkező mechanikai stressz hosszú távon károsíthatja a
+              foganyagot, vagy a fogínyt. A nem megfelelő használat miatt a
+              fogzománcon kopás jelentkezhet, mely a fogak hideg / meleg ingerre
+              való érzékenységét eredményezheti. A nem megfelelő használat
+              következtében a fogíny folyamatos dörzsölése az íny
+              visszahúzódását okozhatja, melynek szintén a fogak érzékenysége,
+              íny gyulladás, súlyosan elhanyagolt esetben fogágybetegség lehet a
+              következménye.
+            </p>
+            <p>
+              A kockázatok csökkentése érdekében javasoljuk, hogy fordíts
               kiemelt figyelmet a használati útmutatóban olvasott ajánlásokra,
-              és rendszeresen keresse fel fogorvosát, dentálhigiénkusát!
+              és rendszeresen keresd fel fogorvosodat, dentálhigiénkusodat!
             </p>
           </div>
         </div>
