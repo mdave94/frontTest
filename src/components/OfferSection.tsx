@@ -8,16 +8,13 @@ function OfferSection() {
         <Fade duration={2000} triggerOnce={true} delay={500}>
           <div className="wrapper">
             <div className="header-wrapper">
-              <div className="recommend-header ">Mit kínálunk?</div>
+              <div className="recommend-header ">Mit kínálunk:</div>
             </div>
 
             <ul className="offer-list">
               <li className="offer-list-elem">
                 Elkészítjük a közösen megálmodott, egyedi MINNAE mosolyékszert a
                 legmagasabb minőségben
-              </li>
-              <li className="offer-list-elem">
-                Szeret a figyelem középpontjába kerülni
               </li>
               <li className="offer-list-elem">
                 Megajándékozunk egy MINNAE tisztító folyadékkal és hozzá egy

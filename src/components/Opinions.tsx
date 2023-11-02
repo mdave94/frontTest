@@ -99,23 +99,6 @@ function Opinions() {
               helyén van“
             </p>
           </SwiperSlide>
-
-          <SwiperSlide className="opinion-container">
-            <p className="opinion-text">
-              “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
-            </p>
-          </SwiperSlide>
-          <SwiperSlide className="opinion-container">
-            <p className="opinion-text">
-              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-              helyén van“
-            </p>
-          </SwiperSlide>
-          <SwiperSlide className="opinion-container">
-            <p className="opinion-text">
-              “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
-            </p>
-          </SwiperSlide>
         </Swiper>
       </div>
     </>

@@ -32,8 +32,8 @@ function History() {
         <div className="section-b">
           <div className="section-header">A MINNAE története</div>
           <p>
-            Egy őszinte mosoly lehet a kezdete életünk legizgalmasabb
-            történeteinek, jó érzés adni és kapni is.
+            Egy mosoly lehet a kezdete életünk legizgalmasabb történeteinek, jó
+            érzés adni és kapni is.
           </p>
           <p>
             Mi azt tűztük ki célként, hogy ehhez tervezzünk egy ékszert, ami
@@ -44,18 +44,18 @@ function History() {
       <ParallaxComponent imageUrl={greenOne} minHeight="200px" />
       <div className=" full-center flex-column ">
         <div className="section-b">
-          <div className="section-header"> Honnan jött az ötlet? </div>A MINNAE
-          mosolyékszerek “Kiskoromban édesanyám egyik munkatársnőjén láttam
-          először fogékszert. Azonnal megtetszett és én is nagyon szerettem
-          volna egy apró díszt a fogaimra. Aztán anyukám fogorvos lévén
-          elmagyarázta, hogy milyen hátrányai lehetnek egy ilyen ékszernek.
-          Mindig is nagyon büszke voltam arra, hogy a fogaim teljesen
-          egészségesek, így ezt semmiképp sem akartam kockáztatni. Később, mikor
-          már én is fogorvosként dolgoztam, továbbra is foglalkoztatott a
-          gondolat, hogy a hagyományos fogékszerek egyikét sem tudom őszintén
-          ajánlani a pácienseimnek. Ekkor született meg az ötlet, hogy tervezek
-          egy saját ékszert, amit én is szívesen viselnék és bárkinek jószívvel
-          ajánlhatok. A minnae mosolyékszerekkel ezt sikerült elérnem.”
+          <div className="section-header"> Honnan jött az ötlet? </div>
+          “Kiskoromban édesanyám egyik munkatársnőjén láttam először fogékszert.
+          Azonnal megtetszett és én is nagyon szerettem volna egy apró díszt a
+          fogaimra. Aztán anyukám fogorvos lévén elmagyarázta, hogy milyen
+          hátrányai lehetnek egy ilyen ékszernek. Mindig is nagyon büszke voltam
+          arra, hogy a fogaim teljesen egészségesek, így ezt semmiképp sem
+          akartam kockáztatni. Később, mikor már én is fogorvosként dolgoztam,
+          továbbra is foglalkoztatott a gondolat, hogy a hagyományos fogékszerek
+          egyikét sem tudom őszintén ajánlani a pácienseimnek. Ekkor született
+          meg az ötlet, hogy tervezek egy saját ékszert, amit én is szívesen
+          viselnék és bárkinek jószívvel ajánlhatok. A minnae mosolyékszerekkel
+          ezt sikerült elérnem.”
         </div>
         <div id="prof-section-wrapper">
           <div className="prof-section">
@@ -89,7 +89,7 @@ function History() {
           </p>
           <p>
             Folyamatos motivációnk, hogy a MINNAE mosolyékszerek, ne csak a
-            szép, hanem az egészséges száj hirnökei legyenek.
+            szép, hanem az egészséges száj hírnökei legyenek.
           </p>
         </div>
       </div>

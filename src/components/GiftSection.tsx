@@ -22,7 +22,7 @@ function GiftSection() {
             <div className="gift-item">
               <div className="item-header">Tisztító tégely</div>
               <div className="item-text">
-                Hogy a tisztitás bárhol kényelmesen elvégezhető legyen
+                Hogy a tisztítás bárhol kényelmesen elvégezhető legyen
               </div>
             </div>
           </div>

@@ -10,7 +10,7 @@ function InfoSection() {
         <div className="section topsection">
           <Fade duration={2000} triggerOnce={true} direction="up">
             <div className="topleft">
-              <div className="topleft-text">MI AZ A MOSOLYÉKSZER? </div>
+              <div className="topleft-text">Mi is az a Mosolyékszer</div>
             </div>
           </Fade>
           <Fade duration={2000} triggerOnce={true} direction="up" delay={1000}>
@@ -50,12 +50,12 @@ function InfoSection() {
                 mosolyunk ékítésére.
               </p>
               <p>
-                Ennek eredményeként nem kell a helybentartásukra koncentrálni,
-                és nem zavarják a beszédet.
-              </p>
-              <p>
                 Kialakításuknak köszönhetően stabilan helyben maradnak,
                 ugyanakkor nem zavarják a fogak érintkezését.
+              </p>
+              <p>
+                Ennek eredményeként nem kell a helybentartásukra koncentrálni,
+                és nem zavarják a beszédet.
               </p>
             </Fade>
           </div>

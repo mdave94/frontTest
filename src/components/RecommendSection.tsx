@@ -8,24 +8,34 @@ function RecommendSection() {
         <Fade duration={2000} triggerOnce={true} delay={500}>
           <div className="wrapper">
             <div className="recommend-header ">
-              Kinek ajálnjuk a MINNAE mosolyékszereket?
+              Kinek ajánljuk a MINNAE mosolyékszereket:
             </div>
             <div className="flex-column">
               <div className="recommend-header">Mindenkinek, aki:</div>
               <ul className="recommend-list">
-                <li className="recommend-list-elem">magabiztos</li>
-                <li className="recommend-list-elem">
-                  szeret a figyelem középpontjába kerülni
+                <li>
+                  <div className="recommend-list-elem"> magabiztos</div>
                 </li>
-                <li className="recommend-list-elem">
-                  tudatos szájápolás tekintetében
+                <li>
+                  <div className="recommend-list-elem">
+                    szeret a figyelem középpontjába kerülni
+                  </div>
                 </li>
-                <li className="recommend-list-elem">
-                  elegánsan szeretné hangsúlyozni mosolyát
+                <li>
+                  <div className="recommend-list-elem">
+                    tudatos szájápolás tekintetében
+                  </div>
                 </li>
-                <li className="recommend-list-elem">
-                  szeretné elkerülni a fogakra ragasztott fogékszerek káros
-                  hatásait
+                <li>
+                  <div className="recommend-list-elem">
+                    elegánsan szeretné hangsúlyozni mosolyát
+                  </div>
+                </li>
+                <li>
+                  <div className="recommend-list-elem">
+                    szeretné elkerülni a fogakra ragasztott fogékszerek káros
+                    hatásait
+                  </div>
                 </li>
               </ul>
             </div>

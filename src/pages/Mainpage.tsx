@@ -30,7 +30,7 @@ function Mainpage() {
         <InfoSection />
       </div>
       <div className="center-container">
-        <SwiperComponent title="Mi a különbség a fogékszer és a mosolyékszereink között? " />
+        <SwiperComponent title="Mi a különbség egy fogékszer és a mosolyékszereink között? " />
       </div>
 
       <RecommendSection />

@@ -31,12 +31,16 @@
 }
 
 .recommend-list-elem {
+  display: flex;
   align-items: center;
   min-height: 70px;
   font-size: 32px;
   transition: 0.5s;
 }
 
+li::marker {
+  font-size: 1.5em;
+}
 .recommend-list-elem:hover {
   padding-left: 12px;
   border-radius: 18px;
