@@ -1,8 +1,8 @@
 import "../assets/css/pricepage.css";
-import ParallaxComponent from "../components/ParallaxComponent";
 import divider1 from "../assets/img/1item_pink.jpg";
 import picture1 from "../assets/img/1item.jpg";
 import picture2 from "../assets/img/1item_diamond.jpg";
+import picture3 from "../assets/img/image07.jpg";
 
 function PricePage() {
   return (
@@ -19,7 +19,10 @@ function PricePage() {
                 <p>
                   Mosolyékszereink árazása egyedileg történik. Mivel minden
                   tervezéskor új ékszer születik, az árakat is ezzel egy időben
-                  tudjuk meghatározni.
+                  tudjuk meghatározni. Ékszereink 14 karátos aranyból készülnek
+                  és változatos ékkövekkel díszíthetőek. Az arany ékszerek
+                  egyediségét a díszlap alakja és mérete önmagában is
+                  különlegessé teszi.
                 </p>
                 <p>
                   Ékszereink 14 karátos aranyból készülnek és változatos
@@ -37,16 +40,28 @@ function PricePage() {
             <div className="pricepage-section">
               <div className="price-text-wrapper">
                 <p>
-                  Amennyiben ékköveket is választ rá, azzal tovább emelheti
-                  mosolyékszere ragyogását.
+                  Amennyiben ékköveket is választasz rá, azzal tovább emelheted
+                  mosolyékszered ragyogását.
                 </p>
               </div>
 
               <div className="image-wrapper">
+                <img src={picture3} className="pricepage-picture" alt="" />
+              </div>
+            </div>
+            <div className="pricepage-section">
+              <p>
+                Az ékszerek formája meghatározza az ékkövek mennyiségét és
+                méretét, valamint az elhelyezésük lehetőségeit.
+              </p>
+              <p>
+                Amennyiben ékköveket is választ rá, azzal tovább emelheti
+                mosolyékszere ragyogását.
+              </p>
+              <div className="image-wrapper">
                 <img src={picture2} className="pricepage-picture" alt="" />
               </div>
             </div>
-
             <div className="pricepage-section">
               <p>Viszonyításként az alábbi irányadó árakat tüntethetjük fel:</p>
 

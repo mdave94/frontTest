@@ -4,6 +4,7 @@ import greenTwo from "../assets/img/green_two.jpg";
 import greenOne from "../assets/img/green_one.jpg";
 import { useEffect } from "react";
 import profPicture from "../assets/img/model_mirror_clipped.png";
+import toppicture from "../assets/img/green_one.jpg";
 
 function History() {
   useEffect(() => {
@@ -13,7 +14,9 @@ function History() {
 
   return (
     <>
-      <ParallaxComponent imageUrl={greenTwo} minHeight="200px" />
+      <div className="image-container">
+        <img src={toppicture} />
+      </div>
       <div className="first-section">
         <div className="section-header">TÖRTÉNETÜNK</div>
         <div className="first-section-text">
