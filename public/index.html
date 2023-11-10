@@ -2,6 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="icon" href="%PUBLIC_URL%/letter_M.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
@@ -13,8 +16,16 @@
     <title>Minnae</title>
   </head>
   <body>
-   
+    <script crossorigin="anonymous">(function (sal, on, ic) {
+      var js, fjs = sal.getElementsByTagName(on)[0];
+      if (sal.getElementById(ic)) return;
+      js = sal.createElement(on);
+      js.id = ic;
+      js.src = 'https://minnae.salonic.hu/widget.js';
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script'));
+    </script>
     <div id="root"></div>
-    
+   
   </body>
 </html>

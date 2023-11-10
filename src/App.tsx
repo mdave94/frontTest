@@ -10,6 +10,7 @@ import History from "./pages/History";
 import Footer from "./components/Footer";
 import Buyprocess from "./pages/Buyprocess";
 import PricePage from "./pages/PricePage";
+import SalonicWidget from "./helpers/SalonicWidget";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/prices" element={<PricePage />} />
         </Routes>
       </div>
+
       <Footer />
     </BrowserRouter>
   );
