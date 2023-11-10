@@ -28,7 +28,9 @@ function GiftSection() {
           </div>
           <div className="appointment-text">
             Amennyiben nem szeretnél lemaradni az ajándék termékekről,
-            <div className="gift-app-button"> foglald le időpontod már ma</div>
+            <a href="https://minnae.salonic.hu" className="gift-app-button">
+              foglald le időpontod már ma
+            </a>
           </div>
         </div>
         <div className="gift-image-container ">

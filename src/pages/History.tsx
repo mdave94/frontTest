@@ -3,7 +3,7 @@ import "../assets/css/historypage.css";
 import greenTwo from "../assets/img/green_two.jpg";
 import greenOne from "../assets/img/green_one.jpg";
 import { useEffect } from "react";
-import profPicture from "../assets/img/model_mirror_clipped.png";
+import profPicture from "../assets/img/profpict.png";
 import toppicture from "../assets/img/green_one.jpg";
 
 function History() {
