@@ -23,6 +23,7 @@
   margin-top: 0px;
 }
 .topleft-text {
+  font-variant: small-caps;
   font-family: garamond-regular;
   display: flex;
   font-size: 48px;

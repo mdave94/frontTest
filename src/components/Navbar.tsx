@@ -13,7 +13,6 @@ const Navbar = () => {
 
   const navigate = useNavigate();
 
-  //add the active class
   const toggleActiveClass = () => {
     setIsActive(!isActive);
   };
@@ -67,7 +66,9 @@ const Navbar = () => {
         <div className="mobile-navbar-container">
           <div className="mobile-nav-left">
             <div className="mobile-logo">
-              <img style={{ height: "100px" }} src={mobile_logo} />
+              <Link to="/">
+                <img style={{ height: "100px" }} src={mobile_logo} />
+              </Link>
             </div>
           </div>
           <div className="mobile-nav-right">
