@@ -29,57 +29,61 @@ function InformationsPage() {
       <div className="image-container">
         <img src={mirrorPicture} />
       </div>
+
       <div className=" center-container">
-        <div className="header center">Tisztán tartás</div>
         <div className="section-b">
-          <p>
-            Bontsd ki a tisztító folyadékot tartalmazó üvegcsét. A tisztító
-            folyadékot tartalmazó üvegcsét “Tisztító folyadék” felirattal láttuk
-            el.
-          </p>
-          <p>
-            Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt és
-            tiszta vízzel alaposan öblítsd ki, majd töröld szárazra. Ezután önts
-            a tisztító folyadékból a tégelybe annyi folyadékot, hogy a
-            belefektetett ékszert éppen ellepje
-          </p>
-          <p>
-            A kitöltött folyadék alkalmas többszöri tisztításra (maximum 5
-            alkalom), de minden tisztítás előtt pótolni kell az elpárolgott
-            folyadék mennyiséget. Mindig gondoskodj arról, hogy a tisztító
-            tégely teteje pontosan és szorosan záródjon!
-          </p>
-          <p>
-            Hagyd ázni az ékszert 2 percig, majd vedd ki a tégelyből! A folyadék
-            pár másodperc alatt elpárolog róla. Az ékszer most készen áll a
-            behelyezésre!
-          </p>
-          <p>
-            Amennyiben jelenleg nem szeretnéd viselni az ékszert, helyezd
-            szárazon az ékszertartóba.
-          </p>
-          <p>
-            Az ékszer viselése előtt és után mindig alaposan moss fogat! A
-            tökéletes szájhigiénia eléréséhez ajánlott fogselymet és
-            fogköztisztító kefét is használni!
-          </p>
-          <p>
-            Kérd fogorvosod vagy dentálhigiénikusod tanácsát az számodra
-            legjobban megfelelő, egyedi szájhigiéniai rutin kialakításához!
-          </p>
-          <p>
-            Évente látogass el fogászati ellenőrzésre, mert minden fogászati
-            probléma legjobb megoldása a megelőzés!
-          </p>
+          <div className="header "> Tisztán tartás</div>
+          <div className="section-b">
+            <p>
+              Bontsd ki a tisztító folyadékot tartalmazó üvegcsét. A tisztító
+              folyadékot tartalmazó üvegcsét “Tisztító folyadék” felirattal
+              láttuk el.
+            </p>
+            <p>
+              Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt és
+              tiszta vízzel alaposan öblítsd ki, majd töröld szárazra. Ezután
+              önts a tisztító folyadékból a tégelybe annyi folyadékot, hogy a
+              belefektetett ékszert éppen ellepje
+            </p>
+            <p>
+              A kitöltött folyadék alkalmas többszöri tisztításra (maximum 5
+              alkalom), de minden tisztítás előtt pótolni kell az elpárolgott
+              folyadék mennyiséget. Mindig gondoskodj arról, hogy a tisztító
+              tégely teteje pontosan és szorosan záródjon!
+            </p>
+            <p>
+              Hagyd ázni az ékszert 2 percig, majd vedd ki a tégelyből! A
+              folyadék pár másodperc alatt elpárolog róla. Az ékszer most készen
+              áll a behelyezésre!
+            </p>
+            <p>
+              Amennyiben jelenleg nem szeretnéd viselni az ékszert, helyezd
+              szárazon az ékszertartóba.
+            </p>
+            <p>
+              Az ékszer viselése előtt és után mindig alaposan moss fogat! A
+              tökéletes szájhigiénia eléréséhez ajánlott fogselymet és
+              fogköztisztító kefét is használni!
+            </p>
+            <p>
+              Kérd fogorvosod vagy dentálhigiénikusod tanácsát az számodra
+              legjobban megfelelő, egyedi szájhigiéniai rutin kialakításához!
+            </p>
+            <p>
+              Évente látogass el fogászati ellenőrzésre, mert minden fogászati
+              probléma legjobb megoldása a megelőzés!
+            </p>
+          </div>
         </div>
       </div>
+
       <div className="image-container">
         <ParallaxComponent imageUrl={divider2} minHeight="200px" />
       </div>
 
       <div className=" center-container">
         <div className="section-b">
-          <div className="header center"> Tippek az ékszer megóvásához</div>
+          <div className="header "> Tippek az ékszer megóvásához</div>
           <div className="section-b">
             <ul>
               <li>
@@ -114,7 +118,7 @@ function InformationsPage() {
       <ParallaxComponent imageUrl={divider1} minHeight="200px" />
       <div className=" center-container">
         <div className="section-b">
-          <div className="header center">Kockázatok </div>
+          <div className="header ">Kockázatok </div>
           <div className="section-b">
             <p>
               <strong>Parodontológiai: </strong> Az ékszer viselése után
@@ -187,7 +191,7 @@ function InformationsPage() {
       <ParallaxComponent imageUrl={divider3} minHeight="200px" />
       <div className=" center-container">
         <div className="section-b">
-          <div className="header center"> Gyakori kérdések </div>
+          <div className="header "> Gyakori kérdések </div>
           <section>
             {faqArray.map((item) => (
               <div className="section-b">
