@@ -11,28 +11,27 @@ function PricePage() {
         <img src={divider1} />
       </div>
       <div className="center-container">
-        <div className="header center">ÁRAINK</div>
-        <div className="center">
-          <div className="pricepage-container">
-            <div className="pricepage-section">
-              <div className="price-text-wrapper">
-                <p>
-                  Mosolyékszereink árazása egyedileg történik. Mivel minden
-                  tervezéskor új ékszer születik, az árakat is ezzel egy időben
-                  tudjuk meghatározni. Ékszereink 14 karátos aranyból készülnek
-                  és változatos ékkövekkel díszíthetőek. Az arany ékszerek
-                  egyediségét a díszlap alakja és mérete önmagában is
-                  különlegessé teszi.
-                </p>
-                <p>
-                  Ékszereink 14 karátos aranyból készülnek és változatos
-                  ékkövekkel díszíthetőek.
-                </p>
-                <p>
-                  Az arany ékszerek egyediségét a díszlap alakja és mérete
-                  önmagában is különlegessé teszi.
-                </p>
-              </div>
+        <div className="pricepage-container">
+          <div className="pricepage-section">
+            <div className="header ">Áraink</div>
+            <div className="price-text-wrapper">
+              <p>
+                Mosolyékszereink árazása egyedileg történik. Mivel minden
+                tervezéskor új ékszer születik, az árakat is ezzel egy időben
+                tudjuk meghatározni. Ékszereink 14 karátos aranyból készülnek és
+                változatos ékkövekkel díszíthetőek. Az arany ékszerek
+                egyediségét a díszlap alakja és mérete önmagában is különlegessé
+                teszi.
+              </p>
+              <p>
+                Ékszereink 14 karátos aranyból készülnek és változatos
+                ékkövekkel díszíthetőek.
+              </p>
+              <p>
+                Az arany ékszerek egyediségét a díszlap alakja és mérete
+                önmagában is különlegessé teszi.
+              </p>
+
               <div className="image-wrapper">
                 <img src={picture1} className="pricepage-picture" alt="" />
               </div>
