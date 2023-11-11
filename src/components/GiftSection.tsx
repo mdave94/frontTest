@@ -17,7 +17,7 @@ function GiftSection() {
               </div>
             </div>
             <div className="gift-item">
-              <div className="item-header text-and">ÉS</div>
+              <div className="item-header text-and">és</div>
             </div>
             <div className="gift-item">
               <div className="item-header">Tisztító tégely</div>

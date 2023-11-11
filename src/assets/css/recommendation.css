@@ -17,6 +17,7 @@
 }
 
 .recommend-header {
+  font-variant: small-caps;
   padding: 8px;
   text-align: start;
   font-family: garamond-regular;
