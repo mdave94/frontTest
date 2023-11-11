@@ -34,9 +34,9 @@
   font-variant: small-caps;
   line-height: 3rem;
   font-family: garamond-regular;
-  text-align: center;
+  text-align: start;
   font-size: 50px;
-  margin-bottom: 24px;
+  margin-bottom: 42px;
 }
 
 #prof-picture {

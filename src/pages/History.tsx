@@ -17,9 +17,9 @@ function History() {
       <div className="image-container">
         <img src={toppicture} />
       </div>
-      <div className="first-section">
-        <div className="section-header">Történetünk</div>
-        <div className="first-section-text">
+      <div className="container center">
+        <div className="section-b">
+          <div className="section-header">Történetünk</div>
           <p>
             A Minnae-nél hisszük, hogy a legszebb ékszer egy magabiztos mosoly.
             Ezt szeretnénk kiemelni minden termékünkkel. Azoknak tervezünk, akik
@@ -29,6 +29,7 @@ function History() {
           </p>
         </div>
       </div>
+
       <ParallaxComponent imageUrl={greenTwo} minHeight="200px" />
 
       <div className="container center">

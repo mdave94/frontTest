@@ -19,20 +19,22 @@ function Buyprocess() {
         <img src={mirrorPicture} />
       </div>
       <div className=" center-container">
-        <div className="header center">Vásárlás menete</div>
         <div className="section-b">
-          Az előzetesen lefoglalt időpontban várunk központunkban. Mivel minden
-          ékszerünk tökéletesen személyre szabott, a tervezés közösen történik.
-          Kiválasztjuk a díszlap formáját, méretét, majd a díszítését. Ezután
-          meghatározzuk az átmenő stift méretét. Végül felvesszük a
-          megrendelést. Ékszerészünk elkészíti a közösen megálmodott
-          mosolyékszert. Az elkészült ékszert kiszállítjuk Neked
+          <div className="header ">Vásárlás menete</div>
+          <div className="section-b">
+            Az előzetesen lefoglalt időpontban várunk központunkban. Mivel
+            minden ékszerünk tökéletesen személyre szabott, a tervezés közösen
+            történik. Kiválasztjuk a díszlap formáját, méretét, majd a
+            díszítését. Ezután meghatározzuk az átmenő stift méretét. Végül
+            felvesszük a megrendelést. Ékszerészünk elkészíti a közösen
+            megálmodott mosolyékszert. Az elkészült ékszert kiszállítjuk Neked
+          </div>
         </div>
       </div>
       <ParallaxComponent imageUrl={divider2} minHeight="300px" />
       <div className=" center-container">
         <div className="section-b">
-          <div className="header center"> Hogyan készítjük? </div>
+          <div className="header "> Hogyan készítjük? </div>
           <div className="section-b">
             A Minnae mosolyékszerek fogorvosok és ékszerészek közös tervezésének
             eredménye. Így az esztétika és a kényelem egyszerre valósul meg.
