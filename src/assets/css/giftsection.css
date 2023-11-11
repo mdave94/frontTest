@@ -32,7 +32,8 @@
 }
 
 .item-header {
-  text-align: center;
+  font-family: garamond-regular;
+  text-align: start;
   font-size: 32px;
   margin-bottom: 32px;
 }

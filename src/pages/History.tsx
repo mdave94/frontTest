@@ -18,7 +18,7 @@ function History() {
         <img src={toppicture} />
       </div>
       <div className="first-section">
-        <div className="section-header">TÖRTÉNETÜNK</div>
+        <div className="section-header">Történetünk</div>
         <div className="first-section-text">
           <p>
             A Minnae-nél hisszük, hogy a legszebb ékszer egy magabiztos mosoly.

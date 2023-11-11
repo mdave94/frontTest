@@ -16,6 +16,7 @@
 }
 
 .header-text {
+  font-variant: small-caps;
   padding: 8px;
   font-size: 48px;
 }
