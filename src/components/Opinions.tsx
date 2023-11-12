@@ -31,7 +31,7 @@ function Opinions() {
     <>
       <div className="opinions-container">
         <div className="opinion-header">
-          Mennyire egyszerű használni a MINNAE mosolyékszereket?
+          mennyire egyszerű használni a MINNAE mosolyékszereket?
         </div>
         <Swiper
           effect={"coverflow"}

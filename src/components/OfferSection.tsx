@@ -8,7 +8,7 @@ function OfferSection() {
         <Fade duration={2000} triggerOnce={true} delay={500}>
           <div className="wrapper">
             <div className="header-wrapper">
-              <div className="recommend-header ">Mit kínálunk:</div>
+              <div className="recommend-header ">mit kínálunk:</div>
             </div>
 
             <ul className="offer-list">

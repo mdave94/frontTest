@@ -59,7 +59,7 @@ const Navbar = () => {
               <Link to="/userinstructions">Tájékoztatók</Link>
             </li>
             <li onClick={toggleActiveClass}>
-              <Link to="/prices">Áraink</Link>
+              <Link to="/prices">áraink</Link>
             </li>
           </ul>
         </div>
@@ -99,7 +99,7 @@ const Navbar = () => {
       >
         <img id="nav-logo" src={logo} alt=" " onClick={() => navigate("/")} />
         <div className="nav-menu-list">
-          <Link to="/appointment">
+          <Link to="https://minnae.salonic.hu">
             <a>
               <VscCalendar />
             </a>

@@ -13,7 +13,7 @@ function QuestionSection() {
         style={{ height: "400px" }}
       >
         <div className="flex-column">
-          <div className="recommend-header">Maradt még kérdésed?</div>
+          <div className="recommend-header">maradt még kérdésed?</div>
           <ul className="questions-list">
             <li>
               <span>

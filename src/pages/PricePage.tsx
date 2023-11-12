@@ -13,7 +13,7 @@ function PricePage() {
       <div className="center-container">
         <div className="pricepage-container">
           <div className="pricepage-section">
-            <div className="header ">Áraink</div>
+            <div className="header ">áraink</div>
             <div className="price-text-wrapper">
               <p>
                 Mosolyékszereink árazása egyedileg történik. Mivel minden
