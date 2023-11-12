@@ -1,6 +1,6 @@
 import ParallaxComponent from "../components/ParallaxComponent";
 import minnaeLogo from "../assets/png/image01.png";
-import MainPagePicture from "../assets/img/green_one.jpg";
+import MainPagePicture from "../assets/img/mainpage1.jpg";
 import ScrolltoElementButton from "../components/ScrollToElementButton";
 import InfoSection from "../components/InfoSection";
 import SwiperComponent from "../components/SwiperComponent";
@@ -30,7 +30,7 @@ function Mainpage() {
         <InfoSection />
       </div>
       <div className="center-container">
-        <SwiperComponent title="Mi a különbség egy fogékszer és a mosolyékszereink között? " />
+        <SwiperComponent title="mi a különbség egy fogékszer és a mosolyékszereink között? " />
       </div>
 
       <RecommendSection />

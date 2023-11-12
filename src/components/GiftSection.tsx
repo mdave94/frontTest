@@ -7,22 +7,24 @@ function GiftSection() {
       <div className="gift-container ">
         <div className="gift-container-wrapper">
           <div className="recommend-header ">
-            Most minden mosolyékszer mellé ajándékkal kedveskedünk
+            most minden mosolyékszer mellé ajándékkal kedveskedünk
           </div>
           <div className="text-container">
             <div className="gift-item">
               <div className="item-header">Tisztító folyadék</div>
               <div className="item-text">
-                Hogy a mosolyékszer mindig ragyogó és higiénikus legyen
+                hogy a mosolyékszer mindig ragyogó és higiénikus legyen
               </div>
             </div>
             <div className="gift-item">
-              <div className="item-header text-and">és</div>
+              <div className="item-header text-and">
+                <p>és</p>
+              </div>
             </div>
             <div className="gift-item">
               <div className="item-header">Tisztító tégely</div>
               <div className="item-text">
-                Hogy a tisztítás bárhol kényelmesen elvégezhető legyen
+                hogy a tisztítás bárhol kényelmesen elvégezhető legyen
               </div>
             </div>
           </div>
