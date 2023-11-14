@@ -47,7 +47,9 @@
   height: 450px;
 }
 .mainpage-center-text {
-  margin-bottom: 3rem;
+  margin-bottom: 7rem;
+  display: flex;
+  align-items: flex-end;
 }
 
 .fade-in-image {
@@ -83,6 +85,11 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .image-container {
+    padding-top: 100px;
+  }
+}
 @media only screen and (max-width: 650px) {
   .mainpage-center-text {
     display: flex;
@@ -90,9 +97,5 @@
   }
   .header {
     font-size: 42px;
-  }
-
-  .image-container {
-    padding-top: 100px;
   }
 }
