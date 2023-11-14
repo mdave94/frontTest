@@ -138,13 +138,13 @@ function InformationsPage() {
               áll fenn, az a fogak kismértékű elmozdulását eredményzheti.
             </p>
             <p>
-              Konzerváló fogászati: Az ékszer behelyezve nyomást gyakorol a vele
-              érintkező fogakra. Az ékszer mozgása közben koptató hatást
-              gyakorolhat a fogakra. Úgy terveztük, hogy az ékszer stabilan
-              álljon a helyén. Mozgását a nem megfelelő méret, vagy rossz
-              szokásként az ékszer piszkálása, mozgatása okozhatja. Célszerű
-              tehát figyelni, hogy az ékszer stabilan áll-e és törekedni a
-              stabil pozícióban tartására.
+              <strong> Konzerváló fogászati: </strong> Az ékszer behelyezve
+              nyomást gyakorol a vele érintkező fogakra. Az ékszer mozgása
+              közben koptató hatást gyakorolhat a fogakra. Úgy terveztük, hogy
+              az ékszer stabilan álljon a helyén. Mozgását a nem megfelelő
+              méret, vagy rossz szokásként az ékszer piszkálása, mozgatása
+              okozhatja. Célszerű tehát figyelni, hogy az ékszer stabilan áll-e
+              és törekedni a stabil pozícióban tartására.
             </p>
             <p>
               Amennyiben kopás alakul ki a fogakon az a fogak érzékenységét
@@ -155,15 +155,16 @@ function InformationsPage() {
               légutakba kerülése esetén haladéktalanul orvoshoz kell fordulni!
             </p>
             <p>
-              Az ékszer törése: Mosoly ékszereinkre 3 év garanciát vállalunk. Az
-              ékszer törése esetén kitöltendő a weboldalunkon elérhető hiba
-              bejelentő űrlapunk. Ezután végig vezetünk a szükséges lépéseken,
-              hogy újra élvezhesd a mosolyékszer viselés élményét.
+              <strong> Az ékszer törése: </strong>
+              Mosoly ékszereinkre 3 év garanciát vállalunk. Az ékszer törése
+              esetén kitöltendő a weboldalunkon elérhető hiba bejelentő
+              űrlapunk. Ezután végig vezetünk a szükséges lépéseken, hogy újra
+              élvezhesd a mosolyékszer viselés élményét.
             </p>
             <p>
-              Fémből készült fogpótlás vagy fogtömés viselése: Mindenképpen
-              tájékoztass minket, ha van valamilyen fémből készült fogpótlásod
-              (amalgám tömés, arany inlay…). Szükség lehet fogorvosi
+              <strong>Fémből készült fogpótlás vagy fogtömés viselése: </strong>
+              Mindenképpen tájékoztass minket, ha van valamilyen fémből készült
+              fogpótlásod (amalgám tömés, arany inlay…). Szükség lehet fogorvosi
               szakvéleményre is, de ezt alaposan átbeszélhetjük az első
               mosolyékszer megtervezésekor.
             </p>
