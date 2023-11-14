@@ -32,7 +32,7 @@ function InformationsPage() {
 
       <div className=" center-container">
         <div className="section-b">
-          <div className="header "> Tisztán tartás</div>
+          <div className="header "> tisztán tartás</div>
           <div className="section-b">
             <p>
               Bontsd ki a tisztító folyadékot tartalmazó üvegcsét. A tisztító
@@ -83,7 +83,7 @@ function InformationsPage() {
 
       <div className=" center-container">
         <div className="section-b">
-          <div className="header "> Tippek az ékszer megóvásához</div>
+          <div className="header "> tippek az ékszer megóvásához</div>
           <div className="section-b">
             <ul>
               <li>
@@ -118,7 +118,7 @@ function InformationsPage() {
       <ParallaxComponent imageUrl={divider1} minHeight="200px" />
       <div className=" center-container">
         <div className="section-b">
-          <div className="header ">Kockázatok </div>
+          <div className="header ">kockázatok </div>
           <div className="section-b">
             <p>
               <strong>Parodontológiai: </strong> Az ékszer viselése után
@@ -191,7 +191,7 @@ function InformationsPage() {
       <ParallaxComponent imageUrl={divider3} minHeight="200px" />
       <div className=" center-container">
         <div className="section-b">
-          <div className="header "> Gyakori kérdések </div>
+          <div className="header "> gyakori kérdések </div>
           <section>
             {faqArray.map((item) => (
               <div className="section-b">

@@ -13,10 +13,11 @@ function ParallaxComponent({
   className,
   minHeight,
 }: ParallaxComponentProps) {
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
   const parallaxStyle = {
     backgroundImage: `url(${imageUrl})`,
     height: `${minHeight}`,
-    backgroundAttachment: "fixed",
+    backgroundAttachment: isIOS ? "scroll" : "fixed",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
