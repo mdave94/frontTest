@@ -1,10 +1,11 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ParallaxComponent from "../components/ParallaxComponent";
-import mirrorPicture from "../assets/img/smile1.jpg";
-import divider1 from "../assets/img/smile2.jpg";
-import divider2 from "../assets/img/model2.jpg";
-import divider3 from "../assets/img/model1.jpg";
+
+import mirrorPicture from "../assets/img/same-scale/a4A2A5167.jpg";
+import divider1 from "../assets/img/same-scale/a4A2A5192.jpg";
+import divider2 from "../assets/img/same-scale/IMG_0217.jpg";
+import divider3 from "../assets/img/same-scale/IMG_0215.jpg";
 import "../assets/css/faq.css";
 import { faqArray } from "../helpers/faq";
 
@@ -78,7 +79,7 @@ function InformationsPage() {
       </div>
 
       <div className="image-container">
-        <ParallaxComponent imageUrl={divider2} minHeight="200px" />
+        <ParallaxComponent imageUrl={divider1} minHeight="200px" />
       </div>
 
       <div className=" center-container">
@@ -115,7 +116,7 @@ function InformationsPage() {
           </div>
         </div>
       </div>
-      <ParallaxComponent imageUrl={divider1} minHeight="200px" />
+      <ParallaxComponent imageUrl={divider2} minHeight="200px" />
       <div className=" center-container">
         <div className="section-b">
           <div className="header ">kockázatok </div>

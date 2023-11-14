@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import ParallaxComponent from "../components/ParallaxComponent";
-import headerPicture from "../assets/img/3item.jpg";
-import mirrorPicture from "../assets/img/model_mirror.jpg";
+
+import topPicture from "../assets/img/same-scale/IMG_0211.jpg";
 import divider1 from "../assets/img/6item.jpg";
 import divider2 from "../assets/img/4item.jpg";
 
@@ -16,7 +16,7 @@ function Buyprocess() {
   return (
     <>
       <div className="image-container">
-        <img src={mirrorPicture} />
+        <img src={topPicture} />
       </div>
       <div className=" center-container">
         <div className="section-b">

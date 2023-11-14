@@ -1,5 +1,5 @@
 import "../assets/css/pricepage.css";
-import divider1 from "../assets/img/1item_pink.jpg";
+import divider1 from "../assets/img/same-scale/IMG_0223.jpg";
 import picture1 from "../assets/img/1item.jpg";
 import picture2 from "../assets/img/1item_diamond.jpg";
 import picture3 from "../assets/img/image07.jpg";
