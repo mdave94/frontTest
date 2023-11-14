@@ -84,7 +84,9 @@ const Navbar = () => {
           </div>
           <div className="mobile-nav-right">
             <div className="appointment-mobile">
-              <VscCalendar />
+              <Link style={{ color: "black" }} to="https://minnae.salonic.hu">
+                <VscCalendar />
+              </Link>
             </div>
 
             <div className="burger">

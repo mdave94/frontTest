@@ -6,6 +6,9 @@ import { useEffect } from "react";
 import profPicture from "../assets/img/profpict.png";
 import toppicture from "../assets/img/green_one.jpg";
 
+import divider1 from "../assets/img/same-scale/IMG_0213.jpg";
+import divider2 from "../assets/img/same-scale/IMG_0212.jpg";
+
 function History() {
   useEffect(() => {
     console.log(" history useffect ");
@@ -45,7 +48,7 @@ function History() {
           </p>
         </div>
       </div>
-      <ParallaxComponent imageUrl={greenOne} minHeight="200px" />
+      <ParallaxComponent imageUrl={divider1} minHeight="200px" />
       <div className=" full-center flex-column ">
         <div className="section-b">
           <div className="section-header"> honnan jött az ötlet? </div>
@@ -71,7 +74,7 @@ function History() {
           </div>
         </div>
       </div>
-      <ParallaxComponent imageUrl={greenOne} minHeight="200px" />
+      <ParallaxComponent imageUrl={divider2} minHeight="200px" />
       <div className="container center ">
         <div className="section-b">
           <div className="section-header">célunk</div>
