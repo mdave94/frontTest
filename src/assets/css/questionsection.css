@@ -12,6 +12,12 @@
   background-color: var(--background-light);
 }
 
+.wrapper-question {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  height: 600px;
+}
 .faq-link-button {
   text-align: center;
   border-radius: 16px;

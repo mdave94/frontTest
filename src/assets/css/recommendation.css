@@ -6,7 +6,6 @@
 }
 .wrapper {
   display: flex;
-
   align-items: center;
   max-width: 1400px;
   height: 90vh;
