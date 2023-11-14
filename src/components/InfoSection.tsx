@@ -10,7 +10,7 @@ function InfoSection() {
         <div className="section topsection">
           <Fade duration={2000} triggerOnce={true} direction="up">
             <div className="topleft">
-              <div className="topleft-text">Mi is az a Mosolyékszer</div>
+              <div className="topleft-text">mi is az a Mosolyékszer</div>
             </div>
           </Fade>
           <Fade duration={2000} triggerOnce={true} direction="up" delay={1000}>

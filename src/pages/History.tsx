@@ -19,7 +19,7 @@ function History() {
       </div>
       <div className="container center">
         <div className="section-b">
-          <div className="section-header">Történetünk</div>
+          <div className="section-header">történetünk</div>
           <p>
             A Minnae-nél hisszük, hogy a legszebb ékszer egy magabiztos mosoly.
             Ezt szeretnénk kiemelni minden termékünkkel. Azoknak tervezünk, akik
@@ -34,7 +34,7 @@ function History() {
 
       <div className="container center">
         <div className="section-b">
-          <div className="section-header">A MINNAE története</div>
+          <div className="section-header">a MINNAE története</div>
           <p>
             Egy mosoly lehet a kezdete életünk legizgalmasabb történeteinek, jó
             érzés adni és kapni is.
@@ -48,7 +48,7 @@ function History() {
       <ParallaxComponent imageUrl={greenOne} minHeight="200px" />
       <div className=" full-center flex-column ">
         <div className="section-b">
-          <div className="section-header"> Honnan jött az ötlet? </div>
+          <div className="section-header"> honnan jött az ötlet? </div>
           “Kiskoromban édesanyám egyik munkatársnőjén láttam először fogékszert.
           Azonnal megtetszett és én is nagyon szerettem volna egy apró díszt a
           fogaimra. Aztán anyukám fogorvos lévén elmagyarázta, hogy milyen
@@ -74,7 +74,7 @@ function History() {
       <ParallaxComponent imageUrl={greenOne} minHeight="200px" />
       <div className="container center ">
         <div className="section-b">
-          <div className="section-header">Célunk</div>
+          <div className="section-header">célunk</div>
           <p>
             A MINNAE mosolyékszerek úgy lettek tervezve, hogy kihangsúlyozzák az
             egészséges fogak és fogíny szépségét.

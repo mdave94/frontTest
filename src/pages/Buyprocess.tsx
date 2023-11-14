@@ -20,7 +20,7 @@ function Buyprocess() {
       </div>
       <div className=" center-container">
         <div className="section-b">
-          <div className="header ">Vásárlás menete</div>
+          <div className="header ">vásárlás menete</div>
           <div className="section-b">
             Az előzetesen lefoglalt időpontban várunk központunkban. Mivel
             minden ékszerünk tökéletesen személyre szabott, a tervezés közösen
@@ -34,7 +34,7 @@ function Buyprocess() {
       <ParallaxComponent imageUrl={divider2} minHeight="300px" />
       <div className=" center-container">
         <div className="section-b">
-          <div className="header "> Hogyan készítjük? </div>
+          <div className="header "> hogyan készítjük? </div>
           <div className="section-b">
             A Minnae mosolyékszerek fogorvosok és ékszerészek közös tervezésének
             eredménye. Így az esztétika és a kényelem egyszerre valósul meg.

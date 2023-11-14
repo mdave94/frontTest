@@ -19,13 +19,13 @@ function UserInstructions() {
         </div>
         <div className="center-container">
           <div className="section-b">
-            <div className="header ">Használati útmutató:</div>
+            <div className="header ">használati útmutató:</div>
             <div className="section-b">
               <p>
                 Első lépésként távolítsuk el az ékszerről a csomagolást! Bontsd
                 ki a tisztító folyadékot tartalmazó üvegcsét. A tisztító
                 folyadékot tartalmazó üvegcsét “Tisztító folyadék” felirattal
-                láttuk el.{" "}
+                láttuk el.
               </p>
               <p>
                 Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt
@@ -87,7 +87,7 @@ function UserInstructions() {
         <ParallaxComponent imageUrl={divider2} minHeight="200px" />
         <div className=" center-container">
           <div className="section-b">
-            <div className="header ">Figyelmeztetés </div>
+            <div className="header ">figyelmeztetés </div>
             <div className="section-b">
               <p>
                 Fogágybetegség esetén a mosolyékszer viselése nem javasolt, mert
