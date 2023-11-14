@@ -1,9 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
-import firstPicture from "../assets/img/model1.jpg";
-import secondPicture from "../assets/img/model2.jpg";
-import thirdPicture from "../assets/img/smile1.jpg";
-import fourthPicture from "../assets/img/smile2.jpg";
+import picture1 from "../assets/img/gallery/1.jpg";
+import picture2 from "../assets/img/gallery/2.jpg";
+import picture3 from "../assets/img/gallery/3.jpg";
+import picture4 from "../assets/img/gallery/4.jpg";
+import picture5 from "../assets/img/gallery/5.jpg";
+import picture6 from "../assets/img/gallery/6.jpg";
+import picture7 from "../assets/img/gallery/7.jpg";
 
 import "../assets/css/galery.css";
 function Gallery() {
@@ -35,22 +38,26 @@ function Gallery() {
         className="galery-container"
       >
         <SwiperSlide>
-          <img className="galery-picture" src={firstPicture} />
+          <img className="galery-picture" src={picture1} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="galery-picture" src={secondPicture} />
+          <img className="galery-picture" src={picture2} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="galery-picture" src={thirdPicture} />
+          <img className="galery-picture" src={picture3} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="galery-picture" src={fourthPicture} />
+          <img className="galery-picture" src={picture4} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="galery-picture" src={firstPicture} />
+          <img className="galery-picture" src={picture5} />
         </SwiperSlide>
         <SwiperSlide>
-          <img className="galery-picture" src={secondPicture} />
+          <img className="galery-picture" src={picture6} />
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <img className="galery-picture" src={picture7} />
         </SwiperSlide>
       </Swiper>
     </>

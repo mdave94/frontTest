@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import ParallaxComponent from "../components/ParallaxComponent";
 
-import divider1 from "../assets/img/1item_diamond.jpg";
+import divider1 from "../assets/img/same-scale/2item_glass.jpg";
 import divider2 from "../assets/img/1item_pink.jpg";
 import divider3 from "../assets/img/1item.jpg";
 
