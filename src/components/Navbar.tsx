@@ -70,7 +70,15 @@ const Navbar = () => {
           <div className="mobile-nav-left">
             <div className="mobile-logo">
               <Link to="/">
-                <img style={{ height: "100px" }} src={mobile_logo} />
+                <img
+                  id="nav-logo"
+                  src={mobile_logo}
+                  alt=" "
+                  onClick={() => {
+                    navigate("/");
+                    scrollToTop();
+                  }}
+                />
               </Link>
             </div>
           </div>
