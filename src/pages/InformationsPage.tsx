@@ -201,7 +201,13 @@ function InformationsPage() {
               </div>
             ))}
           </section>
-          <div className="custom-button">Időpontfoglalás</div>
+          <a
+            style={{ textDecoration: "none", color: "black" }}
+            className="custom-button"
+            href="https://minnae.salonic.hu"
+          >
+            Időpontfoglalás
+          </a>
         </div>
       </div>
     </>
