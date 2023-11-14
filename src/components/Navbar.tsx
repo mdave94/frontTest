@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState<Boolean>(false);
 
   const [isVisible, setIsVisible] = useState<Boolean>(false);
-  const [isMobile, setIsMobile] = useState<Boolean>(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState<Boolean>(window.innerWidth <= 1200);
   const [isHovered, setIsHovered] = useState<Boolean>(false);
 
   const navigate = useNavigate();
@@ -18,7 +18,7 @@ const Navbar = () => {
   };
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 1200);
     };
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -50,7 +50,7 @@ const Navbar = () => {
               <Link to="/buyprocess">Vásárlás</Link>
             </li>
             <li onClick={toggleActiveClass}>
-              <Link to="/history">TÖrténetünk</Link>
+              <Link to="/history">Történetünk</Link>
             </li>
             <li onClick={toggleActiveClass}>
               <Link to="/informations">Információk</Link>
@@ -59,7 +59,7 @@ const Navbar = () => {
               <Link to="/userinstructions">Tájékoztatók</Link>
             </li>
             <li onClick={toggleActiveClass}>
-              <Link to="/prices">áraink</Link>
+              <Link to="/prices">Áraink</Link>
             </li>
           </ul>
         </div>
@@ -100,25 +100,13 @@ const Navbar = () => {
         <img id="nav-logo" src={logo} alt=" " onClick={() => navigate("/")} />
         <div className="nav-menu-list">
           <Link to="https://minnae.salonic.hu">
-            <a>
-              <VscCalendar />
-            </a>
+            <VscCalendar />
           </Link>
-          <Link to="/buyprocess">
-            <a>Vásárlás</a>
-          </Link>
-          <Link to="/history">
-            <a>TÖrténetünk</a>
-          </Link>
-          <Link to="/informations">
-            <a>Információk</a>
-          </Link>
-          <Link to="/userinstructions">
-            <a>Tájékoztatók</a>
-          </Link>
-          <Link to="/prices">
-            <a>Áraink</a>
-          </Link>
+          <Link to="/buyprocess">Vásárlás</Link>
+          <Link to="/history">TÖrténetünk</Link>
+          <Link to="/informations">Információk</Link>
+          <Link to="/userinstructions">Tájékoztatók</Link>
+          <Link to="/prices">Áraink</Link>
         </div>
       </nav>
     );
