@@ -6,12 +6,15 @@ import { VscCalendar } from "react-icons/vsc";
 import mobile_logo from "../assets/img/mobile_logo.png";
 const Navbar = () => {
   const [isActive, setIsActive] = useState<Boolean>(false);
-
   const [isVisible, setIsVisible] = useState<Boolean>(false);
   const [isMobile, setIsMobile] = useState<Boolean>(window.innerWidth <= 1200);
   const [isHovered, setIsHovered] = useState<Boolean>(false);
 
   const navigate = useNavigate();
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0 });
+  };
 
   const toggleActiveClass = () => {
     setIsActive(!isActive);
@@ -67,7 +70,15 @@ const Navbar = () => {
           <div className="mobile-nav-left">
             <div className="mobile-logo">
               <Link to="/">
-                <img style={{ height: "100px" }} src={mobile_logo} />
+                <img
+                  id="nav-logo"
+                  src={mobile_logo}
+                  alt=" "
+                  onClick={() => {
+                    navigate("/");
+                    scrollToTop();
+                  }}
+                />
               </Link>
             </div>
           </div>
@@ -97,7 +108,15 @@ const Navbar = () => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <img id="nav-logo" src={logo} alt=" " onClick={() => navigate("/")} />
+        <img
+          id="nav-logo"
+          src={logo}
+          alt=" "
+          onClick={() => {
+            navigate("/");
+            scrollToTop();
+          }}
+        />
         <div className="nav-menu-list">
           <Link to="https://minnae.salonic.hu">
             <VscCalendar />
