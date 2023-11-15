@@ -86,9 +86,11 @@
     font-size: 18px;
   }
   #picture-infosection {
+    margin-right: 0px;
     width: 350px;
   }
   .section {
+    padding: 8px;
     justify-content: center;
   }
 }

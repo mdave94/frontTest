@@ -73,6 +73,8 @@
   max-height: 300px;
   height: auto;
   object-fit: cover;
+  object-position: center;
+  overflow: hidden;
 }
 
 .gift-image-container {
@@ -89,7 +91,8 @@
 
 @media only screen and (max-width: 650px) {
   .gift-image {
-    max-height: 150px;
+    max-height: 180px;
+    object-position: center bottom;
   }
 
   .appointment-text {
