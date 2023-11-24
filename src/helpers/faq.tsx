@@ -1,15 +1,15 @@
 export const faqArray = [
   {
     id: 0,
-    question: "Hogyan védhetők ki a parodontológiai kockázatok?",
+    question: "Hogyan védhetők ki a fogágybetegséggel összefüggő kockázatok?",
     answer:
-      "Pihentesse megfelelő ideig a fogait! Figyeljen a fogínye jelzéseire! Ha vérzést tapasztal, vagy az ínye megduzzad, kipirosodik akkor ne viselje az ékszert, hanem keresse fel fogorvosát, dentálhigiénikusát és kérjen tanácsot tőlük!",
+      " Hagyjuk megfelelő ideig pihenni a fogakat. Figyeljünk a fogíny jelzéseire! Ha vérzést tapasztalsz, vagy az íny megduzzad, kipirosodik akkor ne viseld az ékszert, hanem keresd fel fogorvosodat, dentálhigiénikusodat és kérj tanácsot tőlük!",
   },
   {
     id: 1,
-    question: "Hogyan védhetők ki az orthodonciai kockázatok?",
+    question: "Hogyan védhetők ki a fogszabályozást érintő kockázatok?",
     answer:
-      "Ha korábban volt fogszabályozása, javasolt az ékszer viselése után a fenntartó eszközének használata ( a legtöbb fogszabályozás után időről időre kell egy kivehető készüléket használni az eredmény fenntartása érdekében). Ha jelenleg fogszabályzó kezelés alatt áll, érdeklődjön fogorvosánál, a fogékszer viseléséről. Az ékszer viselése befolyásolhatja a fogszabályozó kezelés folyamatát.     Ne viselje folyamatosan az ékszert, hagyjon elég időt a fogainak pihenni két alkalom között.",
+      "Ha korábban volt fogszabályozó kezelésed, javasolt az ékszer viselése után a fenntartó eszköz használata ( a legtöbb fogszabályozás után időről időre kell egy kivehető készüléket használni az eredmény fenntartása érdekében). Ha jelenleg fogszabályzó kezelés alatt állsz, érdeklődj fogorvosodnál, a fogékszer viseléséről. Az ékszer viselése befolyásolhatja a fogszabályozó kezelés folyamatát.Ne viseld folyamatosan az ékszert, hagyj elég időt a fogaidnak pihenni két alkalom között.",
   },
   {
     id: 2,
@@ -53,6 +53,6 @@ export const faqArray = [
     question:
       "Fémet tartalmazó fogtömés/fogpótlás található a számban (amalgám, arany, titán) mi a teendő?",
     answer:
-      "Ha amalgám tömésed van, azt érdemes cserélni (ide majd ezt lehivatkozom).Több fogorvosi tanulmány bizonyítja az amalgám tömések káros hatását és javasolja a modern fehér tömő anyagokra való cserét. Érdeklődj fogorvosodnál, hogy  esetedben indokolt lehet-e ez a megoldás. Amalgám tömés mellett nem ajánlott más fémet viselni a szájban, mert a különböző fémek reakcióba léphetnek egymással.Arany vagy titán fogtömés/fogpótlás mellett biztonságosan viselhető a mosolyékszer.",
+      "Ha amalgám tömésed van, azt érdemes megvizsgáltatni és szükség esetén cserélni. Habár a megfelelően elkészített, kifogástalan állapotú amalgámtömésnek bizonyított egészségkárosító hatása nincs, elővigyázatosságból azonban a legtöbb országban már nem használják, helyüket pedig az esztétikus, modern kompozit tömések vették át.  Érdeklődj fogorvosodnál, hogy  esetedben indokolt lehet-e a tömés kicserélése.. Amalgám tömés mellett nem ajánlott más fémet viselni a szájban, mert a különböző fémek reakcióba léphetnek egymással.Arany vagy titán fogtömés/fogpótlás mellett biztonságosan viselhető a mosolyékszer.",
   },
 ];

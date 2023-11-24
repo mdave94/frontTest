@@ -47,9 +47,11 @@ function InformationsPage() {
                 Az ékszerek az arany puhasága miatt deformálódhatnak,ezért
                 kerülendő a kemény felületekkel történő érintkeztetésük.
               </li>
+              <li>Elalvás előtt az ékszert mindig ki kell venni!</li>
+              <li>Az ékszert viselve nem ajánlott étkezni!</li>
               <li>
                 A szájüreg és a fogak megfelelő tisztítása nem kivitelezhető, ha
-                az ékszer szájban van. Kövesse a tisztítási tájékoztatóban leírt
+                az ékszer szájban van. Kövesd a tisztítási tájékoztatóban leírt
                 lépéseket a megfelelő higiénia biztosításához!
               </li>
               <li>
@@ -71,41 +73,47 @@ function InformationsPage() {
           <div className="header ">kockázatok </div>
           <div className="section-b">
             <p>
-              <strong>Parodontológiai: </strong> Az ékszer viselése után
-              fokozottan figyelni kell a fogközök tisztítására. Nem megfelelő
-              tisztítás esetén a lepedék felhalmozódhat a fogak között és az íny
-              gyulladását, hosszútávon pedig íny sorvadást eredményezhet.
-              Ugyancsak figyelni kell a viselés időtartamára is. Az ékszer
-              behelyezve nyomást gyakorol a fogínyre, ezzel csökkenti a terület
-              vérkeringését. Ha ez a hatás túl hosszan áll fenn, az az íny
-              károsodását, visszahúzódását eredményezheti. Az íny visszahúzódása
-              következtében fogérzékenység is megjelenhet.
+              <strong>Fogágybetegséggel összefüggő kockázatok: </strong> Az
+              ékszer viselése után fokozottan figyelni kell a fogközök
+              tisztítására. Nem megfelelő tisztítás esetén a lepedék
+              felhalmozódhat a fogak között és az íny gyulladását, hosszútávon
+              pedig ínysorvadást eredményezhet. Ugyancsak figyelni kell a
+              viselés időtartamára is. Az ékszer behelyezve nyomást gyakorol a
+              fogínyre, ezzel csökkenti a terület vérkeringését. Ha ez a hatás
+              túl hosszan áll fenn, az az íny károsodását, visszahúzódását
+              eredményezheti. Az íny visszahúzódása következtében fogérzékenység
+              is megjelenhet.
             </p>
             <p>
-              <strong>Orthodontiai:</strong> Az ékszer behelyezve nyomást
-              gyakorol a vele érintkező fogakra. Ha ez a hatás túl hosszú ideig
-              áll fenn, az a fogak kismértékű elmozdulását eredményzheti.
+              <strong>Fogszabályozást érintő kockázatok: </strong> Az ékszer
+              behelyezve nyomást gyakorol a vele érintkező fogakra. Ha ez a
+              hatás túl hosszú ideig áll fenn, az a fogak kismértékű
+              elmozdulását eredményzheti.
             </p>
             <p>
-              <strong> Konzerváló fogászati: </strong> Az ékszer behelyezve
-              nyomást gyakorol a vele érintkező fogakra. Az ékszer mozgása
-              közben koptató hatást gyakorolhat a fogakra. Úgy terveztük, hogy
-              az ékszer stabilan álljon a helyén. Mozgását a nem megfelelő
-              méret, vagy rossz szokásként az ékszer piszkálása, mozgatása
-              okozhatja. Célszerű tehát figyelni, hogy az ékszer stabilan áll-e
-              és törekedni a stabil pozícióban tartására.
+              <strong> Konzerváló fogászati kockázatok: </strong> Az ékszer
+              behelyezve nyomást gyakorol a vele érintkező fogakra. Az ékszer
+              mozgása közben koptató hatást gyakorolhat a fogakra. Úgy
+              terveztük, hogy az ékszer stabilan álljon a helyén. Mozgását a nem
+              megfelelő méret, vagy rossz szokásként az ékszer piszkálása,
+              mozgatása okozhatja. Célszerű tehát figyelni, hogy az ékszer
+              stabilan áll-e, és törekedni a stabil pozícióban
+              tartására.Amennyiben kopás alakul ki a fogakon az a fogak
+              érzékenységét okozhatja. A kopás konzerváló fogászati módszerekkel
+              orvosolható.
             </p>
             <p>
               Amennyiben kopás alakul ki a fogakon az a fogak érzékenységét
               okozhatja. A kopás fogtöméssel orvosolható.
             </p>
             <p>
-              Idegen test aspiráció, lenyelés: Az ékszer lenyelése vagy
-              légutakba kerülése esetén haladéktalanul orvoshoz kell fordulni!
+              <strong>Idegen test aspiráció, lenyelés: </strong> Az ékszer
+              lenyelése vagy légutakba kerülése esetén haladéktalanul orvoshoz
+              kell fordulni!
             </p>
             <p>
               <strong> Az ékszer törése: </strong>
-              Mosoly ékszereinkre 3 év garanciát vállalunk. Az ékszer törése
+              Mosolyékszereinkre 3 év garanciát vállalunk. Az ékszer törése
               esetén kitöltendő a weboldalunkon elérhető hiba bejelentő
               űrlapunk. Ezután végig vezetünk a szükséges lépéseken, hogy újra
               élvezhesd a mosolyékszer viselés élményét.
@@ -151,6 +159,10 @@ function InformationsPage() {
               </div>
             ))}
           </section>
+
+          <p style={{ textAlign: "center" }}>
+            Ha további kérdésed van vedd fel velünk a kapcsolatot e-mailben.
+          </p>
           <a
             style={{ textDecoration: "none", color: "black" }}
             className="custom-button"

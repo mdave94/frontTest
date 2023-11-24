@@ -24,7 +24,7 @@ function History() {
         <div className="section-b">
           <div className="section-header">történetünk</div>
           <div className="section-b">
-            A Minnae-nél hisszük, hogy a legszebb ékszer egy magabiztos mosoly.
+            A MINNAE-nél hisszük, hogy a legszebb ékszer egy magabiztos mosoly.
             Ezt szeretnénk kiemelni minden termékünkkel. Azoknak tervezünk, akik
             szeretnék a megjelenésüket egy igazán egyedi kiegészítővel
             felejthetetlenné tenni, hiszen mosolyékszereink páratlan
@@ -65,7 +65,7 @@ function History() {
             a hagyományos fogékszerek egyikét sem tudom őszintén ajánlani a
             pácienseimnek. Ekkor született meg az ötlet, hogy tervezek egy saját
             ékszert, amit én is szívesen viselnék és bárkinek jószívvel
-            ajánlhatok. A minnae mosolyékszerekkel ezt sikerült elérnem.”
+            ajánlhatok. A MINNAE mosolyékszerekkel ezt sikerült elérnem.”
           </div>
         </div>
         <div id="prof-section-wrapper">

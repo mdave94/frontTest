@@ -66,37 +66,13 @@ function Opinions() {
           </SwiperSlide>
           <SwiperSlide className="opinion-container">
             <p className="opinion-text">
-              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-              helyén van“
+              “Olyan stabil, hogy 5 perc után észre sem veszem, hogy rajtam van”
             </p>
           </SwiperSlide>
           <SwiperSlide className="opinion-container">
             <p className="opinion-text">
-              “Kevesebb kézügyességet igényel, mint a műszempilla felhelyezése”
-            </p>
-          </SwiperSlide>
-          <SwiperSlide className="opinion-container">
-            <p className="opinion-text">
-              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-              helyén van“
-            </p>
-          </SwiperSlide>
-          <SwiperSlide className="opinion-container">
-            <p className="opinion-text">
-              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-              helyén van“
-            </p>
-          </SwiperSlide>
-
-          <SwiperSlide className="opinion-container">
-            <p className="opinion-text">
-              “Olyan szabil,hogy 5 perc után észre sem veszem,hogy rajtam van“
-            </p>
-          </SwiperSlide>
-          <SwiperSlide className="opinion-container">
-            <p className="opinion-text">
-              “Nagyon gyorsan hozzá lehet szokni, már csak egy mozdulat és a
-              helyén van“
+              “Meglepődtem, hogy mennyire stabil. Először óvatosan gyakoroltam,
+              de miután ráéreztem már nagyon könnyű lett betenni.”
             </p>
           </SwiperSlide>
         </Swiper>

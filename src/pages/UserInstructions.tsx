@@ -122,7 +122,7 @@ function UserInstructions() {
                 fogköztisztító kefét is használni!
               </p>
               <p>
-                Kérd fogorvosod vagy dentálhigiénikusod tanácsát az számodra
+                Kérd fogorvosod vagy dentálhigiénikusod tanácsát az számodra a
                 legjobban megfelelő, egyedi szájhigiéniai rutin kialakításához!
               </p>
               <p>
@@ -140,16 +140,32 @@ function UserInstructions() {
               <p>
                 Fogágybetegség esetén a mosolyékszer viselése nem javasolt, mert
                 fokozhatja a parodontológiai tüneteket, valamint gyorsíthatja a
-                betegség progresszióját.
+                betegség progresszióját
               </p>
               <p>
-                Ha fájdalmat tapasztalsz, távolítsd el a mosoly ékszert a fogaid
-                közül.
+                Fájdalom tapasztalása esetén a mosolyékszert el kell távolítani
+                a fogak közül
               </p>
               <p>
-                Mosolyékszer 16 éves kor alatt nem viselhető (18 áven aluli és
+                A mosolyékszereket étkezés előtt el kell távolítan a szájból
+              </p>
+              <p>
+                Elalvás előtt a mosolyékszert el kell távolítani a fogak közül
+              </p>
+              <p>
+                A biztonságos és rendeltetésszerű használat magában foglalja az
+                íny megfelelő időtartamú pihentetését és a kiváló szájhigiéné
+                fenntartását
+              </p>
+              <p>
+                Mosolyékszer 16 éves kor alatt nem viselhető (18 éven aluli és
                 gondozás alatt álló személyek esetén a gondviselő beleegyezésére
                 van szükség.)
+              </p>
+              <p>
+                A javasolt használat a fent leírtaktól egyénenként eltérhet,
+                függően egyéni adottságoktól, szokásoktól, egészségügyi
+                állapottól!
               </p>
             </div>
             <a
