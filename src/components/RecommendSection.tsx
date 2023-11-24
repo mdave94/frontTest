@@ -23,12 +23,12 @@ function RecommendSection() {
                 </li>
                 <li>
                   <div className="recommend-list-elem">
-                    tudatos szájápolás tekintetében
+                    tudatos a szájápolás tekintetében
                   </div>
                 </li>
                 <li>
                   <div className="recommend-list-elem">
-                    elegánsan szeretné hangsúlyozni mosolyát
+                    elegánsan szeretné hangsúlyozni a mosolyát
                   </div>
                 </li>
                 <li>

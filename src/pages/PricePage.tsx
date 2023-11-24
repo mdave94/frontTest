@@ -18,10 +18,7 @@ function PricePage() {
               <p>
                 Mosolyékszereink árazása egyedileg történik. Mivel minden
                 tervezéskor új ékszer születik, az árakat is ezzel egy időben
-                tudjuk meghatározni. Ékszereink 14 karátos aranyból készülnek és
-                változatos ékkövekkel díszíthetőek. Az arany ékszerek
-                egyediségét a díszlap alakja és mérete önmagában is különlegessé
-                teszi.
+                tudjuk meghatározni.
               </p>
               <p>
                 Ékszereink 14 karátos aranyból készülnek és változatos
@@ -53,10 +50,7 @@ function PricePage() {
                 Az ékszerek formája meghatározza az ékkövek mennyiségét és
                 méretét, valamint az elhelyezésük lehetőségeit.
               </p>
-              <p>
-                Amennyiben ékköveket is választ rá, azzal tovább emelheti
-                mosolyékszere ragyogását.
-              </p>
+
               <div className="image-wrapper">
                 <img src={picture2} className="pricepage-picture" alt="" />
               </div>
@@ -65,8 +59,8 @@ function PricePage() {
               <p>Viszonyításként az alábbi irányadó árakat tüntethetjük fel:</p>
 
               <div className="price-box">
-                Arany ékszer ékkövek nélkül: ~ 200.000 Ft <br></br> Arany ékszer
-                1 db ékkővel díszítve ~ 250.000 - 350.000 Ft<br></br> Arany
+                Arany ékszer ékkövek nélkül: ~200.000 Ft <br></br> Arany ékszer
+                1 db ékkővel díszítve ~250.000 - 350.000 Ft<br></br> Arany
                 ékszer több ékkővel díszítve: ~350.000 -450.000 Ft
               </div>
             </div>

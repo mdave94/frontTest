@@ -43,6 +43,13 @@ function SwiperComponent({ title }: SwiperComponentProps) {
           </SwiperCard>
         </SwiperSlide>
         <SwiperSlide>
+          <SwiperCard picture={picture2}>
+            A fogékszer első hallásra sokaknak a 2000-es évek rapp zenészeit
+            juttatja eszébe, vagy a fogakra ragasztott apró kristályt, amely
+            bizonytalan idő után leesik.
+          </SwiperCard>
+        </SwiperSlide>
+        <SwiperSlide>
           <SwiperCard picture={picture4}>
             A mosoly ékszerek a fogak közé csúsztathatók be, így nem
             befolyásolják a harapást. Viseletük kényelmes és stabil.

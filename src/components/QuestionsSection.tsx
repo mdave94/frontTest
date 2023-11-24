@@ -19,7 +19,7 @@ function QuestionSection() {
             <ul className="questions-list">
               <li>
                 <span>
-                  Keress rá választ
+                  Keress rá választ a
                   <a className="faq-link-button" onClick={() => scrollToFAQ()}>
                     gyakran feltett kérdések
                   </a>
