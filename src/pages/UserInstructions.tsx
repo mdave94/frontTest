@@ -85,6 +85,54 @@ function UserInstructions() {
         </div>
 
         <ParallaxComponent imageUrl={divider2} minHeight="200px" />
+
+        <div className=" center-container">
+          <div className="section-b">
+            <div className="header "> tisztán tartás</div>
+            <div className="section-b">
+              <p>
+                Bontsd ki a tisztító folyadékot tartalmazó üvegcsét. A tisztító
+                folyadékot tartalmazó üvegcsét “Tisztító folyadék” felirattal
+                láttuk el.
+              </p>
+              <p>
+                Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt
+                és tiszta vízzel alaposan öblítsd ki, majd töröld szárazra.
+                Ezután önts a tisztító folyadékból a tégelybe annyi folyadékot,
+                hogy a belefektetett ékszert éppen ellepje
+              </p>
+              <p>
+                A kitöltött folyadék alkalmas többszöri tisztításra (maximum 5
+                alkalom), de minden tisztítás előtt pótolni kell az elpárolgott
+                folyadék mennyiséget. Mindig gondoskodj arról, hogy a tisztító
+                tégely teteje pontosan és szorosan záródjon!
+              </p>
+              <p>
+                Hagyd ázni az ékszert 2 percig, majd vedd ki a tégelyből! A
+                folyadék pár másodperc alatt elpárolog róla. Az ékszer most
+                készen áll a behelyezésre!
+              </p>
+              <p>
+                Amennyiben jelenleg nem szeretnéd viselni az ékszert, helyezd
+                szárazon az ékszertartóba.
+              </p>
+              <p>
+                Az ékszer viselése előtt és után mindig alaposan moss fogat! A
+                tökéletes szájhigiénia eléréséhez ajánlott fogselymet és
+                fogköztisztító kefét is használni!
+              </p>
+              <p>
+                Kérd fogorvosod vagy dentálhigiénikusod tanácsát az számodra
+                legjobban megfelelő, egyedi szájhigiéniai rutin kialakításához!
+              </p>
+              <p>
+                Évente látogass el fogászati ellenőrzésre, mert minden fogászati
+                probléma legjobb megoldása a megelőzés!
+              </p>
+            </div>
+          </div>
+        </div>
+        <ParallaxComponent imageUrl={divider2} minHeight="200px" />
         <div className=" center-container">
           <div className="section-b">
             <div className="header ">figyelmeztetés </div>
