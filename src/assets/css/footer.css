@@ -94,6 +94,10 @@
   flex-direction: column;
 }
 
+.footer-icon {
+  text-decoration: none;
+  color: inherit;
+}
 @media only screen and (max-width: 650px) {
   .footer-container {
     height: 500px;

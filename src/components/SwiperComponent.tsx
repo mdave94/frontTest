@@ -1,8 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import picture1 from "../assets/img/swiper-3-2/green1.jpg";
 import picture2 from "../assets/img/swiper-3-2/pink1.jpg";
-import picture4 from "../assets/img/same-scale/IMG_0226.jpg";
-import picture3 from "../assets/img/swiper-3-2/smile2.jpg";
+import picture4 from "../assets/img/same-scale/IMG_0223.jpg";
+import picture3 from "../assets/img/smile.jpg";
+import picture5 from "../assets/img/same-scale/IMG_0215.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -43,7 +44,7 @@ function SwiperComponent({ title }: SwiperComponentProps) {
           </SwiperCard>
         </SwiperSlide>
         <SwiperSlide>
-          <SwiperCard picture={picture2}>
+          <SwiperCard picture={picture5}>
             A fogékszer első hallásra sokaknak a 2000-es évek rapp zenészeit
             juttatja eszébe, vagy a fogakra ragasztott apró kristályt, amely
             bizonytalan idő után leesik.

@@ -1,11 +1,11 @@
 import "../assets/css/footer.css";
 import "../assets/css/mobileview.css";
 import { MdKeyboardArrowUp } from "react-icons/md";
-import { CiFacebook } from "react-icons/ci";
-import { CiInstagram } from "react-icons/ci";
+import { CiFacebook, CiInstagram } from "react-icons/ci";
 import { useEffect, useState } from "react";
 import logo from "../assets/png/image01.png";
 import { TfiEmail } from "react-icons/tfi";
+import { LiaPinterest } from "react-icons/lia";
 
 function Footer() {
   const scrollToTop = () => {
@@ -65,11 +65,29 @@ function Footer() {
                   <div className="footer-header">Direkt elérhetőség</div>
                   info@minnae.com
                 </div>
-                <img src={logo} alt="" className="logo" />
+                <img src={logo} alt="MINNAE logo" className="logo" />
                 <div className="direct-contact">
                   <div className="icon-container ">
-                    <CiFacebook className="bottom-button" />
-                    <CiInstagram className="bottom-button" />
+                    <a
+                      className="footer-icon"
+                      href="https://www.facebook.com/profile.php?id=61553699684640"
+                    >
+                      <CiFacebook className="bottom-button" />
+                    </a>
+
+                    <a
+                      className="footer-icon"
+                      href="https://www.instagram.com/minnae_official"
+                    >
+                      <CiInstagram className="bottom-button" />
+                    </a>
+
+                    <a
+                      className="footer-icon"
+                      href="https://hu.pinterest.com/minnae_official/"
+                    >
+                      <LiaPinterest className="bottom-button" />
+                    </a>
                   </div>
                 </div>
               </div>
