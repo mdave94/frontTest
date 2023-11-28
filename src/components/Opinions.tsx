@@ -23,7 +23,7 @@ function Opinions() {
       spaceBetween: 50,
     },
     1000: {
-      slidesPerView: 3,
+      slidesPerView: 2,
       spaceBetween: 20,
     },
   };
