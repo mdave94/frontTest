@@ -105,6 +105,12 @@ function History() {
           </div>
         </div>
       </div>
+      <div style={{ paddingBottom: "42px" }}>
+        <CustomButton
+          href="https://minnae.salonic.hu"
+          title="Időpontfoglalás"
+        />
+      </div>
     </>
   );
 }

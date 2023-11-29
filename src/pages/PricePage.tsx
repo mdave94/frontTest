@@ -4,6 +4,7 @@ import picture1 from "../assets/img/1item.jpg";
 import picture2 from "../assets/img/1item_diamond.jpg";
 import picture3 from "../assets/img/image07.jpg";
 import { useEffect } from "react";
+import CustomButton from "../components/ui/CustomButton";
 
 function PricePage() {
   useEffect(() => {
@@ -71,6 +72,12 @@ function PricePage() {
               </div>
             </div>
           </div>
+        </div>
+        <div style={{ paddingBottom: "42px" }}>
+          <CustomButton
+            href="https://minnae.salonic.hu"
+            title="Időpontfoglalás"
+          />
         </div>
       </div>
     </>
