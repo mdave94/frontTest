@@ -15,11 +15,11 @@ function Footer() {
     });
   };
 
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 820);
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 820);
     };
 
     window.addEventListener("resize", handleResize);
@@ -39,8 +39,28 @@ function Footer() {
               <p className="email-text">info@minnae.com</p>
             </div>
 
-            <CiFacebook className="bottom-button" />
-            <CiInstagram className="bottom-button" />
+            <a
+              className="footer-icon"
+              href="https://www.facebook.com/profile.php?id=61553699684640"
+              style={{ maxWidth: "48px", maxHeight: "48px" }}
+            >
+              <CiFacebook className="bottom-button" />
+            </a>
+
+            <a
+              className="footer-icon"
+              href="https://www.instagram.com/minnae_official"
+              style={{ maxWidth: "48px", maxHeight: "48px" }}
+            >
+              <CiInstagram className="bottom-button" />
+            </a>
+            <a
+              className="footer-icon"
+              href="https://hu.pinterest.com/minnae_official/"
+              style={{ maxWidth: "48px", maxHeight: "48px" }}
+            >
+              <LiaPinterest className="bottom-button" />
+            </a>
           </div>
           <div
             className="bottom-button scroll-to-top-button center"
@@ -63,7 +83,7 @@ function Footer() {
               <div className="upper-container">
                 <div className="direct-contact">
                   <div className="footer-header">Direkt elérhetőség</div>
-                  info@minnae.com
+                  minnaemosolyekszer@gmail.com
                 </div>
                 <img src={logo} alt="MINNAE logo" className="logo" />
                 <div className="direct-contact">

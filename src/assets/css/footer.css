@@ -85,10 +85,11 @@
 
 .icon-container {
   font-size: 42px;
+  text-align: end;
 }
 
 .icon-container-mobile {
-  padding: 24px;
+  padding: 24px 24px 50px 24px;
   font-size: 48px;
   display: flex;
   flex-direction: column;
@@ -98,7 +99,11 @@
   text-decoration: none;
   color: inherit;
 }
-@media only screen and (max-width: 650px) {
+
+.direct-contact {
+  width: 450px;
+}
+@media only screen and (max-width: 820px) {
   .footer-container {
     height: 500px;
   }
