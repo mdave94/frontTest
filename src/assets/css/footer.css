@@ -85,6 +85,7 @@
 
 .icon-container {
   font-size: 42px;
+  text-align: end;
 }
 
 .icon-container-mobile {
@@ -102,7 +103,7 @@
 .direct-contact {
   width: 450px;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 820px) {
   .footer-container {
     height: 500px;
   }
