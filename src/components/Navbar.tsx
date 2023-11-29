@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import "../assets/css/navbar.css";
 import logo from "../assets/png/image01.png";
 import { Link, useNavigate } from "react-router-dom";
@@ -11,6 +11,7 @@ const Navbar = () => {
   const [isHovered, setIsHovered] = useState<Boolean>(false);
 
   const navigate = useNavigate();
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0 });
@@ -19,10 +20,16 @@ const Navbar = () => {
   const toggleActiveClass = () => {
     setIsActive(!isActive);
   };
+
+  const closeMenu = () => {
+    setIsActive(false);
+  };
+
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 1200);
     };
+
     const handleScroll = () => {
       if (window.scrollY > 50) {
         setIsVisible(true);
@@ -31,20 +38,27 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener("scroll", handleScroll);
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        closeMenu();
+      }
+    };
 
+    window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", handleResize);
+    document.addEventListener("mousedown", handleClickOutside);
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("resize", handleResize);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
   if (isMobile) {
     return (
       <>
-        <div className={`sidebar-menu ${isActive ? "open" : ""}`}>
+        <div className={`sidebar-menu ${isActive ? "open" : ""}`} ref={menuRef}>
           <ul>
             <li onClick={toggleActiveClass}>
               <Link to="/">Főoldal</Link>
