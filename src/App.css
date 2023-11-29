@@ -75,6 +75,28 @@
   object-fit: cover; /* Maintain aspect ratio while covering the container */
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 0% 75%);
 }
+.custom-button {
+  color: black;
+  text-decoration: none;
+  border-radius: 32px;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  height: 4rem;
+  width: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+
+.custom-button:hover {
+  background-color: gray;
+  color: black;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;

@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import ParallaxComponent from "../components/ParallaxComponent";
-
+import CustomButton from "../components/ui/CustomButton";
 import divider1 from "../assets/img/same-scale/2item_glass.jpg";
 import divider2 from "../assets/img/1item_pink.jpg";
 import divider3 from "../assets/img/1item.jpg";
@@ -168,13 +168,10 @@ function UserInstructions() {
                 állapottól!
               </p>
             </div>
-            <a
-              style={{ textDecoration: "none", color: "black" }}
-              className="custom-button"
+            <CustomButton
               href="https://minnae.salonic.hu"
-            >
-              Időpontfoglalás
-            </a>
+              title="Időpontfoglalás"
+            />
           </div>
         </div>
         <ParallaxComponent imageUrl={divider3} minHeight="200px" />
