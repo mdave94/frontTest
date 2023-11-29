@@ -8,6 +8,7 @@ import divider2 from "../assets/img/same-scale/IMG_0217.jpg";
 import divider3 from "../assets/img/same-scale/IMG_0215.jpg";
 import "../assets/css/faq.css";
 import { faqArray } from "../helpers/faq";
+import CustomButton from "../components/ui/CustomButton";
 
 function InformationsPage() {
   const location = useLocation();
@@ -163,13 +164,10 @@ function InformationsPage() {
           <p style={{ textAlign: "center" }}>
             Ha további kérdésed van vedd fel velünk a kapcsolatot e-mailben.
           </p>
-          <a
-            style={{ textDecoration: "none", color: "black" }}
-            className="custom-button"
+          <CustomButton
             href="https://minnae.salonic.hu"
-          >
-            Időpontfoglalás
-          </a>
+            title="Időpontfoglalás"
+          />
         </div>
       </div>
     </>

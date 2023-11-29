@@ -1,11 +1,10 @@
 import ParallaxComponent from "../components/ParallaxComponent";
 import "../assets/css/historypage.css";
 import greenTwo from "../assets/img/green_two.jpg";
-import greenOne from "../assets/img/green_one.jpg";
 import { useEffect } from "react";
 import profPicture from "../assets/img/profpict.png";
 import toppicture from "../assets/img/green_one.jpg";
-
+import CustomButton from "../components/ui/CustomButton";
 import divider1 from "../assets/img/same-scale/IMG_0213.jpg";
 import divider2 from "../assets/img/same-scale/IMG_0212.jpg";
 
