@@ -98,7 +98,9 @@ function Footer() {
           <div className="full-center footer-bottom-container">
             <div className="footer-bottom">
               <div className="bottom-button">
-                Általános Szolgáltatási Feltételek
+                <a className="footer-icon" href="/aszf">
+                  Általános Szolgáltatási Feltételek
+                </a>
               </div>
 
               <div className="copy-text">Copyright © All rights reserved.</div>
