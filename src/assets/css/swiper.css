@@ -97,6 +97,25 @@
 
 @media only screen and (max-width: 1024px) {
   .swiper-container {
-    max-width: 550px;
+    max-width: 700px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    max-width: 650px;
+    object-fit: cover;
+  }
+  .card-text {
+    display: flex;
+    align-items: center;
+  }
+  .picture-side {
+    width: 100%;
+    height: 500px;
+  }
+  #card-picture {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
   }
 }
