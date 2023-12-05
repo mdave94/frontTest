@@ -39,3 +39,15 @@
     padding: 32px 10px 32px 10px;
   }
 }
+
+@media only screen and (max-width: 900px) {
+  .opinion-container {
+    max-width: 100%;
+  }
+  .opinion-swiper {
+    max-width: 400px;
+    height: 500px;
+    margin-top: 24px;
+    padding: 32px 50px 32px 50px;
+  }
+}

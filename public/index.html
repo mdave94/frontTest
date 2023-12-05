@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-R55G9TG1C9"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-R55G9TG1C9");
+    </script>
     <meta charset="utf-8" />
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -16,16 +30,17 @@
     <title>Minnae</title>
   </head>
   <body>
-    <script crossorigin="anonymous">(function (sal, on, ic) {
-      var js, fjs = sal.getElementsByTagName(on)[0];
-      if (sal.getElementById(ic)) return;
-      js = sal.createElement(on);
-      js.id = ic;
-      js.src = 'https://minnae.salonic.hu/widget.js';
-      fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script'));
+    <script crossorigin="anonymous">
+      (function (sal, on, ic) {
+        var js,
+          fjs = sal.getElementsByTagName(on)[0];
+        if (sal.getElementById(ic)) return;
+        js = sal.createElement(on);
+        js.id = ic;
+        js.src = "https://minnae.salonic.hu/widget.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script");
     </script>
     <div id="root"></div>
-   
   </body>
 </html>
