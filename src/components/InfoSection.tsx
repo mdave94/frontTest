@@ -1,6 +1,7 @@
 import "../assets/css/infosection.css";
 import "../assets/css/mobileview.css";
-import leftPicture from "../assets/img/4item.jpg";
+import leftPicture from "../assets/images/4item.jpg";
+
 import { Fade } from "react-awesome-reveal";
 
 function InfoSection() {

@@ -36,7 +36,7 @@ function Footer() {
           <div className="icon-container-mobile ">
             <div className="email-wrapper">
               <TfiEmail className="bottom-button" />
-              <p className="email-text">info@minnae.com</p>
+              <p className="email-text">minnaemosolyekszer@gmail.com</p>
             </div>
 
             <a

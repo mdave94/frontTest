@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import picture1 from "../assets/img/groupPicture_5.jpg";
 
 type SwiperCardProps = {
   children: ReactNode;
