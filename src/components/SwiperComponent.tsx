@@ -1,9 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import picture1 from "../assets/img/swiper-3-2/green1.jpg";
-import picture2 from "../assets/img/swiper-3-2/pink1.jpg";
-import picture4 from "../assets/img/same-scale/IMG_0223.jpg";
-import picture3 from "../assets/img/smile.jpg";
-import picture5 from "../assets/img/same-scale/IMG_0215.jpg";
+
+import picture1 from "../assets/images/swiper-3-2/green1.jpg";
+import picture2 from "../assets/images/swiper-3-2/pink1.jpg";
+import picture3 from "../assets/images/swiper-3-2/smile_1.jpg";
+import picture4 from "../assets/images/swiper-3-2/IMG_0223.jpg";
+import picture5 from "../assets/images/swiper-3-2/IMG_0215.jpg";
+
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";

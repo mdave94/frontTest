@@ -1,6 +1,6 @@
 import ParallaxComponent from "../components/ParallaxComponent";
 import minnaeLogo from "../assets/png/image01.png";
-import MainPagePicture from "../assets/img/same-scale/a4A2A5018-2.jpg";
+import MainPagePicture from "../assets/images/mainpageimage.jpg";
 import ScrolltoElementButton from "../components/ScrollToElementButton";
 import InfoSection from "../components/InfoSection";
 import SwiperComponent from "../components/SwiperComponent";

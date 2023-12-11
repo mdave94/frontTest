@@ -1,12 +1,13 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
-import picture1 from "../assets/img/gallery/1.jpg";
-import picture2 from "../assets/img/gallery/2.jpg";
-import picture3 from "../assets/img/gallery/3.jpg";
-import picture4 from "../assets/img/gallery/4.jpg";
-import picture5 from "../assets/img/gallery/5.jpg";
-import picture6 from "../assets/img/gallery/6.jpg";
-import picture7 from "../assets/img/gallery/7.jpg";
+
+import picture1 from "../assets/images/gallery/1.jpg";
+import picture2 from "../assets/images/gallery/2.jpg";
+import picture3 from "../assets/images/gallery/3.jpg";
+import picture4 from "../assets/images/gallery/4.jpg";
+import picture5 from "../assets/images/gallery/5.jpg";
+import picture6 from "../assets/images/gallery/6.jpg";
+import picture7 from "../assets/images/gallery/7.jpg";
 
 import "../assets/css/galery.css";
 function Gallery() {
