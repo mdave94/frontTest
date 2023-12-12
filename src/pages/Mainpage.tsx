@@ -1,5 +1,6 @@
 import ParallaxComponent from "../components/ParallaxComponent";
-import minnaeLogo from "../assets/png/image01.png";
+//import minnaeLogo from "../assets/png/image01.png";
+import minnaeLogo from "../assets/png/mainpageLogo.png";
 import MainPagePicture from "../assets/images/mainpageimage.jpg";
 import ScrolltoElementButton from "../components/ScrollToElementButton";
 import InfoSection from "../components/InfoSection";
