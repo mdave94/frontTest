@@ -1,13 +1,9 @@
 import { useEffect } from "react";
 import ParallaxComponent from "../components/ParallaxComponent";
 import CustomButton from "../components/ui/CustomButton";
-//import topPicture from "../assets/img/same-scale/IMG_0211.jpg";
 
 import topPicture from "../assets/images/subpages/IMG_0211.jpg";
-//import divider1 from "../assets/img/6item.jpg";
 import divider1 from "../assets/images/subpages/6item.jpg";
-
-//import divider2 from "../assets/images/4item_1.jpg";
 import divider2 from "../assets/images/subpages/4item.jpg";
 
 import "../assets/css/buyprocess.css";

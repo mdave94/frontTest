@@ -1,11 +1,9 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import ParallaxComponent from "../components/ParallaxComponent";
-
-import mirrorPicture from "../assets/img/same-scale/a4A2A5167.jpg";
-import divider1 from "../assets/img/same-scale/a4A2A5192.jpg";
-import divider2 from "../assets/img/same-scale/IMG_0217.jpg";
-import divider3 from "../assets/img/same-scale/IMG_0215.jpg";
+import topPicture from "../assets/images/subpages/informationpage_top.jpg";
+import divider2 from "../assets/images/subpages/IMG_0217.jpg";
+import divider3 from "../assets/images/subpages/IMG_0215.jpg";
 import "../assets/css/faq.css";
 import { faqArray } from "../helpers/faq";
 import CustomButton from "../components/ui/CustomButton";
@@ -29,7 +27,7 @@ function InformationsPage() {
   return (
     <>
       <div className="image-container">
-        <img src={mirrorPicture} />
+        <img src={topPicture} />
       </div>
 
       <div className=" center-container">
