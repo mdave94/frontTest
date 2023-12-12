@@ -3,7 +3,7 @@ import ParallaxComponent from "../components/ParallaxComponent";
 import CustomButton from "../components/ui/CustomButton";
 import topPicture from "../assets/img/same-scale/IMG_0211.jpg";
 import divider1 from "../assets/img/6item.jpg";
-import divider2 from "../assets/img/4item.jpg";
+import divider2 from "../assets/images/4item.jpg";
 
 import "../assets/css/buyprocess.css";
 
