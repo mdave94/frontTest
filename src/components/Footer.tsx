@@ -3,7 +3,7 @@ import "../assets/css/mobileview.css";
 import { MdKeyboardArrowUp } from "react-icons/md";
 import { CiFacebook, CiInstagram } from "react-icons/ci";
 import { useEffect, useState } from "react";
-import logo from "../assets/png/image01.png";
+import logo from "../assets/png/mainpageLogo.png";
 import { TfiEmail } from "react-icons/tfi";
 import { LiaPinterest } from "react-icons/lia";
 
