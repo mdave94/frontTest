@@ -1,11 +1,10 @@
 import "../assets/css/pricepage.css";
-import divider1 from "../assets/img/same-scale/IMG_0223.jpg";
-import picture1 from "../assets/img/1item.jpg";
-
-import picture2 from "../assets/images/1item_diamond.jpg";
-
-import picture3 from "../assets/img/image07.jpg";
 import { useEffect } from "react";
+
+import divider1 from "../assets/images/subpages/IMG_0223.jpg";
+import picture1 from "../assets/images/subpages/1item.jpg";
+import picture2 from "../assets/images/1item_diamond.jpg";
+import picture3 from "../assets/img/image07.jpg";
 import CustomButton from "../components/ui/CustomButton";
 
 function PricePage() {

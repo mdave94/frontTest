@@ -1,5 +1,6 @@
 import "../assets/css/giftsection.css";
-import giftPicture1 from "../assets/img/same-scale/IMG_0218.jpg";
+//import giftPicture1 from "../assets/img/same-scale/IMG_0218.jpg";
+import giftPicture1 from "../assets/images/IMG_0218.jpg";
 
 function GiftSection() {
   return (
