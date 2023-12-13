@@ -9,7 +9,6 @@ import divider3 from "../assets/images/subpages/IMG_0232.jpg";
 
 function UserInstructions() {
   useEffect(() => {
-    console.log(" history useffect ");
     window.scrollTo(0, 0);
   }, []);
 

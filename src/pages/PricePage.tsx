@@ -9,7 +9,6 @@ import CustomButton from "../components/ui/CustomButton";
 
 function PricePage() {
   useEffect(() => {
-    console.log(" history useffect ");
     window.scrollTo(0, 0);
   }, []);
 
