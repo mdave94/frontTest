@@ -2,9 +2,10 @@ import { useEffect } from "react";
 import ParallaxComponent from "../components/ParallaxComponent";
 import CustomButton from "../components/ui/CustomButton";
 
-import divider1 from "../assets/img/same-scale/2item_glass.jpg";
-import divider2 from "../assets/img/1item_pink.jpg";
-import divider3 from "../assets/img/1item.jpg";
+import topPicture from "../assets/img/same-scale/2item_glass.jpg";
+import divider1 from "../assets/images/subpages/IMG_0220.jpg";
+import divider2 from "../assets/images/subpages/userInstuctions2.jpg";
+import divider3 from "../assets/images/subpages/IMG_0232.jpg";
 
 function UserInstructions() {
   useEffect(() => {
@@ -16,7 +17,7 @@ function UserInstructions() {
     <>
       <>
         <div className="image-container">
-          <img src={divider1} />
+          <img src={topPicture} />
         </div>
         <div className="center-container">
           <div className="section-b">
@@ -85,7 +86,7 @@ function UserInstructions() {
           </div>
         </div>
 
-        <ParallaxComponent imageUrl={divider2} minHeight="200px" />
+        <ParallaxComponent imageUrl={divider1} minHeight="200px" />
 
         <div className=" center-container">
           <div className="section-b">
