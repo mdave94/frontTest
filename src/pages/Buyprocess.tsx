@@ -10,7 +10,6 @@ import "../assets/css/buyprocess.css";
 
 function Buyprocess() {
   useEffect(() => {
-    console.log(" history useffect ");
     window.scrollTo(0, 0);
   }, []);
 

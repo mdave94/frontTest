@@ -12,7 +12,6 @@ import CustomButton from "../components/ui/CustomButton";
 
 function History() {
   useEffect(() => {
-    console.log(" history useffect ");
     window.scrollTo(0, 0);
   }, []);
 

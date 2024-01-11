@@ -11,8 +11,12 @@ import RecommendSection from "../components/RecommendSection";
 import GiftSection from "../components/GiftSection";
 import OfferSection from "../components/OfferSection";
 import QuestionSection from "../components/QuestionsSection";
+import { useEffect } from "react";
 
 function Mainpage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <ParallaxComponent className="center " imageUrl={MainPagePicture}>
