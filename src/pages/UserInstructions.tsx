@@ -28,12 +28,7 @@ function UserInstructions() {
                 folyadékot tartalmazó üvegcsét “Tisztító folyadék” felirattal
                 láttuk el.
               </p>
-              <p>
-                Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt
-                és tiszta vízzel alaposan öblítsd ki, majd töröld szárazra.
-                Ezután önts a tisztító folyadékból a tégelybe annyi folyadékot,
-                hogy a belefektetett ékszert éppen ellepje
-              </p>
+
               <p>
                 Vedd ki a tisztító tégelyt az ékszertaróból. Nyisd ki a tégelyt
                 és tiszta vízzel alaposan öblítsd ki, majd töröld szárazra.
@@ -109,11 +104,6 @@ function UserInstructions() {
                 tégely teteje pontosan és szorosan záródjon!
               </p>
               <p>
-                Hagyd ázni az ékszert 2 percig, majd vedd ki a tégelyből! A
-                folyadék pár másodperc alatt elpárolog róla. Az ékszer most
-                készen áll a behelyezésre!
-              </p>
-              <p>
                 Amennyiben jelenleg nem szeretnéd viselni az ékszert, helyezd
                 szárazon az ékszertartóba.
               </p>
@@ -162,6 +152,22 @@ function UserInstructions() {
                 Mosolyékszer 16 éves kor alatt nem viselhető (18 éven aluli és
                 gondozás alatt álló személyek esetén a gondviselő beleegyezésére
                 van szükség.)
+              </p>
+              <p>
+                Nem javasolt az ékszer viselése közben bármely tárgyat, idegen
+                testet szájba venni, mert azok egymással kölcsönhatásba kerülve
+                különböző sérüléseket, károkat okozhatnak egymáson
+              </p>
+              <p>
+                Az ékszer viselése nem javasolt alkoholos befolyásoltság
+                állapotában
+              </p>
+              <p>
+                A fogak (pozíciója, mérete, állapota) vagy a fogíny természetes
+                vagy külső behatásra történő változásaból adódóan a szomszédos
+                fogak közötti tér mérete megváltozhat és ez az ékszer
+                stabilitásának romlását eredményezhati. Amennyiben az ékszer nem
+                áll stabilan, a viselése nem javasolt
               </p>
               <p>
                 A javasolt használat a fent leírtaktól egyénenként eltérhet,

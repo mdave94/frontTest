@@ -62,6 +62,12 @@ function InformationsPage() {
                 szájápolási termékkel. A tisztítási útmutató lépéseit követve
                 biztosíthatjuk az ékszerek épségének hosszútávú megőrzését.
               </li>
+              <li>
+                A mosolyékszerek helyes tárolása a termékkel egyidejűleg átadott
+                ékszertartó tok használatával biztosítható. Az ékszert nem
+                javasolt más tároló eszközben tartani, mert az az ékszer
+                károsodását okozhatja.
+              </li>
             </ul>
           </div>
         </div>
