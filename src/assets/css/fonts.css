@@ -1,9 +1,9 @@
 @font-face {
   font-family: garamond-regular;
-  src: url("../fonts/CormorantGaramond-Regular.ttf");
+  src: url("../fonts/CormorantGaramond-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: montserrat-regular;
-  src: url("../fonts/Montserrat-Regular.ttf");
+  font-family: "montserrat-regular";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
 }
