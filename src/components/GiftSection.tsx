@@ -1,4 +1,8 @@
 import "../assets/css/giftsection.css";
+
+import cleaner from "../assets/images/cleaner.jpg";
+import cleaner_bottle from "../assets/images/cleaner_bottle.jpg";
+
 //import giftPicture1 from "../assets/img/same-scale/IMG_0218.jpg";
 import giftPicture1 from "../assets/images/IMG_0218.jpg";
 
@@ -13,6 +17,13 @@ function GiftSection() {
           <div className="text-container">
             <div className="gift-item">
               <div className="item-header">Tisztító folyadék</div>
+              <div className="gift-item-picture-container">
+                <img
+                  src={cleaner_bottle}
+                  className="gift-item-picture"
+                  alt="cleaner gel"
+                />
+              </div>
               <div className="item-text">
                 hogy a mosolyékszer mindig ragyogó és higiénikus legyen
               </div>
@@ -24,6 +35,13 @@ function GiftSection() {
             </div>
             <div className="gift-item">
               <div className="item-header">Tisztító tégely</div>
+              <div className="gift-item-picture-container">
+                <img
+                  src={cleaner}
+                  className="gift-item-picture"
+                  alt="cleaner gel"
+                />
+              </div>
               <div className="item-text">
                 hogy a tisztítás bárhol kényelmesen elvégezhető legyen
               </div>

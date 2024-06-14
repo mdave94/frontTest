@@ -66,7 +66,7 @@ function InformationsPage() {
                 A mosolyékszerek helyes tárolása a termékkel egyidejűleg átadott
                 ékszertartó tok használatával biztosítható. Az ékszert nem
                 javasolt más tároló eszközben tartani, mert az az ékszer
-                károsodását okozhatja.
+                károsodását okozhatja
               </li>
             </ul>
           </div>
