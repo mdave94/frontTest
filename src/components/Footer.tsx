@@ -62,6 +62,7 @@ function Footer() {
               <LiaPinterest className="bottom-button" />
             </a>
           </div>
+
           <div
             className="bottom-button scroll-to-top-button center"
             onClick={scrollToTop}
@@ -69,6 +70,30 @@ function Footer() {
             Oldal tetejére
             <div className="up-icon">
               <MdKeyboardArrowUp />
+            </div>
+          </div>
+          <div style={{ margin: "24px" }}>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "flex-end",
+              }}
+            >
+              <a
+                style={{ fontSize: "12px" }}
+                className="footer-icon"
+                href="/aszf"
+              >
+                ÁSZF
+              </a>
+              <a
+                style={{ fontSize: "12px" }}
+                className="footer-icon"
+                href="/aszf"
+              >
+                Adatkezelési Tájékoztató
+              </a>
             </div>
           </div>
         </div>
@@ -117,10 +142,17 @@ function Footer() {
 
           <div className="full-center footer-bottom-container">
             <div className="footer-bottom">
-              <div className="bottom-button">
-                <a className="footer-icon" href="/aszf">
-                  Általános Szolgáltatási Feltételek
-                </a>
+              <div className="bottom-button-wrapper">
+                <div className="bottom-button">
+                  <a className="footer-icon" href="/aszf">
+                    Általános Szolgáltatási Feltételek
+                  </a>
+                </div>
+                <div className="bottom-button">
+                  <a className="footer-icon" href="/aszf">
+                    Adatkezelési Tájékoztató
+                  </a>
+                </div>
               </div>
 
               <div className="copy-text">Copyright © All rights reserved.</div>
