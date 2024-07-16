@@ -90,7 +90,7 @@ function Footer() {
               <a
                 style={{ fontSize: "12px" }}
                 className="footer-icon"
-                href="/aszf"
+                href="/privacypolicy"
               >
                 Adatkezelési Tájékoztató
               </a>
@@ -149,7 +149,7 @@ function Footer() {
                   </a>
                 </div>
                 <div className="bottom-button">
-                  <a className="footer-icon" href="/aszf">
+                  <a className="footer-icon" href="/privacypolicy">
                     Adatkezelési Tájékoztató
                   </a>
                 </div>
