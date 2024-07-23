@@ -1,13 +1,24 @@
+import PdfViewer from "../components/PdfViewer";
+import { isMobile } from "../helpers/utils";
+
 function AszfPage() {
+  const pdfUrl = "../ASZF.pdf";
+
   return (
-    <>
-      <div className="">
-        <iframe
-          style={{ width: "100%", height: "100vh" }}
-          src="../ASZF.pdf"
-        ></iframe>
-      </div>
-    </>
+    <div className="">
+      {isMobile() ? (
+        <div className="mobile-only">
+          <PdfViewer fileUrl={pdfUrl} />
+        </div>
+      ) : (
+        <div className="desktop-only">
+          <iframe
+            style={{ width: "100%", height: "100vh" }}
+            src={pdfUrl}
+          ></iframe>
+        </div>
+      )}
+    </div>
   );
 }
 
