@@ -12,6 +12,7 @@ import Buyprocess from "./pages/Buyprocess";
 import PricePage from "./pages/PricePage";
 import SalonicWidget from "./helpers/SalonicWidget";
 import AszfPage from "./pages/AszfPage";
+import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/buyprocess" element={<Buyprocess />} />
           <Route path="/prices" element={<PricePage />} />
           <Route path="/aszf" element={<AszfPage />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicyPage />} />
         </Routes>
       </div>
 
