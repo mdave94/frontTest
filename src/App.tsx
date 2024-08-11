@@ -13,12 +13,13 @@ import PricePage from "./pages/PricePage";
 import SalonicWidget from "./helpers/SalonicWidget";
 import AszfPage from "./pages/AszfPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage";
+import Navbar2 from "./components/Navbar2";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar />
+        <Navbar2 />
         <Routes>
           <Route path="/" element={<Mainpage />} />
           <Route path="/informations" element={<InformationsPage />} />
